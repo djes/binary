@@ -16,6 +16,7 @@
     <string name="later">Postprocess later</string>
     <string name="postprocess">Postprocess</string>
     <string name="wait">Please wait</string>
+    <string name="export">Export data</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Colors</string>
@@ -67,7 +68,7 @@
     <string name="event_process">Processing model</string>
     <string name="event_simplify">Simplifying geometry</string>
     <string name="event_unwrap">Unwrapping textures</string>
-    <string name="event_correction">Pose correction (experimental)</string>
+    <string name="event_correction">Pose correction</string>
     <string name="event_pose_unknown">Not enough references found to determine frame quality</string>
     <string name="event_pose_error">The last frame inaccuracy is</string>
     <string name="event_pose_request">Requested minimum is</string>
@@ -88,6 +89,9 @@
     <string name="scan_4cm">4 cm - Exterior</string>
     <string name="scan_8cm">8 cm - Fast scan</string>
     <string name="scan_face">Face scan</string>
+    <string name="export_floorplan">as floorplan</string>
+    <string name="export_model">as model</string>
+    <string name="export_pointcloud">as pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>
@@ -95,5 +99,16 @@
     </string-array>
 
     <string-array name="empty">
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">Write scan description</string>
+    <string name="fd_select_scan_type">Select scan type</string>
+    <string-array name="fd_scan_types">
+        <item>Trunk</item>
+        <item>Stack</item>
+        <item>Transport</item>
+        <item>Tree</item>
+        <item>Others</item>
     </string-array>
 </resources>

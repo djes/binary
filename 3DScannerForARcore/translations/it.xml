@@ -68,7 +68,7 @@
     <string name="event_process">Modello di elaborazione</string>
     <string name="event_simplify">Semplificazione della geometria</string>
     <string name="event_unwrap">Srotolamento delle texture</string>
-    <string name="event_correction">Correzione della posa (sperimentale)</string>
+    <string name="event_correction">Correzione della posa</string>
     <string name="event_pose_unknown">Non sono stati trovati abbastanza riferimenti per determinare la qualità del telaio</string>
     <string name="event_pose_error">L\'imprecisione dell\'ultimo fotogramma è</string>
     <string name="event_pose_request">Il minimo richiesto è</string>
@@ -91,9 +91,21 @@
     <string name="scan_face">Scansione del viso</string>
     <string name="export_floorplan">come planimetria</string>
     <string name="export_model">come modello</string>
+    <string name="export_pointcloud">come nuvola di punti</string>
 
     <string-array name="shares">
         <item>Finestra di dialogo Android</item>
         <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">Descrivi la scansione</string>
+    <string name="fd_select_scan_type">Seleziona il tipo di scansione</string>
+    <string-array name="fd_scan_types">
+        <item>Tribù</item>
+        <item>Shock</item>
+        <item>Trasporto</item>
+        <item>Albero</item>
+        <item>Altro</item>
     </string-array>
 </resources>

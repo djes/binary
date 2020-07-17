@@ -71,7 +71,7 @@
     <string name="event_process">Traitement du modèle</string>
     <string name="event_simplify">Simplification de la géometrie</string>
     <string name="event_unwrap">Fusion des textures</string>
-    <string name="event_correction">Correction de pose (expérimental)</string>
+    <string name="event_correction">Correction de pose</string>
 
     <!-- Pro dialog !-->
     <string name="upgrade">Upgrade</string>
@@ -91,9 +91,21 @@
     <string name="scan_face">Scannage du visage</string>
     <string name="export_floorplan">comme plan d\'étage</string>
     <string name="export_model">comme modèle</string>
+    <string name="export_pointcloud">comme pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>
         <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">Décrire l\'analyse</string>
+    <string name="fd_select_scan_type">Sélectionnez le type de numérisation</string>
+    <string-array name="fd_scan_types">
+        <item>Tribu</item>
+        <item>Choc</item>
+        <item>Transport</item>
+        <item>Arbre</item>
+        <item>Autre</item>
     </string-array>
 </resources>

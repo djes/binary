@@ -68,7 +68,7 @@
     <string name="event_process">Zpracovávám model</string>
     <string name="event_simplify">Zjednodušuji geometrii</string>
     <string name="event_unwrap">Rozbaluji textury</string>
-    <string name="event_correction">Korekce pozic (experimentalní)</string>
+    <string name="event_correction">Korekce pozic</string>
     <string name="event_pose_unknown">Nedostatek referencí k determinování kvality framu</string>
     <string name="event_pose_error">Nepřesnost posledního framu je</string>
     <string name="event_pose_request">Požadované minimum je</string>
@@ -91,9 +91,21 @@
     <string name="scan_face">Skenování obličeje</string>
     <string name="export_floorplan">jako půdorys</string>
     <string name="export_model">jako model</string>
+    <string name="export_pointcloud">jako pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>
         <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">Popište sken</string>
+    <string name="fd_select_scan_type">Vyberte typ skenu</string>
+    <string-array name="fd_scan_types">
+        <item>Kmen</item>
+        <item>Hromada</item>
+        <item>Převoz</item>
+        <item>Strom</item>
+        <item>Ostatní</item>
     </string-array>
 </resources>

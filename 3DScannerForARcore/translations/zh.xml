@@ -68,7 +68,7 @@
     <string name="event_process">处理模型</string>
     <string name="event_simplify">简化几何体</string>
     <string name="event_unwrap">非闭合特征</string>
-    <string name="event_correction">姿势修正 (试验中)</string>
+    <string name="event_correction">姿势修正</string>
     <string name="event_pose_unknown">缺乏足够的参考特征去评价帧的质量</string>
     <string name="event_pose_error">最后的一帧的准确度是</string>
     <string name="event_pose_request">需要的最少值是</string>
@@ -91,9 +91,21 @@
     <string name="scan_face">脸部扫描</string>
     <string name="export_floorplan">作为平面图</string>
     <string name="export_model">作为模特</string>
+    <string name="export_pointcloud">作为点云</string>
 
     <string-array name="shares">
         <item>手机内置</item>
         <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">写扫描</string>
+    <string name="fd_select_scan_type">选择扫描类型</string>
+    <string-array name="fd_scan_types">
+        <item>斯塔姆</item>
+        <item>斯托斯</item>
+        <item>运输</item>
+        <item>树</item>
+        <item>其他</item>
     </string-array>
 </resources>

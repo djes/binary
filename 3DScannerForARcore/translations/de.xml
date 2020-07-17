@@ -68,7 +68,7 @@
     <string name="event_process">Verarbeitungsmodell</string>
     <string name="event_simplify">Vereinfachung der Geometrie</string>
     <string name="event_unwrap">Auspacken von Texturen</string>
-    <string name="event_correction">Posenkorrektur (experimentell)</string>
+    <string name="event_correction">Posenkorrektur</string>
     <string name="event_pose_unknown">Nicht genügend Referenzen gefunden, um die Bildqualität zu bestimmen</string>
     <string name="event_pose_error">Die letzte Frame-Ungenauigkeit ist</string>
     <string name="event_pose_request">Das geforderte Minimum ist</string>
@@ -91,9 +91,21 @@
     <string name="scan_face">Gesichtsscan</string>
     <string name="export_floorplan">als Grundriss</string>
     <string name="export_model">als Modell</string>
+    <string name="export_pointcloud">als Pointcloud</string>
 
     <string-array name="shares">
         <item>Android Dialog</item>
         <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">Beschreiben Sie den Scan</string>
+    <string name="fd_select_scan_type">Wählen Sie den Scan-Typ</string>
+    <string-array name="fd_scan_types">
+        <item>Stamm</item>
+        <item>Stoß</item>
+        <item>Transport</item>
+        <item>Baum</item>
+        <item>Andere</item>
     </string-array>
 </resources>

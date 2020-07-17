@@ -68,7 +68,7 @@
     <string name="event_process">Modelo de procesamiento</string>
     <string name="event_simplify">Simplificación de la geometría</string>
     <string name="event_unwrap">Desenvoltura de texturas</string>
-    <string name="event_correction">Corrección de la postura (experimental)</string>
+    <string name="event_correction">Corrección de la postura</string>
     <string name="event_pose_unknown">No se han encontrado suficientes referencias para determinar la calidad de la montura</string>
     <string name="event_pose_error">La última inexactitud del cuadro es</string>
     <string name="event_pose_request">El mínimo solicitado es</string>
@@ -91,9 +91,21 @@
     <string name="scan_face">Escaneo facial</string>
     <string name="export_floorplan">como plano de planta</string>
     <string name="export_model">como modelo</string>
+    <string name="export_pointcloud">como punto de nube</string>
 
     <string-array name="shares">
         <item>Diálogo con Android</item>
         <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">Describa el escaneo</string>
+    <string name="fd_select_scan_type">Seleccione el tipo de escaneo</string>
+    <string-array name="fd_scan_types">
+        <item>Tribu</item>
+        <item>Conmoción</item>
+        <item>Transporte</item>
+        <item>Botavara</item>
+        <item>Otro</item>
     </string-array>
 </resources>

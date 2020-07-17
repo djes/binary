@@ -68,7 +68,7 @@
     <string name="event_process">обработка модели</string>
     <string name="event_simplify">упрощение геометрии</string>
     <string name="event_unwrap">развертывание текстур</string>
-    <string name="event_correction">коррекция дозы (экспериментальный)</string>
+    <string name="event_correction">коррекция дозы</string>
     <string name="event_pose_unknown">Недостаточно найдено ссылок для определения качества кадра</string>
     <string name="event_pose_error">Последняя кадровая погрешность заключается в том</string>
     <string name="event_pose_request">Минимальный требуемый уровень</string>
@@ -91,9 +91,21 @@
     <string name="scan_face">сканировать лицо</string>
     <string name="export_floorplan">в виде плана этажа</string>
     <string name="export_model">в качестве модели</string>
+    <string name="export_pointcloud">как pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>
         <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">Опишите скан</string>
+    <string name="fd_select_scan_type">Выберите тип сканирования</string>
+    <string-array name="fd_scan_types">
+        <item>Напряжение</item>
+        <item>свая</item>
+        <item>Транспорт</item>
+        <item>дерево</item>
+        <item>Другой</item>
     </string-array>
 </resources>

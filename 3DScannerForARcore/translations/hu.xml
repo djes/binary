@@ -68,7 +68,7 @@
     <string name="event_process">Modell elemezése</string>
     <string name="event_simplify">Geometria dolgozása</string>
     <string name="event_unwrap">Textúrák dolgozása</string>
-    <string name="event_correction">Póz korrekció (experimental)</string>
+    <string name="event_correction">Póz korrekció</string>
     <string name="event_pose_unknown">Not enough references found to determine frame quality</string>
     <string name="event_pose_error">Az utolsó képpont pontatlansága:</string>
     <string name="event_pose_request">A minimum:</string>
@@ -91,9 +91,21 @@
     <string name="scan_face">Arc szkennelése</string>
     <string name="export_floorplan">alaprajzként</string>
     <string name="export_model">mint modell</string>
+    <string name="export_pointcloud">mint pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>
         <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_write_scan_desc">Mutassa be a letapogatást</string>
+    <string name="fd_select_scan_type">Válassza ki a szkennelés típusát</string>
+    <string-array name="fd_scan_types">
+        <item>Törzs</item>
+        <item>Sokk</item>
+        <item>Szállítás</item>
+        <item>Fa</item>
+        <item>Egyéb</item>
     </string-array>
 </resources>
