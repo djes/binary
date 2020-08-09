@@ -99,6 +99,8 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_length">длина</string>
+    <string name="fd_volume">Oбъем</string>
     <string name="fd_write_scan_desc">Опишите скан</string>
     <string name="fd_select_scan_type">Выберите тип сканирования</string>
     <string-array name="fd_scan_types">

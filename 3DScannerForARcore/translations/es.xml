@@ -99,6 +99,8 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_length">Largo</string>
+    <string name="fd_volume">Volumen</string>
     <string name="fd_write_scan_desc">Describa el escaneo</string>
     <string name="fd_select_scan_type">Seleccione el tipo de escaneo</string>
     <string-array name="fd_scan_types">

@@ -99,6 +99,8 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_length">Durée</string>
+    <string name="fd_volume">Volume</string>
     <string name="fd_write_scan_desc">Décrire l\'analyse</string>
     <string name="fd_select_scan_type">Sélectionnez le type de numérisation</string>
     <string-array name="fd_scan_types">

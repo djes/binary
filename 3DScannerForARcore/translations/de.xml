@@ -99,6 +99,8 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_length">Länge</string>
+    <string name="fd_volume">Volumen</string>
     <string name="fd_write_scan_desc">Beschreiben Sie den Scan</string>
     <string name="fd_select_scan_type">Wählen Sie den Scan-Typ</string>
     <string-array name="fd_scan_types">

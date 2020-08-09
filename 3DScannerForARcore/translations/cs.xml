@@ -99,6 +99,8 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_length">Délka</string>
+    <string name="fd_volume">Objem</string>
     <string name="fd_write_scan_desc">Popište sken</string>
     <string name="fd_select_scan_type">Vyberte typ skenu</string>
     <string-array name="fd_scan_types">

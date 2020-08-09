@@ -99,6 +99,8 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_length">Hossz</string>
+    <string name="fd_volume">Hangerő</string>
     <string name="fd_write_scan_desc">Mutassa be a letapogatást</string>
     <string name="fd_select_scan_type">Válassza ki a szkennelés típusát</string>
     <string-array name="fd_scan_types">
