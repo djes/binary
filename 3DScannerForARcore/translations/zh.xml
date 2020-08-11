@@ -95,6 +95,7 @@
 
     <string-array name="shares">
         <item>手机内置</item>
+        <item>在线转换器</item>
         <item>Sketchfab</item>
     </string-array>
 

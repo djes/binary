@@ -95,6 +95,7 @@
 
     <string-array name="shares">
         <item>Android Dialog</item>
+        <item>Online-Konverter</item>
         <item>Sketchfab</item>
     </string-array>
 
