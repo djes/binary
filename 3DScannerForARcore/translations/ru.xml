@@ -100,6 +100,7 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_diameter">Диаметр</string>
     <string name="fd_length">длина</string>
     <string name="fd_volume">Oбъем</string>
     <string name="fd_write_scan_desc">Опишите скан</string>

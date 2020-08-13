@@ -100,6 +100,7 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_diameter">Diámetro</string>
     <string name="fd_length">Largo</string>
     <string name="fd_volume">Volumen</string>
     <string name="fd_write_scan_desc">Describa el escaneo</string>

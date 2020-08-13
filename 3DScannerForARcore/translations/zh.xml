@@ -100,6 +100,7 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_diameter">直径</string>
     <string name="fd_length">长度</string>
     <string name="fd_volume">卷</string>
     <string name="fd_write_scan_desc">写扫描</string>

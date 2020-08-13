@@ -100,6 +100,7 @@
     </string-array>
 
     <!-- Branded apps texts !-->
+    <string name="fd_diameter">Průměr</string>
     <string name="fd_length">Délka</string>
     <string name="fd_volume">Objem</string>
     <string name="fd_write_scan_desc">Popište sken</string>
