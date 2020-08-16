@@ -74,6 +74,8 @@
     <string name="event_pose_request">El mínimo solicitado es</string>
 
     <!-- Pro dialog !-->
+    <string name="buy_google">Google Play</string>
+    <string name="buy_huawei">Huawei AppGallery (barato)</string>
     <string name="upgrade">Upgrade</string>
     <string name="upgrade1">¿Tiene un dispositivo con un sensor ToF compatible? Si es así, entonces considere comprar la versión Pro de esta aplicación.</string>
     <string name="upgrade2">La versión Pro no contiene publicidad, admite resoluciones más altas y ofrece más funciones.</string>

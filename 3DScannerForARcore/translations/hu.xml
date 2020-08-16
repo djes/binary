@@ -74,6 +74,8 @@
     <string name="event_pose_request">A minimum:</string>
 
     <!-- Pro dialog !-->
+    <string name="buy_google">Google Play</string>
+    <string name="buy_huawei">Huawei AppGallery (olcsóbb)</string>
     <string name="upgrade">Fejlesztés</string>
     <string name="upgrade1">Van egy ToF szenzorral felszerelt eszközöd? Ha igen, ajánlom neked a fejlettebb verziót.</string>
     <string name="upgrade2">A fejlettebb verzió gyorsabb és magasabb felbontású szkennelés tartalmaz.</string>

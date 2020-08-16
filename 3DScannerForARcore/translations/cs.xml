@@ -74,6 +74,8 @@
     <string name="event_pose_request">Požadované minimum je</string>
 
     <!-- Pro dialog !-->
+    <string name="buy_google">Google Play</string>
+    <string name="buy_huawei">Huawei AppGallery (levnější)</string>
     <string name="upgrade">Upgrade</string>
     <string name="upgrade1">Máte zařízení s podporovaným ToF senzorem? Pokud ano, zvažte koupi Pro verze této aplikace.</string>
     <string name="upgrade2">Pro verze neobsahuje reklamy, podporuje vyšší rozlišení a poskytuje více funkcí.</string>

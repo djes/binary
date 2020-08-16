@@ -74,6 +74,8 @@
     <string name="event_correction">Correction de pose</string>
 
     <!-- Pro dialog !-->
+    <string name="buy_google">Google Play</string>
+    <string name="buy_huawei">Huawei AppGallery (moins cher)</string>
     <string name="upgrade">Upgrade</string>
     <string name="upgrade1">Avez-vous un appareil avec un capteur ToF supporté? Si oui, alors envisagez d\'acheter la version Pro de cette application.</string>
     <string name="upgrade2">La version Pro ne contient pas de publicité, supporte des résolutions plus élevées et offre plus de fonctionnalités.</string>
