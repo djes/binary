@@ -75,7 +75,7 @@
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
-    <string name="buy_huawei">Huawei AppGallery (дешевле)</string>
+    <string name="buy_huawei">Huawei AppGallery</string>
     <string name="upgrade">подъем</string>
     <string name="upgrade1">Есть ли у вас устройство с поддерживаемым ToF-датчиком? Если да, то подумайте о покупке Pro версии этого приложения.</string>
     <string name="upgrade2">Профессиональная версия не содержит рекламы, поддерживает более высокое разрешение и предоставляет больше возможностей.</string>

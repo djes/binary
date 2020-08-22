@@ -75,7 +75,7 @@
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
-    <string name="buy_huawei">Huawei AppGallery (更便宜)</string>
+    <string name="buy_huawei">Huawei AppGallery</string>
     <string name="upgrade">升级</string>
     <string name="upgrade1">你有一个支持ToF摄像头的手机吗？如果有的话你可以考虑买这个APP的专业版</string>
     <string name="upgrade2">专业版不包含广告，支持更高的分辨率以及更多的特征.</string>

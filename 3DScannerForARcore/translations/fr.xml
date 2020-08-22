@@ -12,11 +12,11 @@
     <string name="move">Bougez le capteur pour commencer à scanner</string>
     <string name="continue_question">Voulez-vous continuer?</string>
     <string name="info">En utilisant cette application, vous acceptez #BEGIN#la politique de confidentialité#END#.\n\nToutes les données seront sauvegardées dans le dossier \"Models\" de la mémoire interne.</string>
-    <string name="share_via">Action par</string>
-    <string name="later">Postprocéder plus tard</string>
-    <string name="postprocess">Post-processus</string>
-    <string name="wait">Veuillez patienter</string>
-    <string name="export">Données d\'exportation</string>
+    <string name="share_via">Partager par</string>
+    <string name="later">Post-traiter plus tard</string>
+    <string name="postprocess">Post-traitement</string>
+    <string name="wait">Veuillez patienter s’il vous plaît</string>
+    <string name="export">Exporter les données</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Couleurs</string>
@@ -35,25 +35,25 @@
     <string name="editor_select_rect_desc">Créez un rectangle de sélection en faisant glisser un rectangle à l\'écran.</string>
     <string name="editor_select_less">Moins</string>
     <string name="editor_select_more">Plus</string>
-    <string name="editor_transform_clone">Cloner</string>
+    <string name="editor_transform_clone">Copier</string>
     <string name="editor_transform_delete">Supprimer</string>
     <string name="editor_transform_move">Déplacer</string>
-    <string name="editor_transform_rotate">Rotation</string>
+    <string name="editor_transform_rotate">Pivoter</string>
     <string name="editor_transform_scale">Échelle</string>
     <string name="editor_view_normals">Normals</string>
 
     <!-- Service !-->
     <string name="action_continue">Continuer à scanner</string>
     <string name="action_show_result">Voir le résultat</string>
-    <string name="action_finish">Terminé</string>
+    <string name="action_finish">Terminer</string>
     <string name="action_cancel">Annuler l\'opération</string>
     <string name="enter_filename">Entrer le nom du fichier</string>
-    <string name="failed">Opération échouée, les données du scann ont été perdues!</string>
+    <string name="failed">Traitement échoué, les données scannées ont été perdues!</string>
     <string name="finished">Opération terminée</string>
-    <string name="paused">Scann en pause</string>
-    <string name="postprocessing">Traitement du modèle…</string>
-    <string name="saving">Enregistrement du modèle…</string>
-    <string name="turn_off">Si vous quittez, les données du scann seront perdues.</string>
+    <string name="paused">Scannage en pause</string>
+    <string name="postprocessing">Post-traitement du modèle…</string>
+    <string name="saving">Sauvgarder le modèle…</string>
+    <string name="turn_off">Vous pouvez quitter l’applicaton sans perdre les données.</string>
     <string name="warning">Avertissement</string>
     <string name="working">L\'application traite les données, ne pas éteindre l\'appareil et ne pas démarrer une autre application utilisant AR.</string>
     <string name="event_pose_unknown">Pas assez de références trouvées pour déterminer la qualité de l\'image</string>
@@ -63,20 +63,20 @@
     <!-- Event !-->
     <string name="event_bright">La luminosité est trop importante pour scanner</string>
     <string name="event_dark">La luminosité est trop faible pour scanner</string>
-    <string name="event_features">Le trackeur de position à rencontré un problème</string>
+    <string name="event_features">Le suivi de mouvement à rencontré un problème</string>
     <string name="event_convert">Conversion des données</string>
-    <string name="event_image">Traitement des points de vues</string>
+    <string name="event_image">Traitement des photos</string>
     <string name="event_merge">Fusion des résultats</string>
     <string name="event_poisson">Reconstruction avec l\'algorithme Poisson</string>
     <string name="event_process">Traitement du modèle</string>
     <string name="event_simplify">Simplification de la géometrie</string>
-    <string name="event_unwrap">Fusion des textures</string>
+    <string name="event_unwrap">Dépliage de textures</string>
     <string name="event_correction">Correction de pose</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
-    <string name="buy_huawei">Huawei AppGallery (moins cher)</string>
-    <string name="upgrade">Upgrade</string>
+    <string name="buy_huawei">Huawei AppGallery</string>
+    <string name="upgrade">Actualiser</string>
     <string name="upgrade1">Avez-vous un appareil avec un capteur ToF supporté? Si oui, alors envisagez d\'acheter la version Pro de cette application.</string>
     <string name="upgrade2">La version Pro ne contient pas de publicité, supporte des résolutions plus élevées et offre plus de fonctionnalités.</string>
     <string name="upgrade3">Vous pouvez suivre l\'évolution du développement sur les sites suivants :</string>
@@ -89,27 +89,27 @@
     <string name="scan_1cm">1 cm - Petites pièces</string>
     <string name="scan_2cm">2 cm - Intérieurs</string>
     <string name="scan_4cm">4 cm - Extérieur</string>
-    <string name="scan_8cm">8 cm - Analyse rapide</string>
+    <string name="scan_8cm">8 cm - Scannage rapide</string>
     <string name="scan_face">Scannage du visage</string>
     <string name="export_floorplan">comme plan d\'étage</string>
     <string name="export_model">comme modèle</string>
-    <string name="export_pointcloud">comme pointcloud</string>
+    <string name="export_pointcloud">comme nuage de points</string>
 
     <string-array name="shares">
-        <item>Android dialog</item>
-        <item>Convertisseur online</item>
+        <item>Android Dialogue</item>
+        <item>Convertisseur en ligne</item>
         <item>Sketchfab</item>
     </string-array>
 
     <!-- Branded apps texts !-->
     <string name="fd_diameter">Diamètre</string>
-    <string name="fd_length">Durée</string>
+    <string name="fd_length">Longeur</string>
     <string name="fd_volume">Volume</string>
-    <string name="fd_write_scan_desc">Décrire l\'analyse</string>
-    <string name="fd_select_scan_type">Sélectionnez le type de numérisation</string>
+    <string name="fd_write_scan_desc">Décrire le scannage</string>
+    <string name="fd_select_scan_type">Sélectionnez le type de scannage</string>
     <string-array name="fd_scan_types">
-        <item>Tribu</item>
-        <item>Choc</item>
+        <item>Tronc</item>
+        <item>Pile</item>
         <item>Transport</item>
         <item>Arbre</item>
         <item>Autre</item>

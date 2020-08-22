@@ -6,52 +6,52 @@
     <string name="name_exists">Ya existe un modelo con el nombre introducido.</string>
     <string name="invalid_name">Nombre de archivo inválido!</string>
     <string name="delete">Borrar el modelo</string>
-    <string name="capture">Escudriñar</string>
+    <string name="capture">Escanear</string>
     <string name="settings">Ajustes</string>
-    <string name="scene_res">Elija la resolución de captura</string>
+    <string name="scene_res">Elija la resolución de la captura</string>
     <string name="move">Mueva el dispositivo para iniciar el escaneo.</string>
     <string name="continue_question">¿Quieres continuar?</string>
     <string name="info">Al usar esta aplicación estás de acuerdo con #BEGIN#la política de privacidad#END#.\n\nTodos los datos van a ser guardados en la carpeta "Models" en el almacenamiento interno.</string>
     <string name="share_via">Compartir a través de</string>
-    <string name="later">Tratamiento posterior</string>
-    <string name="postprocess">Proceso posterior</string>
+    <string name="later">Procesar más tarde</string>
+    <string name="postprocess">Procesamiento posterior</string>
     <string name="wait">Por favor, espere</string>
-    <string name="export">Datos de exportación</string>
+    <string name="export">Exportar datos</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Colores</string>
     <string name="editor_main_select">Seleccione</string>
-    <string name="editor_main_transform">Transformador</string>
-    <string name="editor_main_view">Opinión</string>
-    <string name="editor_colors_contrast">Contrast</string>
+    <string name="editor_main_transform">Transformar</string>
+    <string name="editor_main_view">Ver</string>
+    <string name="editor_colors_contrast">Contraste</string>
     <string name="editor_colors_gamma">Gamma</string>
     <string name="editor_colors_saturation">Saturación</string>
-    <string name="editor_colors_tone">Arcillas</string>
-    <string name="editor_colors_reset">Reiniciar</string>
+    <string name="editor_colors_tone">Tonos</string>
+    <string name="editor_colors_reset">Restaurar</string>
     <string name="editor_select_all">Todos/Ninguno</string>
-    <string name="editor_select_object">Objecto</string>
+    <string name="editor_select_object">Objeto</string>
     <string name="editor_select_object_desc">Pulse sobre el objeto que quiere seleccionar.</string>
-    <string name="editor_select_rect">Rectangle</string>
+    <string name="editor_select_rect">Rectanglo</string>
     <string name="editor_select_rect_desc">Cree un rectángulo de selección arrastrando un rectángulo en la pantalla.</string>
     <string name="editor_select_less">Menos</string>
     <string name="editor_select_more">Más</string>
     <string name="editor_transform_clone">Copiar</string>
     <string name="editor_transform_delete">Borrar</string>
     <string name="editor_transform_move">Trasladar</string>
-    <string name="editor_transform_rotate">Rota</string>
+    <string name="editor_transform_rotate">Girar</string>
     <string name="editor_transform_scale">Escala</string>
     <string name="editor_view_normals">Normal</string>
 
     <!-- Service !-->
     <string name="action_continue">Continuar escaneando</string>
     <string name="action_show_result">Mostrar resultado</string>
-    <string name="action_finish">Culminar</string>
+    <string name="action_finish">Finalizar</string>
     <string name="action_cancel">Cancelar operación</string>
     <string name="enter_filename">Introduzca el nombre de fichero</string>
     <string name="failed">El procesamiento falló, los datos escaneados se perdieron!</string>
     <string name="finished">Operación finalizada</string>
     <string name="paused">Escaneo pausado</string>
-    <string name="postprocessing">Tratamiento posterior del modelo…</string>
+    <string name="postprocessing">Procesamiento posterior del modelo…</string>
     <string name="saving">Guardar el modelo…</string>
     <string name="turn_off">Puedes salir de la aplicación sin perder datos.</string>
     <string name="warning">Advertencia</string>
@@ -60,23 +60,23 @@
     <!-- Event !-->
     <string name="event_bright">Demasiado brillante para escanear</string>
     <string name="event_dark">Demasiado oscuro para escanear</string>
-    <string name="event_features">Seguimiento de movimiento de los problemas detectados</string>
+    <string name="event_features">El control de movimiento detecto problemas</string>
     <string name="event_convert">Conversión de datos</string>
     <string name="event_image">Procesamiento de fotos</string>
     <string name="event_merge">Fusión de resultados</string>
-    <string name="event_poisson">Poisson reconstrucción</string>
+    <string name="event_poisson">Sumación de Poisson</string>
     <string name="event_process">Modelo de procesamiento</string>
     <string name="event_simplify">Simplificación de la geometría</string>
     <string name="event_unwrap">Desenvoltura de texturas</string>
     <string name="event_correction">Corrección de la postura</string>
-    <string name="event_pose_unknown">No se han encontrado suficientes referencias para determinar la calidad de la montura</string>
+    <string name="event_pose_unknown">No se han encontrado suficientes referencias para determinar la calidad del cuadro</string>
     <string name="event_pose_error">La última inexactitud del cuadro es</string>
     <string name="event_pose_request">El mínimo solicitado es</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
-    <string name="buy_huawei">Huawei AppGallery (barato)</string>
-    <string name="upgrade">Upgrade</string>
+    <string name="buy_huawei">Huawei AppGallery</string>
+    <string name="upgrade">Actualizar</string>
     <string name="upgrade1">¿Tiene un dispositivo con un sensor ToF compatible? Si es así, entonces considere comprar la versión Pro de esta aplicación.</string>
     <string name="upgrade2">La versión Pro no contiene publicidad, admite resoluciones más altas y ofrece más funciones.</string>
     <string name="upgrade3">Puede seguir el progreso del desarrollo en los siguientes sitios:</string>
@@ -87,31 +87,31 @@
     <string name="scan_1_4cm">0.25 cm - Grandes objetos</string>
     <string name="scan_1_2cm">0.5 cm - Composición</string>
     <string name="scan_1cm">1 cm - Cuarto pequeño</string>
-    <string name="scan_2cm">2 cm - Interno</string>
-    <string name="scan_4cm">4 cm - Outward</string>
+    <string name="scan_2cm">2 cm - Interior</string>
+    <string name="scan_4cm">4 cm - Exterior</string>
     <string name="scan_8cm">8 cm - Análisis rápido</string>
     <string name="scan_face">Escaneo facial</string>
     <string name="export_floorplan">como plano de planta</string>
     <string name="export_model">como modelo</string>
-    <string name="export_pointcloud">como punto de nube</string>
+    <string name="export_pointcloud">como nube de puntos</string>
 
     <string-array name="shares">
         <item>Diálogo con Android</item>
-        <item>Convertidor online</item>
+        <item>Convertidor en línea</item>
         <item>Sketchfab</item>
     </string-array>
 
     <!-- Branded apps texts !-->
     <string name="fd_diameter">Diámetro</string>
-    <string name="fd_length">Largo</string>
+    <string name="fd_length">Longitud</string>
     <string name="fd_volume">Volumen</string>
     <string name="fd_write_scan_desc">Describa el escaneo</string>
     <string name="fd_select_scan_type">Seleccione el tipo de escaneo</string>
     <string-array name="fd_scan_types">
-        <item>Tribu</item>
-        <item>Conmoción</item>
+        <item>Tronco</item>
+        <item>Pila</item>
         <item>Transporte</item>
-        <item>Botavara</item>
-        <item>Otro</item>
+        <item>Arbol</item>
+        <item>Otros</item>
     </string-array>
 </resources>

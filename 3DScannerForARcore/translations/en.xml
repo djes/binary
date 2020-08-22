@@ -75,7 +75,7 @@
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
-    <string name="buy_huawei">Huawei AppGallery (cheaper)</string>
+    <string name="buy_huawei">Huawei AppGallery</string>
     <string name="upgrade">Upgrade</string>
     <string name="upgrade1">Do you have a device with a supported ToF sensor? If yes, then consider buying the Pro version of this app.</string>
     <string name="upgrade2">Pro version does not contain advertisements, supports higher resolutions and provides more features.</string>
