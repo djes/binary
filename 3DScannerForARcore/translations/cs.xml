@@ -43,9 +43,6 @@
     <string name="editor_view_normals">Normály</string>
 
     <!-- Service !-->
-    <string name="action_continue">Pokračovat ve skenování</string>
-    <string name="action_show_result">Zobrazit výsledek</string>
-    <string name="action_finish">Dokončit</string>
     <string name="action_cancel">Zrušit operaci</string>
     <string name="enter_filename">Zadejte název souboru</string>
     <string name="failed">Proces selhal, naskenovaná data jsou ztraceny!</string>

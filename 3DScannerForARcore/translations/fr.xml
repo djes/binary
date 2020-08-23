@@ -43,9 +43,6 @@
     <string name="editor_view_normals">Normals</string>
 
     <!-- Service !-->
-    <string name="action_continue">Continuer à scanner</string>
-    <string name="action_show_result">Voir le résultat</string>
-    <string name="action_finish">Terminer</string>
     <string name="action_cancel">Annuler l\'opération</string>
     <string name="enter_filename">Entrer le nom du fichier</string>
     <string name="failed">Traitement échoué, les données scannées ont été perdues!</string>

@@ -43,9 +43,6 @@
     <string name="editor_view_normals">平面信息</string>
 
     <!-- Service !-->
-    <string name="action_continue">继续扫描</string>
-    <string name="action_show_result">显示结果</string>
-    <string name="action_finish">结束</string>
     <string name="action_cancel">取消进程</string>
     <string name="enter_filename">输入文件名</string>
     <string name="failed">处理失败，扫描数据丢失!</string>

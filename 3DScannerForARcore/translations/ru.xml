@@ -43,9 +43,6 @@
     <string name="editor_view_normals">нормаль</string>
 
     <!-- Service !-->
-    <string name="action_continue">продолжить сканирование</string>
-    <string name="action_show_result">показать результат</string>
-    <string name="action_finish">готово</string>
     <string name="action_cancel">отменить операцию</string>
     <string name="enter_filename">введите имя файла</string>
     <string name="failed">процесс прерван, сканирование утеряно!</string>

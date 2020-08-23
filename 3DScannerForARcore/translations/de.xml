@@ -43,9 +43,6 @@
     <string name="editor_view_normals">Normalen</string>
 
     <!-- Service !-->
-    <string name="action_continue">Scannen fortsetzen</string>
-    <string name="action_show_result">Ergebnis anzeigen</string>
-    <string name="action_finish">Beenden</string>
     <string name="action_cancel">Vorgang abbrechen</string>
     <string name="enter_filename">Geben Sie den Dateinamen ein</string>
     <string name="failed">Verarbeitung fehlgeschlagen, gescannte Daten wurden gelöscht!</string>
