@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- File Manager !-->
+    <string name="app_name">3D Scaner</string>
+    <string name="no_data">Nu există modele 3D</string>
+    <string name="name_exists">Există deja un model cu acest nume.</string>
+    <string name="invalid_name">Nume de fișier incorect!</string>
+    <string name="delete">Ștergere model</string>
+    <string name="capture">Scanare</string>
+    <string name="settings">Setări</string>
+    <string name="scene_res">Alege rezoluția imaginii</string>
+    <string name="move">Mișcați dispozitivul pentru a începe scanarea.</string>
+    <string name="continue_question">Dorești să continui?</string>
+    <string name="info">Utilizând această aplicație ești de acord cu #BEGIN#politica de confidențialitate#END#.\n\n Toate datele vor fi salvate în folder-ul \"Models\" din memoria internă.</string>
+    <string name="share_via">Distribuiți prin intermediul</string>
+    <string name="later">Postprocesează mai târziu</string>
+    <string name="postprocess">Postprocesează</string>
+    <string name="wait">Așteaptă te rog</string>
+    <string name="export">Exportare date</string>
+
+    <!-- Editor !-->
+    <string name="editor_main_colors">Culori</string>
+    <string name="editor_main_select">Selectează</string>
+    <string name="editor_main_transform">Transformă</string>
+    <string name="editor_main_view">Vizualizează</string>
+    <string name="editor_colors_contrast">Contrast</string>
+    <string name="editor_colors_gamma">Gamma</string>
+    <string name="editor_colors_saturation">Saturație</string>
+    <string name="editor_colors_tone">Ton</string>
+    <string name="editor_colors_reset">Resetare</string>
+    <string name="editor_select_all">Toate/Niciuna</string>
+    <string name="editor_select_object">Obiect</string>
+    <string name="editor_select_object_desc">Apasă pe obiectul pe care dorești să-l selectezi.</string>
+    <string name="editor_select_rect">Dreptunghi</string>
+    <string name="editor_select_rect_desc">Creează un dreptunghi de selectare trăgând un dreptunghi pe ecran.</string>
+    <string name="editor_select_less">Mai puțin</string>
+    <string name="editor_select_more">Mai mult</string>
+    <string name="editor_transform_clone">Copiază</string>
+    <string name="editor_transform_delete">Șterge</string>
+    <string name="editor_transform_move">Mută</string>
+    <string name="editor_transform_rotate">Rotește</string>
+    <string name="editor_transform_scale">Scară</string>
+    <string name="editor_view_normals">Normal</string>
+
+    <!-- Service !-->
+    <string name="action_cancel">Anulați operațiunea</string>
+    <string name="enter_filename">Introduceți un nume de fișier</string>
+    <string name="failed">Procesarea a eșuat, iar datele scanate au fost pierdute!</string>
+    <string name="finished">Operațiune finalizată</string>
+    <string name="paused">Scanare pusă pe pauză</string>
+    <string name="postprocessing">Postprocesare model…</string>
+    <string name="saving">Salvare model…</string>
+    <string name="turn_off">Poți ieși din aplicație fără să pierzi datele.</string>
+    <string name="warning">Atenție</string>
+    <string name="working">Aplicația funcționează. Te rugăm nu stinge dispozitivul și nu inția altă aplicație de tip AR.</string>
+
+    <!-- Event !-->
+    <string name="event_bright">Prea luminos pentru scanare</string>
+    <string name="event_dark">Prea întunecat pentru scanare</string>
+    <string name="event_features">Senzorul de mișcare a detectat probleme</string>
+    <string name="event_convert">Conversie date</string>
+    <string name="event_image">Procesare foto</string>
+    <string name="event_merge">Îmbinare rezultate</string>
+    <string name="event_poisson">Reconstrucție Poisson</string>
+    <string name="event_process">Procesare model</string>
+    <string name="event_simplify">Simplificare geometrie</string>
+    <string name="event_unwrap">Despachetare texturi</string>
+    <string name="event_correction">Corectare poziție</string>
+    <string name="event_pose_unknown">Nu există referințe suficiente pentru determinarea calității cadrului</string>
+    <string name="event_pose_error">Ultima inexactitate a cadrului este</string>
+    <string name="event_pose_request">Minimul solicitat este</string>
+
+    <!-- Pro dialog !-->
+    <string name="buy_google">Google Play</string>
+    <string name="buy_huawei">Huawei AppGallery</string>
+    <string name="upgrade">Actualizare</string>
+    <string name="upgrade1">Ai un dispozitiv cu senzor ToF suportat? Dacă da, te rog să iei în considerare cumpărarea versiunii Pro a acestei aplicații.</string>
+    <string name="upgrade2">Versiunea Pro nu conține mesaje publicitare, suportă rezoluții mai mari și oferă mai multe funcționalități.</string>
+    <string name="upgrade3">Poți urmări progresul dezvoltării pe următoarele site-uri web:</string>
+
+    <!-- Scan dialog !-->
+    <string name="depth_sensor">Utilizare senzor de profunzime</string>
+    <string name="scan_vector">Vector – Mod fotografie</string>
+    <string name="scan_1_4cm">0.25 cm – Obiecte mari</string>
+    <string name="scan_1_2cm">0.5 cm - Compoziție</string>
+    <string name="scan_1cm">1 cm – Încăpere mică</string>
+    <string name="scan_2cm">2 cm - Interior</string>
+    <string name="scan_4cm">4 cm - Exterior</string>
+    <string name="scan_8cm">8 cm – Scanare rapidă</string>
+    <string name="scan_face">Scanarea unei fețe</string>
+    <string name="export_floorplan">ca plan de nivel</string>
+    <string name="export_model">ca model</string>
+    <string name="export_pointcloud">ca nor de puncte</string>
+
+    <string-array name="shares">
+        <item>Android dialog</item>
+        <item>Convertor online</item>
+        <item>Sketchfab</item>
+    </string-array>
+
+    <!-- Branded apps texts !-->
+    <string name="fd_diameter">Diametru</string>
+    <string name="fd_length">Lungime</string>
+    <string name="fd_volume">Volum</string>
+    <string name="fd_write_scan_desc">Descriere scanare</string>
+    <string name="fd_select_scan_type">Selectează tip de scanare</string>
+    <string-array name="fd_scan_types">
+        <item>Buștean</item>
+        <item>Stivă</item>
+        <item>Transport</item>
+        <item>Arbore</item>
+        <item>Altele</item>
+    </string-array>
+</resources>

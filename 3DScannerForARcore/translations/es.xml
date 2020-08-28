@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- File Manager !-->
-    <string name="app_name">Escáner 3D</string>
+    <string name="app_name">3D Escáner</string>
     <string name="no_data">No hay modelos 3D</string>
     <string name="name_exists">Ya existe un modelo con el nombre introducido.</string>
     <string name="invalid_name">Nombre de archivo inválido!</string>

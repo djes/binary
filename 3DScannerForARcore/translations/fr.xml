@@ -53,9 +53,6 @@
     <string name="turn_off">Vous pouvez quitter l’applicaton sans perdre les données.</string>
     <string name="warning">Avertissement</string>
     <string name="working">L\'application traite les données, ne pas éteindre l\'appareil et ne pas démarrer une autre application utilisant AR.</string>
-    <string name="event_pose_unknown">Pas assez de références trouvées pour déterminer la qualité de l\'image</string>
-    <string name="event_pose_error">La dernière imprécision de l\'image est</string>
-    <string name="event_pose_request">Le minimum requis est de</string>
 
     <!-- Event !-->
     <string name="event_bright">La luminosité est trop importante pour scanner</string>
@@ -69,6 +66,9 @@
     <string name="event_simplify">Simplification de la géometrie</string>
     <string name="event_unwrap">Dépliage de textures</string>
     <string name="event_correction">Correction de pose</string>
+    <string name="event_pose_unknown">Pas assez de références trouvées pour déterminer la qualité de l\'image</string>
+    <string name="event_pose_error">La dernière imprécision de l\'image est</string>
+    <string name="event_pose_request">Le minimum requis est de</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
@@ -87,7 +87,7 @@
     <string name="scan_2cm">2 cm - Intérieurs</string>
     <string name="scan_4cm">4 cm - Extérieur</string>
     <string name="scan_8cm">8 cm - Scannage rapide</string>
-    <string name="scan_face">Scannage du visage</string>
+    <string name="scan_face">Scannage d’une face</string>
     <string name="export_floorplan">comme plan d\'étage</string>
     <string name="export_model">comme modèle</string>
     <string name="export_pointcloud">comme nuage de points</string>
