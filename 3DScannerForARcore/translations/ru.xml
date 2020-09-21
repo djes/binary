@@ -18,6 +18,14 @@
     <string name="wait">Пожалуйста, подождите</string>
     <string name="export">экспортные данные</string>
 
+    <!-- Settings !-->
+    <string name="sort">Показывать сначала новые отсканированные изображения</string>
+    <string name="sort_summary">Показывать самые последние отсканированные изображения в верхней части главного экрана.</string>
+    <string name="offset">Добавить смещение к геометрии</string>
+    <string name="offset_summary">Добавление смещения к геометрии позволяет сканировать тонкие объекты с обеих сторон. Эта опция делает геометрию менее точной.</string>
+    <string name="distortion">Использовать искажение линзы</string>
+    <string name="distortion_summary">Использование искажения линзы обеспечивает более точную геометрию, но не поддерживается на всех устройствах.</string>
+
     <!-- Editor !-->
     <string name="editor_main_colors">цвета</string>
     <string name="editor_main_select">выбрать</string>

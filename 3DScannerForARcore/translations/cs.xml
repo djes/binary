@@ -18,6 +18,14 @@
     <string name="wait">Prosím čekejte</string>
     <string name="export">Exportovat data</string>
 
+    <!-- Settings !-->
+    <string name="sort">Zobrazit nové skeny první</string>
+    <string name="sort_summary">Zobrazit nejnovější skenování v horní části hlavní obrazovky.</string>
+    <string name="offset">Přidejte k geometrii odsazení</string>
+    <string name="offset_summary">Přidání offsetu ke geometrii umožňuje skenovat tenké objekty z obou stran. Tato možnost snižuje přesnost geometrie.</string>
+    <string name="distortion">Použít zkreslení objektivu</string>
+    <string name="distortion_summary">Použití zkreslení objektivu poskytuje přesnější geometrii, ale není podporováno na všech zařízeních.</string>
+
     <!-- Editor !-->
     <string name="editor_main_colors">Barvy</string>
     <string name="editor_main_select">Vybrat</string>

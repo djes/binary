@@ -18,6 +18,14 @@
     <string name="wait">请等待</string>
     <string name="export">汇出资料</string>
 
+    <!-- Settings !-->
+    <string name="sort">首先显示新扫描内容</string>
+    <string name="sort_summary">在主屏幕顶部显示最新扫描。</string>
+    <string name="offset">为几何图形添加偏移量</string>
+    <string name="offset_summary">向几何图形添加偏移量可以从两侧扫描薄对象。 此选项使几何形状精度降低。</string>
+    <string name="distortion">使用镜头失真</string>
+    <string name="distortion_summary">使用镜头失真可提供更准确的几何形状，但并非所有设备都支持。</string>
+
     <!-- Editor !-->
     <string name="editor_main_colors">颜色</string>
     <string name="editor_main_select">选择</string>

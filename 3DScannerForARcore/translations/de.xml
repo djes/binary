@@ -18,6 +18,13 @@
     <string name="wait">Bitte warten</string>
     <string name="export">Daten exportieren</string>
 
+    <!-- Settings !-->
+    <string name="sort">Neue Scans zuerst anzeigen</string>
+    <string name="sort_summary">Zeigt die neuesten Scans oben im Hauptbildschirm an.</string>
+    <string name="offset">Versatz zur Geometrie hinzufügen</string>
+    <string name="offset_summary">Durch Hinzufügen eines Versatzes zur Geometrie können dünne Objekte von beiden Seiten gescannt werden. Diese Option verringert die Genauigkeit der Geometrie.</string>
+    <string name="distortion">Verwenden Sie die Linsenverzerrung</string>
+    <string name="distortion_summary">Die Verwendung der Objektivverzerrung bietet eine genauere Geometrie, wird jedoch nicht auf allen Geräten unterstützt.</string>
     <!-- Editor !-->
     <string name="editor_main_colors">Farben</string>
     <string name="editor_main_select">Auswahl</string>

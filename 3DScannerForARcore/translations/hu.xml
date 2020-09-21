@@ -18,6 +18,14 @@
     <string name="wait">Kérlek várj!</string>
     <string name="export">Adatok exportálása</string>
 
+    <!-- Settings !-->
+    <string name="sort">Először mutasson új kereséseket</string>
+    <string name="sort_summary">A legfrissebb beolvasások megjelenítése a főképernyő tetején.</string>
+    <string name="offset">Eltolás hozzáadása a geometriához</string>
+    <string name="offset_summary">Az eltolás hozzáadása a geometriához lehetővé teszi vékony objektumok beolvasását mindkét oldalról. Ezzel az opcióval a geometria kevésbé pontos.</string>
+    <string name="distortion">Lencse torzítás használata</string>
+    <string name="distortion_summary">A lencsetorzítás pontosabb geometriát biztosít, de nem minden eszköz támogatja.</string>
+
     <!-- Editor !-->
     <string name="editor_main_colors">Színek</string>
     <string name="editor_main_select">Kiválasztás</string>

@@ -18,6 +18,13 @@
     <string name="wait">Attendere per favore</string>
     <string name="export">Dati di esportazione</string>
 
+    <!-- Settings !-->
+    <string name="sort">Mostra prima le nuove scansioni</string>
+    <string name="sort_summary">Mostra le scansioni più recenti nella parte superiore della schermata principale.</string>
+    <string name="offset">Aggiungi offset alla geometria</string>
+    <string name="offset_summary">L\'aggiunta di offset alla geometria consente di scansionare oggetti sottili da entrambi i lati. Questa opzione rende la geometria meno accurata.</string>
+    <string name="distortion">Usa la distorsione dell\'obiettivo</string>
+    <string name="distortion_summary">L\'utilizzo della distorsione dell\'obiettivo fornisce una geometria più precisa ma non è supportata su tutti i dispositivi.</string>
     <!-- Editor !-->
     <string name="editor_main_colors">Colori</string>
     <string name="editor_main_select">Seleziona</string>

@@ -18,6 +18,14 @@
     <string name="wait">Please wait</string>
     <string name="export">Export data</string>
 
+    <!-- Settings !-->
+    <string name="sort">Show new scans first</string>
+    <string name="sort_summary">Show the most recent scans on the top of the main screen.</string>
+    <string name="offset">Add offset to the geometry</string>
+    <string name="offset_summary">Adding offset to the geometry enables to scan thin objects from both sides. This option makes the geometry less accurate.</string>
+    <string name="distortion">Use lens distortion</string>
+    <string name="distortion_summary">Using lens distortion provides more accurate geometry but it is not supported on all devices.</string>
+
     <!-- Editor !-->
     <string name="editor_main_colors">Colors</string>
     <string name="editor_main_select">Select</string>

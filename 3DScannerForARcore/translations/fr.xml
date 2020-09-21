@@ -18,6 +18,14 @@
     <string name="wait">Veuillez patienter s’il vous plaît</string>
     <string name="export">Exporter les données</string>
 
+    <!-- Settings !-->
+    <string name="sort">Afficher d\'abord les nouvelles analyses</string>
+    <string name="sort_summary">Afficher les scans les plus récents en haut de l\'écran principal.</string>
+    <string name="offset">Ajouter un décalage à la géométrie</string>
+    <string name="offset_summary">L\'ajout d\'un décalage à la géométrie permet de numériser des objets fins des deux côtés. Cette option rend la géométrie moins précise.</string>
+    <string name="distortion">Utiliser la distorsion de l\'objectif</string>
+    <string name="distortion_summary">L\'utilisation de la distorsion de l\'objectif fournit une géométrie plus précise, mais elle n\'est pas prise en charge sur tous les appareils.</string>
+
     <!-- Editor !-->
     <string name="editor_main_colors">Couleurs</string>
     <string name="editor_main_select">Sélectionnez</string>
