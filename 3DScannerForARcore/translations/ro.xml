@@ -88,6 +88,7 @@
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">Utilizare senzor de profunzime</string>
+    <string name="flash_light">Folosiți lanterna</string>
     <string name="scan_vector">Vector – Mod fotografie</string>
     <string name="scan_1_4cm">0.25 cm – Obiecte mari</string>
     <string name="scan_1_2cm">0.5 cm - Compoziție</string>

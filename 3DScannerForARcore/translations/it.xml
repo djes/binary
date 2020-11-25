@@ -87,6 +87,7 @@
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">Utilizzare il sensore di profondità</string>
+    <string name="flash_light">Usa la torcia</string>
     <string name="scan_vector">Vettore - Modalità foto</string>
     <string name="scan_1_4cm">0.25 cm - Grandi oggetti</string>
     <string name="scan_1_2cm">0.5 cm - Composizione</string>

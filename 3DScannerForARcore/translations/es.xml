@@ -88,6 +88,7 @@
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">Utilizar el sensor de profundidad</string>
+    <string name="flash_light">Usar linterna</string>
     <string name="scan_vector">Vector - Modo fotográfico</string>
     <string name="scan_1_4cm">0.25 cm - Grandes objetos</string>
     <string name="scan_1_2cm">0.5 cm - Composición</string>

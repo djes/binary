@@ -88,6 +88,7 @@
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">Mélységérzékelő használata</string>
+    <string name="flash_light">Használjon zseblámpát</string>
     <string name="scan_vector">Vektor - Fotó mód</string>
     <string name="scan_1_4cm">0.25 cm - Nagy objektek</string>
     <string name="scan_1_2cm">0.5 cm - Összeállítás</string>

@@ -88,6 +88,7 @@
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">Použít depth senzor</string>
+    <string name="flash_light">Použít svítilnu</string>
     <string name="scan_vector">Vektorově - Foto mód</string>
     <string name="scan_1_4cm">0.25 cm - Velké objekty</string>
     <string name="scan_1_2cm">0.5 cm - Kompozice</string>

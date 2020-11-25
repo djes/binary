@@ -88,6 +88,7 @@
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">Utiliser le capteur de profondeur</string>
+    <string name="flash_light">Utilisez une lampe de poche</string>
     <string name="scan_vector">Vecteur - Mode photo</string>
     <string name="scan_1_4cm">0.25 cm - Grands objets</string>
     <string name="scan_1_2cm">0.5 cm - Composition</string>

@@ -88,6 +88,7 @@
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">使用距离传感器</string>
+    <string name="flash_light">使用手电筒</string>
     <string name="scan_vector">手动拍摄</string>
     <string name="scan_1_4cm">0.25 cm - 结果精细，模型较大</string>
     <string name="scan_1_2cm">0.5 cm - 适合扫描结构</string>

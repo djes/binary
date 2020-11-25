@@ -87,6 +87,7 @@
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">Tiefensensor verwenden</string>
+    <string name="flash_light">Taschenlampe verwenden</string>
     <string name="scan_vector">Vektor - Fotomodus</string>
     <string name="scan_1_4cm">0.25 cm - Große Objekte</string>
     <string name="scan_1_2cm">0.5 cm - Komposition</string>
