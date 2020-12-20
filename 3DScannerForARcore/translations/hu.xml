@@ -21,8 +21,12 @@
     <!-- Settings !-->
     <string name="sort">Először mutasson új kereséseket</string>
     <string name="sort_summary">A legfrissebb beolvasások megjelenítése a főképernyő tetején.</string>
+    <string name="camera">A kamera adatainak megjelenítése szkennelés közben</string>
+    <string name="camera_summary">A kamera bemutatása további információkat szolgáltat a beolvasási folyamatról, azonban ez az eszköz túlmelegedését és alacsonyabb szkennelési teljesítményt okozhat.</string>
     <string name="offset">Eltolás hozzáadása a geometriához</string>
     <string name="offset_summary">Az eltolás hozzáadása a geometriához lehetővé teszi vékony objektumok beolvasását mindkét oldalról. Ezzel az opcióval a geometria kevésbé pontos.</string>
+    <string name="fullhd">Készítsen fullHD fényképeket</string>
+    <string name="fullhd_summary">A fullHD-fotók adatkészletbe történő rögzítése lehetővé teszi az adatok felhasználását a fotogrammetriai szoftverben. Vegye figyelembe, hogy ez az opció lelassítja a beolvasási folyamatot.</string>
     <string name="distortion">Lencse torzítás használata</string>
     <string name="distortion_summary">A lencsetorzítás pontosabb geometriát biztosít, de nem minden eszköz támogatja.</string>
 
@@ -74,9 +78,7 @@
     <string name="event_simplify">Geometria dolgozása</string>
     <string name="event_unwrap">Textúrák dolgozása</string>
     <string name="event_correction">Póz korrekció</string>
-    <string name="event_pose_unknown">Not enough references found to determine frame quality</string>
-    <string name="event_pose_error">Az utolsó képpont pontatlansága:</string>
-    <string name="event_pose_request">A minimum:</string>
+    <string name="event_unsharp">Lassan mozgassa az eszközt</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

@@ -21,8 +21,12 @@
     <!-- Settings !-->
     <string name="sort">Neue Scans zuerst anzeigen</string>
     <string name="sort_summary">Zeigt die neuesten Scans oben im Hauptbildschirm an.</string>
+    <string name="camera">Kameradaten während des Scannens anzeigen</string>
+    <string name="camera_summary">Das Anzeigen der Kamera liefert zusätzliche Informationen zum Scanvorgang, kann jedoch zu einer Überhitzung des Geräts und einer geringeren Scanleistung führen.</string>
     <string name="offset">Versatz zur Geometrie hinzufügen</string>
     <string name="offset_summary">Durch Hinzufügen eines Versatzes zur Geometrie können dünne Objekte von beiden Seiten gescannt werden. Diese Option verringert die Genauigkeit der Geometrie.</string>
+    <string name="fullhd">Aufnehmen FullHD-Fotos</string>
+    <string name="fullhd_summary">Durch die Aufnahme von FullHD-Fotos in einen Datensatz können Sie die Daten in einer Photogrammetrie-Software verwenden. Beachten Sie, dass diese Option den Scanvorgang verlangsamt.</string>
     <string name="distortion">Verwenden Sie die Linsenverzerrung</string>
     <string name="distortion_summary">Die Verwendung der Objektivverzerrung bietet eine genauere Geometrie, wird jedoch nicht auf allen Geräten unterstützt.</string>
     <!-- Editor !-->
@@ -73,9 +77,7 @@
     <string name="event_simplify">Vereinfachung der Geometrie</string>
     <string name="event_unwrap">Auspacken von Texturen</string>
     <string name="event_correction">Posenkorrektur</string>
-    <string name="event_pose_unknown">Nicht genügend Referenzen gefunden, um die Bildqualität zu bestimmen</string>
-    <string name="event_pose_error">Die letzte Frame-Ungenauigkeit ist</string>
-    <string name="event_pose_request">Das geforderte Minimum ist</string>
+    <string name="event_unsharp">Bewegen Sie das Gerät langsam</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

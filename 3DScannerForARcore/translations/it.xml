@@ -21,8 +21,12 @@
     <!-- Settings !-->
     <string name="sort">Mostra prima le nuove scansioni</string>
     <string name="sort_summary">Mostra le scansioni più recenti nella parte superiore della schermata principale.</string>
+    <string name="camera">Mostra i dati della fotocamera durante la scansione</string>
+    <string name="camera_summary">La visualizzazione della fotocamera produce informazioni aggiuntive sul processo di scansione, tuttavia potrebbe causare il surriscaldamento del dispositivo e ridurre le prestazioni di scansione.</string>
     <string name="offset">Aggiungi offset alla geometria</string>
     <string name="offset_summary">L\'aggiunta di offset alla geometria consente di scansionare oggetti sottili da entrambi i lati. Questa opzione rende la geometria meno accurata.</string>
+    <string name="fullhd">Cattura foto fullHD</string>
+    <string name="fullhd_summary">L\'acquisizione di foto fullHD nel set di dati consente di utilizzare i dati nel software di fotogrammetria. Notare che questa opzione rallenta il processo di scansione.</string>
     <string name="distortion">Usa la distorsione dell\'obiettivo</string>
     <string name="distortion_summary">L\'utilizzo della distorsione dell\'obiettivo fornisce una geometria più precisa ma non è supportata su tutti i dispositivi.</string>
     <!-- Editor !-->
@@ -73,9 +77,7 @@
     <string name="event_simplify">Semplificazione della geometria</string>
     <string name="event_unwrap">Srotolamento delle texture</string>
     <string name="event_correction">Correzione della posa</string>
-    <string name="event_pose_unknown">Non sono stati trovati abbastanza riferimenti per determinare la qualità del telaio</string>
-    <string name="event_pose_error">L\'imprecisione dell\'ultimo fotogramma è</string>
-    <string name="event_pose_request">Il minimo richiesto è</string>
+    <string name="event_unsharp">Sposta dispositivo</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

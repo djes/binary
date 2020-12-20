@@ -21,8 +21,12 @@
     <!-- Settings !-->
     <string name="sort">Zobrazit nové skeny první</string>
     <string name="sort_summary">Zobrazit nejnovější skenování v horní části hlavní obrazovky.</string>
+    <string name="camera">Zobrazit data fotoaparátu během skenování</string>
+    <string name="camera_summary">Zobrazená kamera produkuje další informace o procesu skenování, může však způsobit přehřátí zařízení a nižší výkon skenování.</string>
     <string name="offset">Přidejte k geometrii odsazení</string>
     <string name="offset_summary">Přidání offsetu ke geometrii umožňuje skenovat tenké objekty z obou stran. Tato možnost snižuje přesnost geometrie.</string>
+    <string name="fullhd">Pořizovat fotografie v rozlišení FullHD</string>
+    <string name="fullhd_summary">Pořizování fotografií v rozlišení FullHD do datové sady umožňuje používat data v softwaru pro fotogrammetrii. Tato možnost zpomaluje proces skenování.</string>
     <string name="distortion">Použít zkreslení objektivu</string>
     <string name="distortion_summary">Použití zkreslení objektivu poskytuje přesnější geometrii, ale není podporováno na všech zařízeních.</string>
 
@@ -74,9 +78,7 @@
     <string name="event_simplify">Zjednodušuji geometrii</string>
     <string name="event_unwrap">Rozbaluji textury</string>
     <string name="event_correction">Korekce pozic</string>
-    <string name="event_pose_unknown">Nedostatek referencí k determinování kvality framu</string>
-    <string name="event_pose_error">Nepřesnost posledního framu je</string>
-    <string name="event_pose_request">Požadované minimum je</string>
+    <string name="event_unsharp">Pohybujte zařízením pomalu</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

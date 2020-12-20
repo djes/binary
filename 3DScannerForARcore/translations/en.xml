@@ -21,8 +21,12 @@
     <!-- Settings !-->
     <string name="sort">Show new scans first</string>
     <string name="sort_summary">Show the most recent scans on the top of the main screen.</string>
+    <string name="camera">Show camera data during scanning</string>
+    <string name="camera_summary">Showing camera produces additional information about the scanning process, however it could cause device overheating and lower scanning performance.</string>
     <string name="offset">Add offset to the geometry</string>
     <string name="offset_summary">Adding offset to the geometry enables to scan thin objects from both sides. This option makes the geometry less accurate.</string>
+    <string name="fullhd">Capture fullHD photos</string>
+    <string name="fullhd_summary">Capturing fullHD photos into dataset enables you to use the data in photogrammetry software. Note that this option slows down the scanning process.</string>
     <string name="distortion">Use lens distortion</string>
     <string name="distortion_summary">Using lens distortion provides more accurate geometry but it is not supported on all devices.</string>
 
@@ -74,9 +78,7 @@
     <string name="event_simplify">Simplifying geometry</string>
     <string name="event_unwrap">Unwrapping textures</string>
     <string name="event_correction">Pose correction</string>
-    <string name="event_pose_unknown">Not enough references found to determine frame quality</string>
-    <string name="event_pose_error">The last frame inaccuracy is</string>
-    <string name="event_pose_request">Requested minimum is</string>
+    <string name="event_unsharp">Move the device slow</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

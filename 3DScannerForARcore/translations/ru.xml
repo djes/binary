@@ -21,8 +21,12 @@
     <!-- Settings !-->
     <string name="sort">Показывать сначала новые отсканированные изображения</string>
     <string name="sort_summary">Показывать самые последние отсканированные изображения в верхней части главного экрана.</string>
+    <string name="camera">Показывать данные камеры во время сканирования</string>
+    <string name="camera_summary">Отображение камеры дает дополнительную информацию о процессе сканирования, однако это может привести к перегреву устройства и снижению производительности сканирования.</string>
     <string name="offset">Добавить смещение к геометрии</string>
     <string name="offset_summary">Добавление смещения к геометрии позволяет сканировать тонкие объекты с обеих сторон. Эта опция делает геометрию менее точной.</string>
+    <string name="fullhd">Захват фотографий fullHD</string>
+    <string name="fullhd_summary">Захват фотографий fullHD в набор данных позволяет использовать данные в программном обеспечении для фотограмметрии. Обратите внимание, что эта опция замедляет процесс сканирования.</string>
     <string name="distortion">Использовать искажение линзы</string>
     <string name="distortion_summary">Использование искажения линзы обеспечивает более точную геометрию, но не поддерживается на всех устройствах.</string>
 
@@ -74,9 +78,7 @@
     <string name="event_simplify">упрощение геометрии</string>
     <string name="event_unwrap">развертывание текстур</string>
     <string name="event_correction">коррекция дозы</string>
-    <string name="event_pose_unknown">Недостаточно найдено ссылок для определения качества кадра</string>
-    <string name="event_pose_error">Последняя кадровая погрешность заключается в том</string>
-    <string name="event_pose_request">Минимальный требуемый уровень</string>
+    <string name="event_unsharp">Двигайте устройство медленно</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
