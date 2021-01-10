@@ -25,10 +25,21 @@
     <string name="camera_summary">Showing camera produces additional information about the scanning process, however it could cause device overheating and lower scanning performance.</string>
     <string name="offset">Add offset to the geometry</string>
     <string name="offset_summary">Adding offset to the geometry enables to scan thin objects from both sides. This option makes the geometry less accurate.</string>
+    <string name="gps">Use GPS to tag the position</string>
+    <string name="gps_summary">Using a GPS tag is possible to show on the map where the model was captured.</string>
     <string name="fullhd">Capture fullHD photos</string>
     <string name="fullhd_summary">Capturing fullHD photos into dataset enables you to use the data in photogrammetry software. Note that this option slows down the scanning process.</string>
     <string name="distortion">Use lens distortion</string>
     <string name="distortion_summary">Using lens distortion provides more accurate geometry but it is not supported on all devices.</string>
+    <string name="limit">Limit scanning distance</string>
+    <string name="limit_summary">By limiting scanning distance it is easier to scan only part of the object and filter far depth data with lower accuracy.</string>
+    <string-array name="limit_names">
+        <item>Resolution dependent</item>
+        <item>1 meter - objects only</item>
+        <item>2 meters - best precision</item>
+        <item>4 meters - fast scanning</item>
+        <item>No software limit</item>
+    </string-array>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Colors</string>
@@ -91,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">Use depth sensor</string>
     <string name="flash_light">Use flashlight</string>
-    <string name="scan_vector">Vector - Photo mode</string>
+    <string name="photo_mode">Manual photo mode</string>
     <string name="scan_1_4cm">0.25 cm - Big objects</string>
     <string name="scan_1_2cm">0.5 cm - Composition</string>
     <string name="scan_1cm">1 cm - Small room</string>

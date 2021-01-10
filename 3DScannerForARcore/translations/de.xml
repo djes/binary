@@ -25,10 +25,22 @@
     <string name="camera_summary">Das Anzeigen der Kamera liefert zusätzliche Informationen zum Scanvorgang, kann jedoch zu einer Überhitzung des Geräts und einer geringeren Scanleistung führen.</string>
     <string name="offset">Versatz zur Geometrie hinzufügen</string>
     <string name="offset_summary">Durch Hinzufügen eines Versatzes zur Geometrie können dünne Objekte von beiden Seiten gescannt werden. Diese Option verringert die Genauigkeit der Geometrie.</string>
+    <string name="gps">Verwenden GPS, um die Position zu markieren</string>
+    <string name="gps_summary">Mithilfe eines GPS-Tags kann auf der Karte angezeigt werden, wo das Modell erfasst wurde.</string>
     <string name="fullhd">Aufnehmen FullHD-Fotos</string>
     <string name="fullhd_summary">Durch die Aufnahme von FullHD-Fotos in einen Datensatz können Sie die Daten in einer Photogrammetrie-Software verwenden. Beachten Sie, dass diese Option den Scanvorgang verlangsamt.</string>
     <string name="distortion">Verwenden Sie die Linsenverzerrung</string>
     <string name="distortion_summary">Die Verwendung der Objektivverzerrung bietet eine genauere Geometrie, wird jedoch nicht auf allen Geräten unterstützt.</string>
+    <string name="limit">Scandistanz begrenzen</string>
+    <string name="limit_summary">Durch die Begrenzung der Scanentfernung ist es einfacher, nur einen Teil des Objekts zu scannen und Daten mit großer Tiefe mit geringerer Genauigkeit zu filtern.</string>
+    <string-array name="limit_names">
+        <item>Auflösungsabhängig</item>
+        <item>1 Meter - nur Objekte</item>
+        <item>2 Meter - beste Präzision</item>
+        <item>4 Meter - schnelles Scannen</item>
+        <item>Kein Software-Limit</item>
+    </string-array>
+
     <!-- Editor !-->
     <string name="editor_main_colors">Farben</string>
     <string name="editor_main_select">Auswahl</string>
@@ -90,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">Tiefensensor verwenden</string>
     <string name="flash_light">Taschenlampe verwenden</string>
-    <string name="scan_vector">Vektor - Fotomodus</string>
+    <string name="photo_mode">Manueller Fotomodus</string>
     <string name="scan_1_4cm">0.25 cm - Große Objekte</string>
     <string name="scan_1_2cm">0.5 cm - Komposition</string>
     <string name="scan_1cm">1 cm - Kleines Zimmer</string>

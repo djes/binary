@@ -25,10 +25,21 @@
     <string name="camera_summary">A kamera bemutatása további információkat szolgáltat a beolvasási folyamatról, azonban ez az eszköz túlmelegedését és alacsonyabb szkennelési teljesítményt okozhat.</string>
     <string name="offset">Eltolás hozzáadása a geometriához</string>
     <string name="offset_summary">Az eltolás hozzáadása a geometriához lehetővé teszi vékony objektumok beolvasását mindkét oldalról. Ezzel az opcióval a geometria kevésbé pontos.</string>
+    <string name="gps">A GPS segítségével jelölje be a pozíciót</string>
+    <string name="gps_summary">GPS-címke segítségével meg lehet jeleníteni a térképen, ahol a modellt rögzítették.</string>
     <string name="fullhd">Készítsen fullHD fényképeket</string>
     <string name="fullhd_summary">A fullHD-fotók adatkészletbe történő rögzítése lehetővé teszi az adatok felhasználását a fotogrammetriai szoftverben. Vegye figyelembe, hogy ez az opció lelassítja a beolvasási folyamatot.</string>
     <string name="distortion">Lencse torzítás használata</string>
     <string name="distortion_summary">A lencsetorzítás pontosabb geometriát biztosít, de nem minden eszköz támogatja.</string>
+    <string name="limit">Korlátozza a szkennelési távolságot</string>
+    <string name="limit_summary">A szkennelési távolság korlátozásával könnyebb az objektumnak csak egy részét beolvasni, és a mély mélységű adatokat kisebb pontossággal szűrni.</string>
+    <string-array name="limit_names">
+        <item>Felbontástól függ</item>
+        <item>1 méter - csak tárgyak</item>
+        <item>2 méter - a legjobb pontosság</item>
+        <item>4 méter - gyors szkennelés</item>
+        <item>Nincs szoftverkorlátozás</item>
+    </string-array>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Színek</string>
@@ -91,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">Mélységérzékelő használata</string>
     <string name="flash_light">Használjon zseblámpát</string>
-    <string name="scan_vector">Vektor - Fotó mód</string>
+    <string name="photo_mode">Manuális fénykép mód</string>
     <string name="scan_1_4cm">0.25 cm - Nagy objektek</string>
     <string name="scan_1_2cm">0.5 cm - Összeállítás</string>
     <string name="scan_1cm">1 cm - Kicsi szoba</string>

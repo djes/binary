@@ -25,10 +25,21 @@
     <string name="camera_summary">Отображение камеры дает дополнительную информацию о процессе сканирования, однако это может привести к перегреву устройства и снижению производительности сканирования.</string>
     <string name="offset">Добавить смещение к геометрии</string>
     <string name="offset_summary">Добавление смещения к геометрии позволяет сканировать тонкие объекты с обеих сторон. Эта опция делает геометрию менее точной.</string>
+    <string name="gps">Используйте GPS, чтобы отметить позицию</string>
+    <string name="gps_summary">Использование тега GPS можно показать на карте, где была снята модель.</string>
     <string name="fullhd">Захват фотографий fullHD</string>
     <string name="fullhd_summary">Захват фотографий fullHD в набор данных позволяет использовать данные в программном обеспечении для фотограмметрии. Обратите внимание, что эта опция замедляет процесс сканирования.</string>
     <string name="distortion">Использовать искажение линзы</string>
     <string name="distortion_summary">Использование искажения линзы обеспечивает более точную геометрию, но не поддерживается на всех устройствах.</string>
+    <string name="limit">Ограничить расстояние сканирования</string>
+    <string name="limit_summary">Ограничивая расстояние сканирования, легче сканировать только часть объекта и фильтровать данные с большой глубины с меньшей точностью.</string>
+    <string-array name="limit_names">
+        <item>Зависит от разрешения</item>
+        <item>1 метр - только объекты</item>
+        <item>2 метра - лучшая точность</item>
+        <item>4 метра - быстрое сканирование</item>
+        <item>Без ограничений по программному обеспечению</item>
+    </string-array>
 
     <!-- Editor !-->
     <string name="editor_main_colors">цвета</string>
@@ -91,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">использовать датчик глубины</string>
     <string name="flash_light">Использовать фонарик</string>
-    <string name="scan_vector">вектор - режим фото</string>
+    <string name="photo_mode">Ручной режим фото</string>
     <string name="scan_1_4cm">0.25 cm - Большие объекты</string>
     <string name="scan_1_2cm">0.5 cm - состав</string>
     <string name="scan_1cm">1 cm - маленькая комната</string>

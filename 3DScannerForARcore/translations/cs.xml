@@ -25,10 +25,21 @@
     <string name="camera_summary">Zobrazená kamera produkuje další informace o procesu skenování, může však způsobit přehřátí zařízení a nižší výkon skenování.</string>
     <string name="offset">Přidejte k geometrii odsazení</string>
     <string name="offset_summary">Přidání offsetu ke geometrii umožňuje skenovat tenké objekty z obou stran. Tato možnost snižuje přesnost geometrie.</string>
+    <string name="gps">Pomocí GPS označit polohu</string>
+    <string name="gps_summary">Pomocí značky GPS je možné zobrazit na mapě, kde byl model zachycen.</string>
     <string name="fullhd">Pořizovat fotografie v rozlišení FullHD</string>
     <string name="fullhd_summary">Pořizování fotografií v rozlišení FullHD do datové sady umožňuje používat data v softwaru pro fotogrammetrii. Tato možnost zpomaluje proces skenování.</string>
     <string name="distortion">Použít zkreslení objektivu</string>
     <string name="distortion_summary">Použití zkreslení objektivu poskytuje přesnější geometrii, ale není podporováno na všech zařízeních.</string>
+    <string name="limit">Omezte skenovací vzdálenost</string>
+    <string name="limit_summary">Omezením vzdálenosti skenování je snazší skenovat pouze část objektu a filtrovat data vzdálené hloubky s nižší přesností.</string>
+    <string-array name="limit_names">
+        <item>Závisí na rozlišení</item>
+        <item>1 metr - pouze objekty</item>
+        <item>2 metry - nejlepší přesnost</item>
+        <item>4 metry - rychlé skenování</item>
+        <item>Žádný softwarový limit</item>
+    </string-array>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Barvy</string>
@@ -91,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">Použít depth senzor</string>
     <string name="flash_light">Použít svítilnu</string>
-    <string name="scan_vector">Vektorově - Foto mód</string>
+    <string name="photo_mode">Manuální foto režim</string>
     <string name="scan_1_4cm">0.25 cm - Velké objekty</string>
     <string name="scan_1_2cm">0.5 cm - Kompozice</string>
     <string name="scan_1cm">1 cm - Malá místnost</string>

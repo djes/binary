@@ -25,10 +25,21 @@
     <string name="camera_summary">显示相机会产生有关扫描过程的其他信息，但是可能会导致设备过热并降低扫描性能。</string>
     <string name="offset">为几何图形添加偏移量</string>
     <string name="offset_summary">向几何图形添加偏移量可以从两侧扫描薄对象。 此选项使几何形状精度降低。</string>
+    <string name="gps">使用GPS标记位置</string>
+    <string name="gps_summary">使用GPS标签可以在地图上显示捕获模型的位置。</string>
     <string name="fullhd">捕获全高清照片</string>
     <string name="fullhd_summary">将全高清照片捕获到数据集中，可以使用摄影测量软件中的数据。 请注意，此选项会减慢扫描过程。</string>
     <string name="distortion">使用镜头失真</string>
     <string name="distortion_summary">使用镜头失真可提供更准确的几何形状，但并非所有设备都支持。</string>
+    <string name="limit">极限扫描距离</string>
+    <string name="limit_summary">通过限制扫描距离，可以更轻松地仅扫描部分对象并以较低的精度过滤远深度数据。</string>
+    <string-array name="limit_names">
+        <item>取决于分辨率</item>
+        <item>1米-仅限物体</item>
+        <item>2米-最佳精度</item>
+        <item>4米-快速扫描</item>
+        <item>无软件限制</item>
+    </string-array>
 
     <!-- Editor !-->
     <string name="editor_main_colors">颜色</string>
@@ -91,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">使用距离传感器</string>
     <string name="flash_light">使用手电筒</string>
-    <string name="scan_vector">手动拍摄</string>
+    <string name="photo_mode">手动拍照模式</string>
     <string name="scan_1_4cm">0.25 cm - 结果精细，模型较大</string>
     <string name="scan_1_2cm">0.5 cm - 适合扫描结构</string>
     <string name="scan_1cm">1 cm - 适合扫描小房间</string>

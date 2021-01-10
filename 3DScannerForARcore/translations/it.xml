@@ -25,10 +25,22 @@
     <string name="camera_summary">La visualizzazione della fotocamera produce informazioni aggiuntive sul processo di scansione, tuttavia potrebbe causare il surriscaldamento del dispositivo e ridurre le prestazioni di scansione.</string>
     <string name="offset">Aggiungi offset alla geometria</string>
     <string name="offset_summary">L\'aggiunta di offset alla geometria consente di scansionare oggetti sottili da entrambi i lati. Questa opzione rende la geometria meno accurata.</string>
+    <string name="gps">Usa il GPS per contrassegnare la posizione</string>
+    <string name="gps_summary">Utilizzando un tag GPS è possibile mostrare sulla mappa dove è stato catturato il modello.</string>
     <string name="fullhd">Cattura foto fullHD</string>
     <string name="fullhd_summary">L\'acquisizione di foto fullHD nel set di dati consente di utilizzare i dati nel software di fotogrammetria. Notare che questa opzione rallenta il processo di scansione.</string>
     <string name="distortion">Usa la distorsione dell\'obiettivo</string>
     <string name="distortion_summary">L\'utilizzo della distorsione dell\'obiettivo fornisce una geometria più precisa ma non è supportata su tutti i dispositivi.</string>
+    <string name="limit">Limita la distanza di scansione</string>
+    <string name="limit_summary">Limitando la distanza di scansione è più facile scansionare solo una parte dell\'oggetto e filtrare i dati di profondità lontana con minore precisione.</string>
+    <string-array name="limit_names">
+        <item>Dipende dalla risoluzione</item>
+        <item>1 metro - solo oggetti</item>
+        <item>2 metri - massima precisione</item>
+        <item>4 metri - scansione veloce</item>
+        <item>Nessun limite software</item>
+    </string-array>
+
     <!-- Editor !-->
     <string name="editor_main_colors">Colori</string>
     <string name="editor_main_select">Seleziona</string>
@@ -90,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">Utilizzare il sensore di profondità</string>
     <string name="flash_light">Usa la torcia</string>
-    <string name="scan_vector">Vettore - Modalità foto</string>
+    <string name="photo_mode">Modalità foto manuale</string>
     <string name="scan_1_4cm">0.25 cm - Grandi oggetti</string>
     <string name="scan_1_2cm">0.5 cm - Composizione</string>
     <string name="scan_1cm">1 cm - Cameretta</string>

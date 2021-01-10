@@ -25,10 +25,21 @@
     <string name="camera_summary">Afișarea camerei produce informații suplimentare despre procesul de scanare, însă ar putea provoca supraîncălzirea dispozitivului și performanțe de scanare mai scăzute.</string>
     <string name="offset">Adăugați offset la geometrie</string>
     <string name="offset_summary">Adăugarea de offset la geometrie permite scanarea obiectelor subțiri din ambele părți. Această opțiune face geometria mai puțin precisă.</string>
+    <string name="gps">Folosiți GPS pentru a marca poziția</string>
+    <string name="gps_summary">Folosind o etichetă GPS este posibil să se afișeze pe hartă unde a fost capturat modelul.</string>
     <string name="fullhd">Capturați fotografii fullHD</string>
     <string name="fullhd_summary">Capturarea fotografiilor fullHD în setul de date vă permite să utilizați datele din software-ul de fotogrametrie. Rețineți că această opțiune încetinește procesul de scanare.</string>
     <string name="distortion">Utilizați distorsiunea obiectivului</string>
     <string name="distortion_summary">Utilizarea distorsiunii obiectivului oferă o geometrie mai precisă, dar nu este acceptată pe toate dispozitivele.</string>
+    <string name="limit">Limitați distanța de scanare</string>
+    <string name="limit_summary">Limitând distanța de scanare, este mai ușor să scanați doar o parte a obiectului și să filtrați datele de adâncime cu o precizie mai mică.</string>
+    <string-array name="limit_names">
+        <item>Depinde de rezoluție</item>
+        <item>1 metru - numai obiecte</item>
+        <item>2 metri - cea mai bună precizie</item>
+        <item>4 metri - scanare rapidă</item>
+        <item>Fără limită de software</item>
+    </string-array>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Culori</string>
@@ -91,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">Utilizare senzor de profunzime</string>
     <string name="flash_light">Folosiți lanterna</string>
-    <string name="scan_vector">Vector – Mod fotografie</string>
+    <string name="photo_mode">Mod foto manual</string>
     <string name="scan_1_4cm">0.25 cm – Obiecte mari</string>
     <string name="scan_1_2cm">0.5 cm - Compoziție</string>
     <string name="scan_1cm">1 cm – Încăpere mică</string>

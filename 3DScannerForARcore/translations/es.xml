@@ -25,10 +25,21 @@
     <string name="camera_summary">Mostrar la cámara produce información adicional sobre el proceso de escaneo; sin embargo, podría provocar un sobrecalentamiento del dispositivo y un menor rendimiento de escaneo.</string>
     <string name="offset">Agregar compensación a la geometría</string>
     <string name="offset_summary">Agregar desplazamiento a la geometría permite escanear objetos delgados desde ambos lados. Esta opción hace que la geometría sea menos precisa.</string>
+    <string name="gps">Usa GPS para etiquetar la posición</string>
+    <string name="gps_summary">El uso de una etiqueta GPS es posible mostrar en el mapa dónde se capturó el modelo.</string>
     <string name="fullhd">Captura fotos fullHD</string>
     <string name="fullhd_summary">La captura de fotos FullHD en un conjunto de datos le permite utilizar los datos en el software de fotogrametría. Tenga en cuenta que esta opción ralentiza el proceso de escaneo.</string>
     <string name="distortion">Usar distorsión de la lente</string>
     <string name="distortion_summary">El uso de la distorsión de la lente proporciona una geometría más precisa, pero no es compatible con todos los dispositivos.</string>
+    <string name="limit">Limitar la distancia de escaneo</string>
+    <string name="limit_summary">Al limitar la distancia de escaneo, es más fácil escanear solo una parte del objeto y filtrar datos de gran profundidad con menor precisión.</string>
+    <string-array name="limit_names">
+        <item>Depende de la resolución</item>
+        <item>1 metro - solo objetos</item>
+        <item>2 metros - la mejor precisión</item>
+        <item>4 meters - fast scanning</item>
+        <item>Sin límite de software</item>
+    </string-array>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Colores</string>
@@ -91,7 +102,7 @@
     <!-- Scan dialog !-->
     <string name="depth_sensor">Utilizar el sensor de profundidad</string>
     <string name="flash_light">Usar linterna</string>
-    <string name="scan_vector">Vector - Modo fotográfico</string>
+    <string name="photo_mode">Modo de foto manual</string>
     <string name="scan_1_4cm">0.25 cm - Grandes objetos</string>
     <string name="scan_1_2cm">0.5 cm - Composición</string>
     <string name="scan_1cm">1 cm - Cuarto pequeño</string>
