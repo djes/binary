@@ -17,8 +17,17 @@
     <string name="postprocess">Postprocesează</string>
     <string name="wait">Așteaptă te rog</string>
     <string name="export">Exportare date</string>
+    <string name="folder_new">Dosar nou</string>
+    <string name="folder_up">(Dosar părinte)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">Manager de fișiere</string>
+    <string name="scan_enhancements">Îmbunătățiri de scanare</string>
+    <string name="scan_visualisations">Vizualizări de scanare</string>
+    <string name="anchor">Afișați ancorele în timpul scanării</string>
+    <string name="anchor_summary">Ancorele sunt utilizate pentru a stabiliza urmărirea poziției dispozitivului.</string>
+    <string name="folder">Arată mai întâi folderele</string>
+    <string name="folder_summary">Afișați folderele în partea de sus a ecranului principal.</string>
     <string name="sort">Arată mai întâi scanările noi</string>
     <string name="sort_summary">Afișează cele mai recente scanări în partea de sus a ecranului principal.</string>
     <string name="camera">Afișați datele camerei în timpul scanării</string>
@@ -33,6 +42,13 @@
     <string name="distortion_summary">Utilizarea distorsiunii obiectivului oferă o geometrie mai precisă, dar nu este acceptată pe toate dispozitivele.</string>
     <string name="limit">Limitați distanța de scanare</string>
     <string name="limit_summary">Limitând distanța de scanare, este mai ușor să scanați doar o parte a obiectului și să filtrați datele de adâncime cu o precizie mai mică.</string>
+    <string name="decimation">Reduceți numărul poligonului</string>
+    <string name="decimation_summary">Ca parte a postprocesării există un proces numit decimare care scade cantitatea de poligoane.</string>
+    <string-array name="decimation_names">
+        <item>Detaliu maxim</item>
+        <item>Optim pentru VR</item>
+        <item>Număr mic de poligoane</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Depinde de rezoluție</item>
         <item>1 metru - numai obiecte</item>

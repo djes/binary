@@ -17,8 +17,17 @@
     <string name="postprocess">Postprocess</string>
     <string name="wait">Please wait</string>
     <string name="export">Export data</string>
+    <string name="folder_new">New folder</string>
+    <string name="folder_up">(Parent folder)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">File manager</string>
+    <string name="scan_enhancements">Scanning enhancements</string>
+    <string name="scan_visualisations">Scanning visualisations</string>
+    <string name="anchor">Show anchors during scanning</string>
+    <string name="anchor_summary">Anchors are used to stabilize tracking of the device position.</string>
+    <string name="folder">Show folders first</string>
+    <string name="folder_summary">Show folders on the top of the main screen.</string>
     <string name="sort">Show new scans first</string>
     <string name="sort_summary">Show the most recent scans on the top of the main screen.</string>
     <string name="camera">Show camera data during scanning</string>
@@ -33,6 +42,13 @@
     <string name="distortion_summary">Using lens distortion provides more accurate geometry but it is not supported on all devices.</string>
     <string name="limit">Limit scanning distance</string>
     <string name="limit_summary">By limiting scanning distance it is easier to scan only part of the object and filter far depth data with lower accuracy.</string>
+    <string name="decimation">Decrease polygon count</string>
+    <string name="decimation_summary">As a part of postprocessing there is a process called decimation which decreases amount of polygons.</string>
+    <string-array name="decimation_names">
+        <item>Maximal detail</item>
+        <item>Optimal for VR</item>
+        <item>Low polygon count</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Resolution dependent</item>
         <item>1 meter - objects only</item>

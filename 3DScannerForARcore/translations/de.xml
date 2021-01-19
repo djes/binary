@@ -17,8 +17,17 @@
     <string name="postprocess">Nachbearbeiten</string>
     <string name="wait">Bitte warten</string>
     <string name="export">Daten exportieren</string>
+    <string name="folder_new">Neuer Ordner</string>
+    <string name="folder_up">(Übergeordneten Ordner)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">Dateimanager</string>
+    <string name="scan_enhancements">Scan-Verbesserungen</string>
+    <string name="scan_visualisations">Scan-Visualisierungen</string>
+    <string name="anchor">Anzeigen beim Scannen Anker</string>
+    <string name="anchor_summary">Anker werden verwendet, um die Verfolgung der Geräteposition zu stabilisieren.</string>
+    <string name="folder">Ordner zuerst anzeigen</string>
+    <string name="folder_summary">Ordner am oberen Rand des Hauptbildschirms anzeigen.</string>
     <string name="sort">Neue Scans zuerst anzeigen</string>
     <string name="sort_summary">Zeigt die neuesten Scans oben im Hauptbildschirm an.</string>
     <string name="camera">Kameradaten während des Scannens anzeigen</string>
@@ -33,6 +42,13 @@
     <string name="distortion_summary">Die Verwendung der Objektivverzerrung bietet eine genauere Geometrie, wird jedoch nicht auf allen Geräten unterstützt.</string>
     <string name="limit">Scandistanz begrenzen</string>
     <string name="limit_summary">Durch die Begrenzung der Scanentfernung ist es einfacher, nur einen Teil des Objekts zu scannen und Daten mit großer Tiefe mit geringerer Genauigkeit zu filtern.</string>
+    <string name="decimation">Verringern die Anzahl der Polygone</string>
+    <string name="decimation_summary">Als Teil der Nachbearbeitung gibt es einen Prozess namens Dezimierung, der die Anzahl der Polygone verringert.</string>
+    <string-array name="decimation_names">
+        <item>Maximales Detail</item>
+        <item>Optimal für VR</item>
+        <item>Geringe Polygonzahl</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Auflösungsabhängig</item>
         <item>1 Meter - nur Objekte</item>

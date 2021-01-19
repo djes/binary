@@ -17,8 +17,17 @@
     <string name="postprocess">Procesamiento posterior</string>
     <string name="wait">Por favor, espere</string>
     <string name="export">Exportar datos</string>
+    <string name="folder_new">Nueva carpeta</string>
+    <string name="folder_up">(Carpeta principal)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">Administrador de archivos</string>
+    <string name="scan_enhancements">Mejoras de escaneo</string>
+    <string name="scan_visualisations">Visualizaciones de escaneo</string>
+    <string name="anchor">Mostrar anclas durante el escaneo</string>
+    <string name="anchor_summary">Los anclajes se utilizan para estabilizar el seguimiento de la posición del dispositivo.</string>
+    <string name="folder">Mostrar carpetas primero</string>
+    <string name="folder_summary">Muestra carpetas en la parte superior de la pantalla principal.</string>
     <string name="sort">Mostrar nuevos escaneos primero</string>
     <string name="sort_summary">Muestra los escaneos más recientes en la parte superior de la pantalla principal.</string>
     <string name="camera">Mostrar datos de la cámara durante el escaneo</string>
@@ -33,6 +42,13 @@
     <string name="distortion_summary">El uso de la distorsión de la lente proporciona una geometría más precisa, pero no es compatible con todos los dispositivos.</string>
     <string name="limit">Limitar la distancia de escaneo</string>
     <string name="limit_summary">Al limitar la distancia de escaneo, es más fácil escanear solo una parte del objeto y filtrar datos de gran profundidad con menor precisión.</string>
+    <string name="decimation">Disminuir el número de polígonos</string>
+    <string name="decimation_summary">Como parte del posprocesamiento, existe un proceso llamado diezmado que disminuye la cantidad de polígonos.</string>
+    <string-array name="decimation_names">
+        <item>Detalle máximo</item>
+        <item>Óptimo para VR</item>
+        <item>Número de polígonos bajo</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Depende de la resolución</item>
         <item>1 metro - solo objetos</item>

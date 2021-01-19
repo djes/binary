@@ -17,8 +17,17 @@
     <string name="postprocess">постпроцесс</string>
     <string name="wait">Пожалуйста, подождите</string>
     <string name="export">экспортные данные</string>
+    <string name="folder_new">Новая папка</string>
+    <string name="folder_up">(Родительская папка)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">Файловый менеджер</string>
+    <string name="scan_enhancements">Улучшения сканирования</string>
+    <string name="scan_visualisations">Сканирующие визуализации</string>
+    <string name="anchor">Показывать якоря во время сканирования</string>
+    <string name="anchor_summary">Якоря используются для стабилизации отслеживания положения устройства.</string>
+    <string name="folder">Сначала показывать папки</string>
+    <string name="folder_summary">Показывать папки в верхней части главного экрана.</string>
     <string name="sort">Показывать сначала новые отсканированные изображения</string>
     <string name="sort_summary">Показывать самые последние отсканированные изображения в верхней части главного экрана.</string>
     <string name="camera">Показывать данные камеры во время сканирования</string>
@@ -33,6 +42,13 @@
     <string name="distortion_summary">Использование искажения линзы обеспечивает более точную геометрию, но не поддерживается на всех устройствах.</string>
     <string name="limit">Ограничить расстояние сканирования</string>
     <string name="limit_summary">Ограничивая расстояние сканирования, легче сканировать только часть объекта и фильтровать данные с большой глубины с меньшей точностью.</string>
+    <string name="decimation">Уменьшить количество полигонов</string>
+    <string name="decimation_summary">В рамках постобработки существует процесс, называемый прореживанием, который уменьшает количество полигонов.</string>
+    <string-array name="decimation_names">
+        <item>Максимальная детализация</item>
+        <item>Оптимально для VR</item>
+        <item>Низкое количество полигонов</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Зависит от разрешения</item>
         <item>1 метр - только объекты</item>

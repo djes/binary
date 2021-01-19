@@ -17,8 +17,17 @@
     <string name="postprocess">Postprocess</string>
     <string name="wait">Kérlek várj!</string>
     <string name="export">Adatok exportálása</string>
+    <string name="folder_new">Új mappa</string>
+    <string name="folder_up">(Szülő mappa)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">Fájl kezelő</string>
+    <string name="scan_enhancements">Szkennelési fejlesztések</string>
+    <string name="scan_visualisations">Vizualizációk beolvasása</string>
+    <string name="anchor">Horgonyok megjelenítése szkennelés közben</string>
+    <string name="anchor_summary">A horgonyokat a készülék helyzetének követésének stabilizálására használják.</string>
+    <string name="folder">Először mutassa meg a mappákat</string>
+    <string name="folder_summary">Mappák megjelenítése a főképernyő tetején.</string>
     <string name="sort">Először mutasson új kereséseket</string>
     <string name="sort_summary">A legfrissebb beolvasások megjelenítése a főképernyő tetején.</string>
     <string name="camera">A kamera adatainak megjelenítése szkennelés közben</string>
@@ -33,6 +42,13 @@
     <string name="distortion_summary">A lencsetorzítás pontosabb geometriát biztosít, de nem minden eszköz támogatja.</string>
     <string name="limit">Korlátozza a szkennelési távolságot</string>
     <string name="limit_summary">A szkennelési távolság korlátozásával könnyebb az objektumnak csak egy részét beolvasni, és a mély mélységű adatokat kisebb pontossággal szűrni.</string>
+    <string name="decimation">Csökkentse a sokszög számát</string>
+    <string name="decimation_summary">Az utófeldolgozás részeként van egy decimációnak nevezett folyamat, amely csökkenti a sokszögek mennyiségét.</string>
+    <string-array name="decimation_names">
+        <item>Maximális részletesség</item>
+        <item>Optimális a VR-hez</item>
+        <item>Alacsony sokszögszám</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Felbontástól függ</item>
         <item>1 méter - csak tárgyak</item>

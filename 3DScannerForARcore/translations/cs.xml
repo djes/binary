@@ -17,8 +17,17 @@
     <string name="postprocess">Zpracovat</string>
     <string name="wait">Prosím čekejte</string>
     <string name="export">Exportovat data</string>
+    <string name="folder_new">Nová složka</string>
+    <string name="folder_up">(Nadřazenou složka)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">Správce souborů</string>
+    <string name="scan_enhancements">Vylepšeni Skenování</string>
+    <string name="scan_visualisations">Vizualizace skenování</string>
+    <string name="anchor">Zobrazit anchory během skenování</string>
+    <string name="anchor_summary">Anchory se používají ke stabilizaci sledování polohy zařízení.</string>
+    <string name="folder">Zobrazit složky první</string>
+    <string name="folder_summary">Zobrazit složky v horní části hlavní obrazovky.</string>
     <string name="sort">Zobrazit nové skeny první</string>
     <string name="sort_summary">Zobrazit nejnovější skenování v horní části hlavní obrazovky.</string>
     <string name="camera">Zobrazit data fotoaparátu během skenování</string>
@@ -31,8 +40,15 @@
     <string name="fullhd_summary">Pořizování fotografií v rozlišení FullHD do datové sady umožňuje používat data v softwaru pro fotogrammetrii. Tato možnost zpomaluje proces skenování.</string>
     <string name="distortion">Použít zkreslení objektivu</string>
     <string name="distortion_summary">Použití zkreslení objektivu poskytuje přesnější geometrii, ale není podporováno na všech zařízeních.</string>
-    <string name="limit">Omezte skenovací vzdálenost</string>
+    <string name="limit">Omezení skenovací vzdálenost</string>
     <string name="limit_summary">Omezením vzdálenosti skenování je snazší skenovat pouze část objektu a filtrovat data vzdálené hloubky s nižší přesností.</string>
+    <string name="decimation">Snižit počet polygonů</string>
+    <string name="decimation_summary">Součástí postprocesingu je proces zvaný decimace, který snižuje množství polygonů.</string>
+    <string-array name="decimation_names">
+        <item>Maximální detail</item>
+        <item>Optimální pro VR</item>
+        <item>Nízký počet polygonů</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Závisí na rozlišení</item>
         <item>1 metr - pouze objekty</item>

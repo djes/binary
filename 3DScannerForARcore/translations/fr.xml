@@ -17,8 +17,17 @@
     <string name="postprocess">Post-traitement</string>
     <string name="wait">Veuillez patienter s’il vous plaît</string>
     <string name="export">Exporter les données</string>
+    <string name="folder_new">Nouveau dossier</string>
+    <string name="folder_up">(Dossier parent)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">Gestionnaire de fichiers</string>
+    <string name="scan_enhancements">Améliorations de la numérisation</string>
+    <string name="scan_visualisations">Visualisations de numérisation</string>
+    <string name="anchor">Afficher les ancres lors de la numérisation</string>
+    <string name="anchor_summary">Les ancres sont utilisées pour stabiliser le suivi de la position de l\'appareil.</string>
+    <string name="folder">Afficher d\'abord les dossiers</string>
+    <string name="folder_summary">Afficher les dossiers en haut de l\'écran principal.</string>
     <string name="sort">Afficher d\'abord les nouvelles analyses</string>
     <string name="sort_summary">Afficher les scans les plus récents en haut de l\'écran principal.</string>
     <string name="camera">Afficher les données de la caméra pendant la numérisation</string>
@@ -33,6 +42,13 @@
     <string name="distortion_summary">L\'utilisation de la distorsion de l\'objectif fournit une géométrie plus précise, mais elle n\'est pas prise en charge sur tous les appareils.</string>
     <string name="limit">Limiter la distance de numérisation</string>
     <string name="limit_summary">En limitant la distance de balayage, il est plus facile de ne balayer qu\'une partie de l\'objet et de filtrer les données de grande profondeur avec une précision moindre.</string>
+    <string name="decimation">Diminuer le nombre de polygones</string>
+    <string name="decimation_summary">Dans le cadre du post-traitement, il existe un processus appelé décimation qui diminue la quantité de polygones.</string>
+    <string-array name="decimation_names">
+        <item>Détail maximal</item>
+        <item>Optimal pour la VR</item>
+        <item>Faible nombre de polygones</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Dépendant de la résolution</item>
         <item>1 mètre - objets uniquement</item>

@@ -17,8 +17,17 @@
     <string name="postprocess">Post-processo</string>
     <string name="wait">Attendere per favore</string>
     <string name="export">Dati di esportazione</string>
+    <string name="folder_new">Nuova cartella</string>
+    <string name="folder_up">(Cartella principale)</string>
 
     <!-- Settings !-->
+    <string name="file_manager">File manager</string>
+    <string name="scan_enhancements">Miglioramenti alla scansione</string>
+    <string name="scan_visualisations">Visualizzazioni di scansione</string>
+    <string name="anchor">Mostra ancore durante la scansione</string>
+    <string name="anchor_summary">Gli ancoraggi vengono utilizzati per stabilizzare il tracciamento della posizione del dispositivo.</string>
+    <string name="folder">Mostra prima le cartelle</string>
+    <string name="folder_summary">Mostra le cartelle nella parte superiore della schermata principale.</string>
     <string name="sort">Mostra prima le nuove scansioni</string>
     <string name="sort_summary">Mostra le scansioni più recenti nella parte superiore della schermata principale.</string>
     <string name="camera">Mostra i dati della fotocamera durante la scansione</string>
@@ -33,6 +42,13 @@
     <string name="distortion_summary">L\'utilizzo della distorsione dell\'obiettivo fornisce una geometria più precisa ma non è supportata su tutti i dispositivi.</string>
     <string name="limit">Limita la distanza di scansione</string>
     <string name="limit_summary">Limitando la distanza di scansione è più facile scansionare solo una parte dell\'oggetto e filtrare i dati di profondità lontana con minore precisione.</string>
+    <string name="decimation">Diminuisci il numero di poligoni</string>
+    <string name="decimation_summary">Come parte del postprocessing, c\'è un processo chiamato decimazione che riduce la quantità di poligoni.</string>
+    <string-array name="decimation_names">
+        <item>Massimo dettaglio</item>
+        <item>Ottimale per la VR</item>
+        <item>Basso numero di poligoni</item>
+    </string-array>
     <string-array name="limit_names">
         <item>Dipende dalla risoluzione</item>
         <item>1 metro - solo oggetti</item>
