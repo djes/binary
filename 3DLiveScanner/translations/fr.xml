@@ -3,12 +3,12 @@
     <!-- File Manager !-->
     <string name="app_name">3D Scanner</string>
     <string name="no_data">Pas de modèles 3D</string>
-    <string name="name_exists">Un fichier à déjà ce nom, choisissez en un autre.</string>
+    <string name="name_exists">Un fichier a déjà ce nom, choisissez-en un autre.</string>
     <string name="invalid_name">Le nom du fichier est invalide</string>
     <string name="delete">Supprimer le modèle</string>
     <string name="capture">Scanner</string>
     <string name="settings">Configuration</string>
-    <string name="scene_res">Choisissez la résolution de captation</string>
+    <string name="scene_res">Choisissez la résolution de capture</string>
     <string name="move">Bougez le capteur pour commencer à scanner</string>
     <string name="continue_question">Voulez-vous continuer?</string>
     <string name="info">En utilisant cette application, vous acceptez #BEGIN#la politique de confidentialité#END#.\n\nToutes les données seront sauvegardées dans le dossier \"Models\" de la mémoire interne.</string>
@@ -22,30 +22,30 @@
 
     <!-- Settings !-->
     <string name="file_manager">Gestionnaire de fichiers</string>
-    <string name="scan_enhancements">Améliorations de la numérisation</string>
-    <string name="scan_visualisations">Visualisations de numérisation</string>
-    <string name="anchor">Afficher les ancres lors de la numérisation</string>
+    <string name="scan_enhancements">Amélioration du scan</string>
+    <string name="scan_visualisations">Visualisation du scan</string>
+    <string name="anchor">Afficher les ancres lors du scan</string>
     <string name="anchor_summary">Les ancres sont utilisées pour stabiliser le suivi de la position de l\'appareil.</string>
     <string name="folder">Afficher d\'abord les dossiers</string>
     <string name="folder_summary">Afficher les dossiers en haut de l\'écran principal.</string>
     <string name="sort">Afficher d\'abord les nouvelles analyses</string>
     <string name="sort_summary">Afficher les scans les plus récents en haut de l\'écran principal.</string>
-    <string name="camera">Afficher les données de la caméra pendant la numérisation</string>
-    <string name="camera_summary">L\'affichage de la caméra produit des informations supplémentaires sur le processus de numérisation, mais cela peut entraîner une surchauffe de l\'appareil et une baisse des performances de numérisation.</string>
+    <string name="camera">Afficher les données de la caméra pendant le scan</string>
+    <string name="camera_summary">L\'affichage de la caméra ajoute des informations supplémentaires sur le processus de numérisation, mais cela peut entraîner une surchauffe de l\'appareil et une baisse des performances de numérisation.</string>
     <string name="offset">Ajouter un décalage à la géométrie</string>
-    <string name="offset_summary">L\'ajout d\'un décalage à la géométrie permet de numériser des objets fins des deux côtés. Cette option rend la géométrie moins précise.</string>
+    <string name="offset_summary">L\'ajout d\'un décalage à la géométrie permet de scanner des objets fins des deux côtés. Cette option rend la géométrie moins précise.</string>
     <string name="gps">Utilisez le GPS pour marquer la position</string>
-    <string name="gps_summary">L\'utilisation d\'une balise GPS est possible d\'afficher sur la carte où le modèle a été capturé.</string>
+    <string name="gps_summary">L\'utilisation d\'une balise GPS permet de pouvoir afficher sur la carte où le modèle a été capturé.</string>
     <string name="fullhd">Capturez des photos FullHD</string>
-    <string name="fullhd_summary">La capture de photos FullHD dans un ensemble de données vous permet d\'utiliser les données dans un logiciel de photogrammétrie. Notez que cette option ralentit le processus de numérisation.</string>
+    <string name="fullhd_summary">La capture de photos en FullHD vous permet d\'utiliser les données dans un logiciel de photogrammétrie. Notez que cette option ralentit le processus de numérisation.</string>
     <string name="distortion">Utiliser la distorsion de l\'objectif</string>
     <string name="distortion_summary">L\'utilisation de la distorsion de l\'objectif fournit une géométrie plus précise, mais elle n\'est pas prise en charge sur tous les appareils.</string>
-    <string name="limit">Limiter la distance de numérisation</string>
-    <string name="limit_summary">En limitant la distance de balayage, il est plus facile de ne balayer qu\'une partie de l\'objet et de filtrer les données de grande profondeur avec une précision moindre.</string>
+    <string name="limit">Limiter la profondeur du scan</string>
+    <string name="limit_summary">En limitant la profondeur de chaque photo, il est plus facile de ne scanner qu\'une partie d\'un objet ou de la scène et d\'ignorer les informations les plus éloignées qui sont moins précises.</string>
     <string name="decimation">Diminuer le nombre de polygones</string>
-    <string name="decimation_summary">Dans le cadre du post-traitement, il existe un processus appelé décimation qui diminue la quantité de polygones.</string>
+    <string name="decimation_summary">Pendant le post-traitement, il existe un processus appelé décimation qui diminue la quantité de polygones.</string>
     <string-array name="decimation_names">
-        <item>Détail maximal</item>
+        <item>Maximum de détails</item>
         <item>Optimal pour la VR</item>
         <item>Faible nombre de polygones</item>
     </string-array>
@@ -88,15 +88,15 @@
     <string name="finished">Opération terminée</string>
     <string name="paused">Scannage en pause</string>
     <string name="postprocessing">Post-traitement du modèle…</string>
-    <string name="saving">Sauvgarder le modèle…</string>
+    <string name="saving">Sauvegarde du modèle…</string>
     <string name="turn_off">Vous pouvez quitter l’applicaton sans perdre les données.</string>
     <string name="warning">Avertissement</string>
-    <string name="working">L\'application traite les données, ne pas éteindre l\'appareil et ne pas démarrer une autre application utilisant AR.</string>
+    <string name="working">L\'application traite les données, ne pas éteindre l\'appareil et ne pas démarrer une autre application utilisant l\'AR.</string>
 
     <!-- Event !-->
     <string name="event_bright">La luminosité est trop importante pour scanner</string>
     <string name="event_dark">La luminosité est trop faible pour scanner</string>
-    <string name="event_features">Le suivi de mouvement à rencontré un problème</string>
+    <string name="event_features">Le suivi de mouvement a rencontré un problème</string>
     <string name="event_convert">Conversion des données</string>
     <string name="event_image">Traitement des photos</string>
     <string name="event_merge">Fusion des résultats</string>
@@ -104,7 +104,7 @@
     <string name="event_process">Traitement du modèle</string>
     <string name="event_simplify">Simplification de la géometrie</string>
     <string name="event_unwrap">Dépliage de textures</string>
-    <string name="event_correction">Correction de pose</string>
+    <string name="event_correction">Correction des poses</string>
     <string name="event_unsharp">Déplacer l\'appareil lentement</string>
 
     <!-- Pro dialog !-->
@@ -112,36 +112,36 @@
     <string name="buy_huawei">Huawei AppGallery</string>
     <string name="upgrade">Actualiser</string>
     <string name="upgrade1">Avez-vous un appareil avec un capteur ToF supporté? Si oui, alors envisagez d\'acheter la version Pro de cette application.</string>
-    <string name="upgrade2">La version Pro ne contient pas de publicité, supporte des résolutions plus élevées et offre plus de fonctionnalités.</string>
+    <string name="upgrade2">La version Pro ne contient pas de publicité, supporte des résolutions plus élevées et offre plus de fonctionnalitées.</string>
     <string name="upgrade3">Vous pouvez suivre l\'évolution du développement sur les sites suivants :</string>
 
     <!-- Scan dialog !-->
     <string name="depth_sensor">Utiliser le capteur de profondeur</string>
-    <string name="flash_light">Utilisez une lampe de poche</string>
+    <string name="flash_light">Utiliser le flash</string>
     <string name="photo_mode">Mode photo manuel</string>
     <string name="scan_1_4cm">0.25 cm - Grands objets</string>
     <string name="scan_1_2cm">0.5 cm - Composition</string>
     <string name="scan_1cm">1 cm - Petites pièces</string>
     <string name="scan_2cm">2 cm - Intérieurs</string>
     <string name="scan_4cm">4 cm - Extérieur</string>
-    <string name="scan_8cm">8 cm - Scannage rapide</string>
-    <string name="scan_face">Scannage d’une face</string>
+    <string name="scan_8cm">8 cm - Scan rapide</string>
+    <string name="scan_face">Scan du visage</string>
     <string name="export_floorplan">comme plan d\'étage</string>
     <string name="export_model">comme modèle</string>
     <string name="export_pointcloud">comme nuage de points</string>
 
     <string-array name="shares">
-        <item>Android Dialogue</item>
+        <item>Dialogue Android</item>
         <item>Convertisseur en ligne</item>
         <item>Sketchfab</item>
     </string-array>
 
     <!-- Branded apps texts !-->
     <string name="fd_diameter">Diamètre</string>
-    <string name="fd_length">Longeur</string>
+    <string name="fd_length">Longueur</string>
     <string name="fd_volume">Volume</string>
-    <string name="fd_write_scan_desc">Décrire le scannage</string>
-    <string name="fd_select_scan_type">Sélectionnez le type de scannage</string>
+    <string name="fd_write_scan_desc">Décrire le scan</string>
+    <string name="fd_select_scan_type">Sélectionnez le type de scan</string>
     <string-array name="fd_scan_types">
         <item>Tronc</item>
         <item>Pile</item>
