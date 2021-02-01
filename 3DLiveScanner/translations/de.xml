@@ -9,6 +9,7 @@
     <string name="capture">Scannen</string>
     <string name="settings">Einstellungen</string>
     <string name="scene_res">Wählen Sie die Aufnahmeauflösung</string>
+    <string name="jump">Die App hat festgestellt, dass die Bewegungsverfolgungsdaten ungültig sind. Überprüfen Sie, ob das Gerät die richtige Position anzeigt, und klicken Sie dann auf das Aufzeichnungssymbol, um den Scanvorgang fortzusetzen.</string>
     <string name="move">Bewegen Sie das Gerät, um mit dem Scannen zu beginnen.</string>
     <string name="continue_question">Wollen Sie fortfahren?</string>
     <string name="info">Mit der Nutzung dieser App erklären Sie sich mit der #BEGIN#Datenschutzerklärung#END# einverstanden.\n\nAlle Daten werden im Ordner \"Models\" im internen Speicher gespeichert.</string>

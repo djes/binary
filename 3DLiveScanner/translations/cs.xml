@@ -9,6 +9,7 @@
     <string name="capture">Skenovat</string>
     <string name="settings">Nastavení</string>
     <string name="scene_res">Vyberte rozlišení skenování</string>
+    <string name="jump">Aplikace zjistila neplatnost údajů o sledování pohybu. Zkontrolujte, zda zařízení zobrazuje správnou polohu, a poté pokračujte ve skenování kliknutím na ikonu nahrávání.</string>
     <string name="move">Pohybujte zařízením kolem, abyste spustili skenování.</string>
     <string name="continue_question">Chcete pokračovat?</string>
     <string name="info">Používáním této aplikace souhlasíte s #BEGIN#podmínkami ochrany soukromí#END#.\n\nVeškerá data budou uložena ve složce \"Models\" v interním úložišti</string>

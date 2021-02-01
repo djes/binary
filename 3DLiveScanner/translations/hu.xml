@@ -9,6 +9,7 @@
     <string name="capture">Szkennelés</string>
     <string name="settings">Beállítások</string>
     <string name="scene_res">Válasszdd ki a felbontást</string>
+    <string name="jump">Az alkalmazás érvénytelen mozgáskövetési adatokat észlelt. Kérjük, ellenőrizze, hogy az eszköz megfelelő helyzetben van-e, majd kattintson a felvétel ikonra a szkennelés folytatásához.</string>
     <string name="move">Vidd körbe az eszközt a tárgy körül!</string>
     <string name="continue_question">Folytatni akarod?</string>
     <string name="info">Az app használatával elfogadod a #BEGIN#privacy policy#END#.\n\nAz összes adat el lesz mentve a \"Models\" mappába a tárhelyben.</string>

@@ -9,6 +9,7 @@
     <string name="capture">Escanear</string>
     <string name="settings">Ajustes</string>
     <string name="scene_res">Elija la resolución de la captura</string>
+    <string name="jump">La aplicación detectó datos de seguimiento de movimiento no válidos. Verifique que el dispositivo muestre la posición correcta y luego haga clic en el icono de grabación para continuar escaneando.</string>
     <string name="move">Mueva el dispositivo para iniciar el escaneo.</string>
     <string name="continue_question">¿Quieres continuar?</string>
     <string name="info">Al usar esta aplicación estás de acuerdo con #BEGIN#la política de privacidad#END#.\n\nTodos los datos van a ser guardados en la carpeta "Models" en el almacenamiento interno.</string>

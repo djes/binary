@@ -9,6 +9,7 @@
     <string name="capture">Scansione</string>
     <string name="settings">Impostazioni</string>
     <string name="scene_res">Scegliere la risoluzione di cattura</string>
+    <string name="jump">L\'app ha rilevato dati di rilevamento del movimento non validi. Verificare che il dispositivo mostri la posizione corretta e quindi fare clic sull\'icona di registrazione per continuare la scansione.</string>
     <string name="move">Spostare il dispositivo per avviare la scansione.</string>
     <string name="continue_question">Vuoi continuare?</string>
     <string name="info">Usando questa applicazione accetti #BEGIN#l\'informativa sulla privacy.#END#.\n\nTutti i dati saranno salvati nella cartella "Models"\n\nNella memoria interna.</string>

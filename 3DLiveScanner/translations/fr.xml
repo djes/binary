@@ -9,6 +9,7 @@
     <string name="capture">Scanner</string>
     <string name="settings">Configuration</string>
     <string name="scene_res">Choisissez la résolution de capture</string>
+    <string name="jump">L\'application a détecté des données de suivi de mouvement invalides. Veuillez vérifier que l\'appareil affiche la bonne position, puis cliquez sur le bouton d\'enregistrement pour continuer la numérisation.</string>
     <string name="move">Bougez le capteur pour commencer à scanner</string>
     <string name="continue_question">Voulez-vous continuer?</string>
     <string name="info">En utilisant cette application, vous acceptez #BEGIN#la politique de confidentialité#END#.\n\nToutes les données seront sauvegardées dans le dossier \"Models\" de la mémoire interne.</string>

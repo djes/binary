@@ -9,6 +9,7 @@
     <string name="capture">扫描</string>
     <string name="settings">设置</string>
     <string name="scene_res">选择拍摄分辨率</string>
+    <string name="jump">该应用检测到无效的运动跟踪数据。 请检查设备是否显示正确的位置，然后单击“记录”图标以继续扫描。</string>
     <string name="move">移动设备以开始扫描</string>
     <string name="continue_question">您确认要删除吗?</string>
     <string name="info">使用这个APP您同意#BEGIN#隐私条例#END#.\n\n所有的数据将会被储存在 \"Models\" 手机内部文件夹.</string>

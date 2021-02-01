@@ -9,6 +9,7 @@
     <string name="capture">Scanare</string>
     <string name="settings">Setări</string>
     <string name="scene_res">Alege rezoluția imaginii</string>
+    <string name="jump">Aplicația a detectat date nevalide de urmărire a mișcării. Vă rugăm să verificați dacă dispozitivul afișează poziția corectă și apoi faceți clic pe pictograma înregistrare pentru a continua scanarea.</string>
     <string name="move">Mișcați dispozitivul pentru a începe scanarea.</string>
     <string name="continue_question">Dorești să continui?</string>
     <string name="info">Utilizând această aplicație ești de acord cu #BEGIN#politica de confidențialitate#END#.\n\n Toate datele vor fi salvate în folder-ul \"Models\" din memoria internă.</string>
