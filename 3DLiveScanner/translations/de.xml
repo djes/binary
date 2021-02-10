@@ -21,6 +21,17 @@
     <string name="folder_new">Neuer Ordner</string>
     <string name="folder_up">(Übergeordneten Ordner)</string>
 
+    <!-- Sketchfab uploader !-->
+    <string name="description">Beschreibung:</string>
+    <string name="model_name">Modellname:</string>
+    <string name="sketchfab_dialog_title">In Sketchfab hochladen</string>
+    <string name="sketchfab_pro">Beachten Sie, dass für eine Größe über 50 MB ein Sketchfab PRO-Konto erforderlich ist, da sonst der Upload fehlschlagen kann.</string>
+    <string name="sketchfab_upload_ready">Modell ist komprimiert und bereit zum Hochladen!</string>
+    <string name="sketchfab_uploading">Hochladen des Modells auf Sketchfab…</string>
+    <string name="tags">Etikett:</string>
+    <string name="upload">Hochladen</string>
+    <string name="upload_size_is">Die Gesamtgröße zum Hochladen beträgt</string>
+
     <!-- Settings !-->
     <string name="file_manager">Dateimanager</string>
     <string name="scan_enhancements">Scan-Verbesserungen</string>
@@ -81,6 +92,7 @@
     <string name="editor_transform_rotate">Drehen</string>
     <string name="editor_transform_scale">Skalieren</string>
     <string name="editor_view_normals">Normalen</string>
+    <string name="editor_deselect">Abwählen</string>
 
     <!-- Service !-->
     <string name="action_cancel">Vorgang abbrechen</string>

@@ -21,6 +21,17 @@
     <string name="folder_new">Nuova cartella</string>
     <string name="folder_up">(Cartella principale)</string>
 
+    <!-- Sketchfab uploader !-->
+    <string name="description">Descrizione:</string>
+    <string name="model_name">Nome del modello:</string>
+    <string name="sketchfab_dialog_title">Carica su Sketchfab</string>
+    <string name="sketchfab_pro">Tieni presente che per dimensioni superiori a 50 MB, è necessario un account Sketchfab PRO, altrimenti il caricamento potrebbe non riuscire.</string>
+    <string name="sketchfab_upload_ready">Il modello è compresso e pronto per il caricamento!</string>
+    <string name="sketchfab_uploading">Caricamento del modello su Sketchfab…</string>
+    <string name="tags">Tag:</string>
+    <string name="upload">Caricare</string>
+    <string name="upload_size_is">La dimensione totale da caricare è</string>
+
     <!-- Settings !-->
     <string name="file_manager">File manager</string>
     <string name="scan_enhancements">Miglioramenti alla scansione</string>
@@ -81,6 +92,7 @@
     <string name="editor_transform_rotate">Ruota</string>
     <string name="editor_transform_scale">Scala</string>
     <string name="editor_view_normals">Normali</string>
+    <string name="editor_deselect">Deseleziona</string>
 
     <!-- Service !-->
     <string name="action_cancel">Annulla operazione</string>

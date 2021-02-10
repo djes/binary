@@ -21,6 +21,17 @@
     <string name="folder_new">新建文件夹</string>
     <string name="folder_up">(上层资料夹)</string>
 
+    <!-- Sketchfab uploader !-->
+    <string name="description">描述:</string>
+    <string name="model_name">型号名称:</string>
+    <string name="sketchfab_dialog_title">上载到Sketchfab</string>
+    <string name="sketchfab_pro">请注意，如果大小超过50 MB，则需要一个Sketchfab PRO帐户，否则上传可能会失败。</string>
+    <string name="sketchfab_upload_ready">模型已压缩，可以上传！</string>
+    <string name="sketchfab_uploading">将模型上传到Sketchfab…</string>
+    <string name="tags">标签:</string>
+    <string name="upload">上载</string>
+    <string name="upload_size_is">要上传的总大小为</string>
+
     <!-- Settings !-->
     <string name="file_manager">文件管理器</string>
     <string name="scan_enhancements">扫描增强</string>
@@ -81,6 +92,7 @@
     <string name="editor_transform_rotate">旋转</string>
     <string name="editor_transform_scale">缩放</string>
     <string name="editor_view_normals">平面信息</string>
+    <string name="editor_deselect">取消选择</string>
 
     <!-- Service !-->
     <string name="action_cancel">取消进程</string>

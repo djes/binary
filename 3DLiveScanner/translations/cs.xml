@@ -21,6 +21,17 @@
     <string name="folder_new">Nová složka</string>
     <string name="folder_up">(Nadřazenou složka)</string>
 
+    <!-- Sketchfab uploader !-->
+    <string name="description">Popis:</string>
+    <string name="model_name">Jméno modelu:</string>
+    <string name="sketchfab_dialog_title">Nahrát do Sketchfabu</string>
+    <string name="sketchfab_pro">U velikosti nad 50 MB je vyžadován účet Sketchfab PRO, jinak může nahrávání selhat.</string>
+    <string name="sketchfab_upload_ready">Model je komprimovaný a připravený k nahrání!</string>
+    <string name="sketchfab_uploading">Nahrávání modelu do Sketchfabu…</string>
+    <string name="tags">Tagy:</string>
+    <string name="upload">Nahrát</string>
+    <string name="upload_size_is">Celková velikost k nahrání je</string>
+
     <!-- Settings !-->
     <string name="file_manager">Správce souborů</string>
     <string name="scan_enhancements">Vylepšeni Skenování</string>
@@ -81,6 +92,7 @@
     <string name="editor_transform_rotate">Otočit</string>
     <string name="editor_transform_scale">Škálovat</string>
     <string name="editor_view_normals">Normály</string>
+    <string name="editor_deselect">Zrušit výběr</string>
 
     <!-- Service !-->
     <string name="action_cancel">Zrušit operaci</string>

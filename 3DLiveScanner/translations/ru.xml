@@ -21,6 +21,17 @@
     <string name="folder_new">Новая папка</string>
     <string name="folder_up">(Родительская папка)</string>
 
+    <!-- Sketchfab uploader !-->
+    <string name="description">Описание:</string>
+    <string name="model_name">Название модели:</string>
+    <string name="sketchfab_dialog_title">Загрузить в Sketchfab</string>
+    <string name="sketchfab_pro">Обратите внимание, что для размера более 50 МБ требуется учетная запись Sketchfab PRO, в противном случае загрузка может завершиться ошибкой.</string>
+    <string name="sketchfab_upload_ready">Модель сжата и готова к загрузке!</string>
+    <string name="sketchfab_uploading">Загрузка модели в Sketchfab…</string>
+    <string name="tags">Теги:</string>
+    <string name="upload">Загрузить</string>
+    <string name="upload_size_is">Общий размер для загрузки</string>
+
     <!-- Settings !-->
     <string name="file_manager">Файловый менеджер</string>
     <string name="scan_enhancements">Улучшения сканирования</string>
@@ -81,6 +92,7 @@
     <string name="editor_transform_rotate">повернуть</string>
     <string name="editor_transform_scale">масштаб</string>
     <string name="editor_view_normals">нормаль</string>
+    <string name="editor_deselect">Отменить выбор</string>
 
     <!-- Service !-->
     <string name="action_cancel">отменить операцию</string>

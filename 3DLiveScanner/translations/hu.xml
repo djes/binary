@@ -21,6 +21,17 @@
     <string name="folder_new">Új mappa</string>
     <string name="folder_up">(Szülő mappa)</string>
 
+    <!-- Sketchfab uploader !-->
+    <string name="description">Leírás:</string>
+    <string name="model_name">Modell név:</string>
+    <string name="sketchfab_dialog_title">Feltöltés a Sketchfabbe</string>
+    <string name="sketchfab_pro">Ne feledje, hogy 50 MB feletti mérethez Sketchfab PRO fiókra van szükség, különben a feltöltés sikertelen lehet.</string>
+    <string name="sketchfab_upload_ready">A modell tömörítve van és feltöltésre kész!</string>
+    <string name="sketchfab_uploading">A modell feltöltése a Sketchfab-ba…</string>
+    <string name="tags">Címkék:</string>
+    <string name="upload">Feltöltés</string>
+    <string name="upload_size_is">A feltöltendő teljes méret</string>
+
     <!-- Settings !-->
     <string name="file_manager">Fájl kezelő</string>
     <string name="scan_enhancements">Szkennelési fejlesztések</string>
@@ -81,6 +92,7 @@
     <string name="editor_transform_rotate">Fordítás</string>
     <string name="editor_transform_scale">Skála</string>
     <string name="editor_view_normals">Normálisak</string>
+    <string name="editor_deselect">Válassza ki</string>
 
     <!-- Service !-->
     <string name="action_cancel">Vissza operation</string>
