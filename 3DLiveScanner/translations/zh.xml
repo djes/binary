@@ -117,7 +117,7 @@
     <string name="event_process">处理模型</string>
     <string name="event_simplify">简化几何体</string>
     <string name="event_unwrap">非闭合特征</string>
-    <string name="event_correction">姿势修正</string>
+    <string name="event_correction">强制缓慢运动</string>
     <string name="event_unsharp">缓慢移动设备</string>
 
     <!-- Pro dialog !-->

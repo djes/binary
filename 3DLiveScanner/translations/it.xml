@@ -117,7 +117,7 @@
     <string name="event_process">Modello di elaborazione</string>
     <string name="event_simplify">Semplificazione della geometria</string>
     <string name="event_unwrap">Srotolamento delle texture</string>
-    <string name="event_correction">Correzione della posa</string>
+    <string name="event_correction">Imponi movimenti lenti</string>
     <string name="event_unsharp">Sposta dispositivo</string>
 
     <!-- Pro dialog !-->

@@ -117,7 +117,7 @@
     <string name="event_process">Modell elemezése</string>
     <string name="event_simplify">Geometria dolgozása</string>
     <string name="event_unwrap">Textúrák dolgozása</string>
-    <string name="event_correction">Póz korrekció</string>
+    <string name="event_correction">Kényszerítse a lassú mozgást</string>
     <string name="event_unsharp">Lassan mozgassa az eszközt</string>
 
     <!-- Pro dialog !-->

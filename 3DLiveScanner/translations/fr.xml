@@ -117,7 +117,7 @@
     <string name="event_process">Traitement du modèle</string>
     <string name="event_simplify">Simplification de la géometrie</string>
     <string name="event_unwrap">Dépliage de textures</string>
-    <string name="event_correction">Correction des poses</string>
+    <string name="event_correction">Appliquer le mouvement lent</string>
     <string name="event_unsharp">Déplacer l\'appareil lentement</string>
 
     <!-- Pro dialog !-->

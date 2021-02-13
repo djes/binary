@@ -117,7 +117,7 @@
     <string name="event_process">Zpracovávám model</string>
     <string name="event_simplify">Zjednodušuji geometrii</string>
     <string name="event_unwrap">Rozbaluji textury</string>
-    <string name="event_correction">Korekce pozic</string>
+    <string name="event_correction">Vynutit pomalý pohyb</string>
     <string name="event_unsharp">Pohybujte zařízením pomalu</string>
 
     <!-- Pro dialog !-->

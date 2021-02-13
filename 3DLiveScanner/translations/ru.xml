@@ -117,7 +117,7 @@
     <string name="event_process">обработка модели</string>
     <string name="event_simplify">упрощение геометрии</string>
     <string name="event_unwrap">развертывание текстур</string>
-    <string name="event_correction">коррекция дозы</string>
+    <string name="event_correction">Обеспечить медленное движение</string>
     <string name="event_unsharp">Двигайте устройство медленно</string>
 
     <!-- Pro dialog !-->

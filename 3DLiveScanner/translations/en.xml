@@ -117,7 +117,7 @@
     <string name="event_process">Processing model</string>
     <string name="event_simplify">Simplifying geometry</string>
     <string name="event_unwrap">Unwrapping textures</string>
-    <string name="event_correction">Pose correction</string>
+    <string name="event_correction">Enforce slow movement</string>
     <string name="event_unsharp">Move the device slow</string>
 
     <!-- Pro dialog !-->

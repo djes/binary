@@ -117,7 +117,7 @@
     <string name="event_process">Procesare model</string>
     <string name="event_simplify">Simplificare geometrie</string>
     <string name="event_unwrap">Despachetare texturi</string>
-    <string name="event_correction">Corectare poziție</string>
+    <string name="event_correction">Aplică mișcarea lentă</string>
     <string name="event_unsharp">Mutați dispozitivul lent</string>
 
     <!-- Pro dialog !-->

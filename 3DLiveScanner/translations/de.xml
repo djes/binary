@@ -117,7 +117,7 @@
     <string name="event_process">Verarbeitungsmodell</string>
     <string name="event_simplify">Vereinfachung der Geometrie</string>
     <string name="event_unwrap">Auspacken von Texturen</string>
-    <string name="event_correction">Posenkorrektur</string>
+    <string name="event_correction">Erzwingen langsame Bewegungen</string>
     <string name="event_unsharp">Bewegen Sie das Gerät langsam</string>
 
     <!-- Pro dialog !-->
