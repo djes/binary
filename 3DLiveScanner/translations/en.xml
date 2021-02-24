@@ -50,10 +50,6 @@
     <string name="gps_summary">Using a GPS tag is possible to show on the map where the model was captured.</string>
     <string name="fullhd">Capture fullHD photos</string>
     <string name="fullhd_summary">Capturing fullHD photos into dataset enables you to use the data in photogrammetry software. Note that this option slows down the scanning process.</string>
-    <string name="distortion">Use lens distortion</string>
-    <string name="distortion_summary">Using lens distortion provides more accurate geometry but it is not supported on all devices.</string>
-    <string name="limit">Limit scanning distance</string>
-    <string name="limit_summary">By limiting scanning distance it is easier to scan only part of the object and filter far depth data with lower accuracy.</string>
     <string name="decimation">Decrease polygon count</string>
     <string name="decimation_summary">As a part of postprocessing there is a process called decimation which decreases amount of polygons.</string>
     <string-array name="decimation_names">
@@ -61,12 +57,21 @@
         <item>Optimal for VR</item>
         <item>Low polygon count</item>
     </string-array>
+    <string name="limit">Limit scanning distance</string>
+    <string name="limit_summary">By limiting scanning distance it is easier to scan only part of the object and filter far depth data with lower accuracy.</string>
     <string-array name="limit_names">
         <item>Resolution dependent</item>
         <item>1 meter - objects only</item>
         <item>2 meters - best precision</item>
         <item>4 meters - fast scanning</item>
         <item>No software limit</item>
+    </string-array>
+    <string name="noise">Noise filter</string>
+    <string name="noise_summary">Using noise filter reduces amount of wrong geometry in the scan. Note that it decreases the speed of scanning.</string>
+    <string-array name="noise_names">
+        <item>No noise filter</item>
+        <item>Normal noise filter</item>
+        <item>Aggressive noise filter</item>
     </string-array>
 
     <!-- Editor !-->

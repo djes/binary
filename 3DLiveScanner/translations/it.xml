@@ -50,10 +50,6 @@
     <string name="gps_summary">Utilizzando un tag GPS è possibile mostrare sulla mappa dove è stato catturato il modello.</string>
     <string name="fullhd">Cattura foto fullHD</string>
     <string name="fullhd_summary">L\'acquisizione di foto fullHD nel set di dati consente di utilizzare i dati nel software di fotogrammetria. Notare che questa opzione rallenta il processo di scansione.</string>
-    <string name="distortion">Usa la distorsione dell\'obiettivo</string>
-    <string name="distortion_summary">L\'utilizzo della distorsione dell\'obiettivo fornisce una geometria più precisa ma non è supportata su tutti i dispositivi.</string>
-    <string name="limit">Limita la distanza di scansione</string>
-    <string name="limit_summary">Limitando la distanza di scansione è più facile scansionare solo una parte dell\'oggetto e filtrare i dati di profondità lontana con minore precisione.</string>
     <string name="decimation">Diminuisci il numero di poligoni</string>
     <string name="decimation_summary">Come parte del postprocessing, c\'è un processo chiamato decimazione che riduce la quantità di poligoni.</string>
     <string-array name="decimation_names">
@@ -61,12 +57,21 @@
         <item>Ottimale per la VR</item>
         <item>Basso numero di poligoni</item>
     </string-array>
+    <string name="limit">Limita la distanza di scansione</string>
+    <string name="limit_summary">Limitando la distanza di scansione è più facile scansionare solo una parte dell\'oggetto e filtrare i dati di profondità lontana con minore precisione.</string>
     <string-array name="limit_names">
         <item>Dipende dalla risoluzione</item>
         <item>1 metro - solo oggetti</item>
         <item>2 metri - massima precisione</item>
         <item>4 metri - scansione veloce</item>
         <item>Nessun limite software</item>
+    </string-array>
+    <string name="noise">Filtro del rumore</string>
+    <string name="noise_summary">L\'uso del filtro del rumore riduce la quantità di geometria errata nella scansione. Notare che diminuisce la velocità di scansione.</string>
+    <string-array name="noise_names">
+        <item>Nessun filtro antirumore</item>
+        <item>Filtro rumore normale</item>
+        <item>Filtro antirumore aggressivo</item>
     </string-array>
 
     <!-- Editor !-->

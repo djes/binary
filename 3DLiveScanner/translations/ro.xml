@@ -50,10 +50,6 @@
     <string name="gps_summary">Folosind o etichetă GPS este posibil să se afișeze pe hartă unde a fost capturat modelul.</string>
     <string name="fullhd">Capturați fotografii fullHD</string>
     <string name="fullhd_summary">Capturarea fotografiilor fullHD în setul de date vă permite să utilizați datele din software-ul de fotogrametrie. Rețineți că această opțiune încetinește procesul de scanare.</string>
-    <string name="distortion">Utilizați distorsiunea obiectivului</string>
-    <string name="distortion_summary">Utilizarea distorsiunii obiectivului oferă o geometrie mai precisă, dar nu este acceptată pe toate dispozitivele.</string>
-    <string name="limit">Limitați distanța de scanare</string>
-    <string name="limit_summary">Limitând distanța de scanare, este mai ușor să scanați doar o parte a obiectului și să filtrați datele de adâncime cu o precizie mai mică.</string>
     <string name="decimation">Reduceți numărul poligonului</string>
     <string name="decimation_summary">Ca parte a postprocesării există un proces numit decimare care scade cantitatea de poligoane.</string>
     <string-array name="decimation_names">
@@ -61,12 +57,21 @@
         <item>Optim pentru VR</item>
         <item>Număr mic de poligoane</item>
     </string-array>
+    <string name="limit">Limitați distanța de scanare</string>
+    <string name="limit_summary">Limitând distanța de scanare, este mai ușor să scanați doar o parte a obiectului și să filtrați datele de adâncime cu o precizie mai mică.</string>
     <string-array name="limit_names">
         <item>Depinde de rezoluție</item>
         <item>1 metru - numai obiecte</item>
         <item>2 metri - cea mai bună precizie</item>
         <item>4 metri - scanare rapidă</item>
         <item>Fără limită de software</item>
+    </string-array>
+    <string name="noise">Filtru de zgomot</string>
+    <string name="noise_summary">Utilizarea filtrului de zgomot reduce cantitatea de geometrie greșită în scanare. Rețineți că scade viteza de scanare.</string>
+    <string-array name="noise_names">
+        <item>Fără filtru de zgomot</item>
+        <item>Filtru de zgomot normal</item>
+        <item>Filtru de zgomot agresiv</item>
     </string-array>
 
     <!-- Editor !-->

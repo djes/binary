@@ -50,10 +50,6 @@
     <string name="gps_summary">El uso de una etiqueta GPS es posible mostrar en el mapa dónde se capturó el modelo.</string>
     <string name="fullhd">Captura fotos fullHD</string>
     <string name="fullhd_summary">La captura de fotos FullHD en un conjunto de datos le permite utilizar los datos en el software de fotogrametría. Tenga en cuenta que esta opción ralentiza el proceso de escaneo.</string>
-    <string name="distortion">Usar distorsión de la lente</string>
-    <string name="distortion_summary">El uso de la distorsión de la lente proporciona una geometría más precisa, pero no es compatible con todos los dispositivos.</string>
-    <string name="limit">Limitar la distancia de escaneo</string>
-    <string name="limit_summary">Al limitar la distancia de escaneo, es más fácil escanear solo una parte del objeto y filtrar datos de gran profundidad con menor precisión.</string>
     <string name="decimation">Disminuir el número de polígonos</string>
     <string name="decimation_summary">Como parte del posprocesamiento, existe un proceso llamado diezmado que disminuye la cantidad de polígonos.</string>
     <string-array name="decimation_names">
@@ -61,12 +57,21 @@
         <item>Óptimo para VR</item>
         <item>Número de polígonos bajo</item>
     </string-array>
+    <string name="limit">Limitar la distancia de escaneo</string>
+    <string name="limit_summary">Al limitar la distancia de escaneo, es más fácil escanear solo una parte del objeto y filtrar datos de gran profundidad con menor precisión.</string>
     <string-array name="limit_names">
         <item>Depende de la resolución</item>
         <item>1 metro - solo objetos</item>
         <item>2 metros - la mejor precisión</item>
         <item>4 meters - fast scanning</item>
         <item>Sin límite de software</item>
+    </string-array>
+    <string name="noise">Filtro de ruido</string>
+    <string name="noise_summary">El uso de un filtro de ruido reduce la cantidad de geometría incorrecta en el escaneo. Tenga en cuenta que disminuye la velocidad de escaneo.</string>
+    <string-array name="noise_names">
+        <item>Sin filtro de ruido</item>
+        <item>Filtro de ruido normal</item>
+        <item>Filtro de ruido agresivo</item>
     </string-array>
 
     <!-- Editor !-->

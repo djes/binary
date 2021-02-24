@@ -50,10 +50,6 @@
     <string name="gps_summary">Mithilfe eines GPS-Tags kann auf der Karte angezeigt werden, wo das Modell erfasst wurde.</string>
     <string name="fullhd">Aufnehmen FullHD-Fotos</string>
     <string name="fullhd_summary">Durch die Aufnahme von FullHD-Fotos in einen Datensatz können Sie die Daten in einer Photogrammetrie-Software verwenden. Beachten Sie, dass diese Option den Scanvorgang verlangsamt.</string>
-    <string name="distortion">Verwenden Sie die Linsenverzerrung</string>
-    <string name="distortion_summary">Die Verwendung der Objektivverzerrung bietet eine genauere Geometrie, wird jedoch nicht auf allen Geräten unterstützt.</string>
-    <string name="limit">Scandistanz begrenzen</string>
-    <string name="limit_summary">Durch die Begrenzung der Scanentfernung ist es einfacher, nur einen Teil des Objekts zu scannen und Daten mit großer Tiefe mit geringerer Genauigkeit zu filtern.</string>
     <string name="decimation">Verringern die Anzahl der Polygone</string>
     <string name="decimation_summary">Als Teil der Nachbearbeitung gibt es einen Prozess namens Dezimierung, der die Anzahl der Polygone verringert.</string>
     <string-array name="decimation_names">
@@ -61,12 +57,21 @@
         <item>Optimal für VR</item>
         <item>Geringe Polygonzahl</item>
     </string-array>
+    <string name="limit">Scandistanz begrenzen</string>
+    <string name="limit_summary">Durch die Begrenzung der Scanentfernung ist es einfacher, nur einen Teil des Objekts zu scannen und Daten mit großer Tiefe mit geringerer Genauigkeit zu filtern.</string>
     <string-array name="limit_names">
         <item>Auflösungsabhängig</item>
         <item>1 Meter - nur Objekte</item>
         <item>2 Meter - beste Präzision</item>
         <item>4 Meter - schnelles Scannen</item>
         <item>Kein Software-Limit</item>
+    </string-array>
+    <string name="noise">Rauschfilter</string>
+    <string name="noise_summary">Die Verwendung des Rauschfilters reduziert die Anzahl falscher Geometrien im Scan. Beachten Sie, dass dadurch die Scangeschwindigkeit verringert wird.</string>
+    <string-array name="noise_names">
+        <item>Kein Rauschfilter</item>
+        <item>Normaler Rauschfilter</item>
+        <item>Aggressiver Rauschfilter</item>
     </string-array>
 
     <!-- Editor !-->

@@ -50,10 +50,6 @@
     <string name="gps_summary">L\'utilisation d\'une balise GPS permet de pouvoir afficher sur la carte où le modèle a été capturé.</string>
     <string name="fullhd">Capturez des photos FullHD</string>
     <string name="fullhd_summary">La capture de photos en FullHD vous permet d\'utiliser les données dans un logiciel de photogrammétrie. Notez que cette option ralentit le processus de numérisation.</string>
-    <string name="distortion">Utiliser la distorsion de l\'objectif</string>
-    <string name="distortion_summary">L\'utilisation de la distorsion de l\'objectif fournit une géométrie plus précise, mais elle n\'est pas prise en charge sur tous les appareils.</string>
-    <string name="limit">Limiter la profondeur du scan</string>
-    <string name="limit_summary">En limitant la profondeur de chaque photo, il est plus facile de ne scanner qu\'une partie d\'un objet ou de la scène et d\'ignorer les informations les plus éloignées qui sont moins précises.</string>
     <string name="decimation">Diminuer le nombre de polygones</string>
     <string name="decimation_summary">Pendant le post-traitement, il existe un processus appelé décimation qui diminue la quantité de polygones.</string>
     <string-array name="decimation_names">
@@ -61,12 +57,21 @@
         <item>Optimal pour la VR</item>
         <item>Faible nombre de polygones</item>
     </string-array>
+    <string name="limit">Limiter la profondeur du scan</string>
+    <string name="limit_summary">En limitant la profondeur de chaque photo, il est plus facile de ne scanner qu\'une partie d\'un objet ou de la scène et d\'ignorer les informations les plus éloignées qui sont moins précises.</string>
     <string-array name="limit_names">
         <item>Dépendant de la résolution</item>
         <item>1 mètre - objets uniquement</item>
         <item>2 mètres - meilleure précision</item>
         <item>4 mètres - numérisation rapide</item>
         <item>Aucune limite de logiciel</item>
+    </string-array>
+    <string name="noise">Filtre à bruit</string>
+    <string name="noise_summary">L\'utilisation du filtre de bruit réduit la quantité de géométrie erronée dans l\'analyse. Notez que cela diminue la vitesse de numérisation.</string>
+    <string-array name="noise_names">
+        <item>Pas de filtre de bruit</item>
+        <item>Filtre de bruit normal</item>
+        <item>Filtre de bruit agressif</item>
     </string-array>
 
     <!-- Editor !-->

@@ -50,10 +50,6 @@
     <string name="gps_summary">GPS-címke segítségével meg lehet jeleníteni a térképen, ahol a modellt rögzítették.</string>
     <string name="fullhd">Készítsen fullHD fényképeket</string>
     <string name="fullhd_summary">A fullHD-fotók adatkészletbe történő rögzítése lehetővé teszi az adatok felhasználását a fotogrammetriai szoftverben. Vegye figyelembe, hogy ez az opció lelassítja a beolvasási folyamatot.</string>
-    <string name="distortion">Lencse torzítás használata</string>
-    <string name="distortion_summary">A lencsetorzítás pontosabb geometriát biztosít, de nem minden eszköz támogatja.</string>
-    <string name="limit">Korlátozza a szkennelési távolságot</string>
-    <string name="limit_summary">A szkennelési távolság korlátozásával könnyebb az objektumnak csak egy részét beolvasni, és a mély mélységű adatokat kisebb pontossággal szűrni.</string>
     <string name="decimation">Csökkentse a sokszög számát</string>
     <string name="decimation_summary">Az utófeldolgozás részeként van egy decimációnak nevezett folyamat, amely csökkenti a sokszögek mennyiségét.</string>
     <string-array name="decimation_names">
@@ -61,12 +57,21 @@
         <item>Optimális a VR-hez</item>
         <item>Alacsony sokszögszám</item>
     </string-array>
+    <string name="limit">Korlátozza a szkennelési távolságot</string>
+    <string name="limit_summary">A szkennelési távolság korlátozásával könnyebb az objektumnak csak egy részét beolvasni, és a mély mélységű adatokat kisebb pontossággal szűrni.</string>
     <string-array name="limit_names">
         <item>Felbontástól függ</item>
         <item>1 méter - csak tárgyak</item>
         <item>2 méter - a legjobb pontosság</item>
         <item>4 méter - gyors szkennelés</item>
         <item>Nincs szoftverkorlátozás</item>
+    </string-array>
+    <string name="noise">Zajszűrő</string>
+    <string name="noise_summary">A zajszűrő használata csökkenti a hibás geometriát a beolvasás során. Vegye figyelembe, hogy ez csökkenti a szkennelés sebességét.</string>
+    <string-array name="noise_names">
+        <item>Nincs zajszűrő</item>
+        <item>Normál zajszűrő</item>
+        <item>Agresszív zajszűrő</item>
     </string-array>
 
     <!-- Editor !-->
