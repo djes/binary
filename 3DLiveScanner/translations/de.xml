@@ -73,6 +73,8 @@
         <item>Normaler Rauschfilter</item>
         <item>Aggressiver Rauschfilter</item>
     </string-array>
+    <string name="clearing">Raumräumung</string>
+    <string name="clearing_summary">Diese Funktion löscht Daten aus Szenen, die nur vorübergehend sichtbar waren.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Farben</string>
@@ -124,6 +126,8 @@
     <string name="event_unwrap">Auspacken von Texturen</string>
     <string name="event_correction">Erzwingen langsame Bewegungen</string>
     <string name="event_unsharp">Bewegen Sie das Gerät langsam</string>
+    <string name="scan_discard">Diese Aktion verwirft den Scan-Fortschritt.</string>
+    <string name="scan_finish">Durch Speichern wird der Scanvorgang beendet.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

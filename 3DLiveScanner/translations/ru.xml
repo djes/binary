@@ -73,6 +73,8 @@
         <item>Фильтр нормального шума</item>
         <item>Фильтр агрессивного шума</item>
     </string-array>
+    <string name="clearing">Расчистка космоса</string>
+    <string name="clearing_summary">Эта функция удаляет данные со сцены, которые были видны только временно.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">цвета</string>
@@ -124,6 +126,8 @@
     <string name="event_unwrap">развертывание текстур</string>
     <string name="event_correction">Обеспечить медленное движение</string>
     <string name="event_unsharp">Двигайте устройство медленно</string>
+    <string name="scan_discard">Это действие отменит прогресс сканирования.</string>
+    <string name="scan_finish">Сохранение завершит сканирование.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

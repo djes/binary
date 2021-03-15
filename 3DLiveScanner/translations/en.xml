@@ -73,6 +73,8 @@
         <item>Normal noise filter</item>
         <item>Aggressive noise filter</item>
     </string-array>
+    <string name="clearing">Space clearing</string>
+    <string name="clearing_summary">This feature clears data from scene which were only temporarily visible.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Colors</string>
@@ -124,6 +126,8 @@
     <string name="event_unwrap">Unwrapping textures</string>
     <string name="event_correction">Enforce slow movement</string>
     <string name="event_unsharp">Move the device slow</string>
+    <string name="scan_discard">This action will discard the scan progress.</string>
+    <string name="scan_finish">Saving will finish the scanning.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

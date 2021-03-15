@@ -73,6 +73,8 @@
         <item>Filtre de bruit normal</item>
         <item>Filtre de bruit agressif</item>
     </string-array>
+    <string name="clearing">Dégagement d\'espace</string>
+    <string name="clearing_summary">Cette fonction efface les données de la scène qui n\'étaient que temporairement visibles.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Couleurs</string>
@@ -124,6 +126,8 @@
     <string name="event_unwrap">Dépliage de textures</string>
     <string name="event_correction">Appliquer le mouvement lent</string>
     <string name="event_unsharp">Déplacer l\'appareil lentement</string>
+    <string name="scan_discard">Cette action annulera la progression de l\'analyse.</string>
+    <string name="scan_finish">L\'enregistrement terminera la numérisation.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

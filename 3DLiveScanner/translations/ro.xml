@@ -73,6 +73,8 @@
         <item>Filtru de zgomot normal</item>
         <item>Filtru de zgomot agresiv</item>
     </string-array>
+    <string name="clearing">Eliberarea spațiului</string>
+    <string name="clearing_summary">Această caracteristică șterge datele din scenă care erau vizibile doar temporar.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Culori</string>
@@ -124,6 +126,8 @@
     <string name="event_unwrap">Despachetare texturi</string>
     <string name="event_correction">Aplică mișcarea lentă</string>
     <string name="event_unsharp">Mutați dispozitivul lent</string>
+    <string name="scan_discard">Această acțiune va elimina progresul scanării.</string>
+    <string name="scan_finish">Salvarea va finaliza scanarea.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

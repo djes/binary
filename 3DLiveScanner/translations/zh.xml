@@ -73,6 +73,8 @@
         <item>普通噪音过滤器</item>
         <item>激进的噪声过滤器</item>
     </string-array>
+    <string name="clearing">空間清理</string>
+    <string name="clearing_summary">此功能從場景中清除僅臨時可見的數據。</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">颜色</string>
@@ -124,6 +126,8 @@
     <string name="event_unwrap">非闭合特征</string>
     <string name="event_correction">强制缓慢运动</string>
     <string name="event_unsharp">缓慢移动设备</string>
+    <string name="scan_discard">此操作將放棄掃描進度。</string>
+    <string name="scan_finish">保存將完成掃描。</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

@@ -19,7 +19,7 @@
     <string name="wait">Prosím čekejte</string>
     <string name="export">Exportovat data</string>
     <string name="folder_new">Nová složka</string>
-    <string name="folder_up">(Nadřazenou složka)</string>
+    <string name="folder_up">(Nadřazená složka)</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Popis:</string>
@@ -34,7 +34,7 @@
 
     <!-- Settings !-->
     <string name="file_manager">Správce souborů</string>
-    <string name="scan_enhancements">Vylepšeni Skenování</string>
+    <string name="scan_enhancements">Vylepšeni skenování</string>
     <string name="scan_visualisations">Vizualizace skenování</string>
     <string name="anchor">Zobrazit anchory během skenování</string>
     <string name="anchor_summary">Anchory se používají ke stabilizaci sledování polohy zařízení.</string>
@@ -73,6 +73,8 @@
         <item>Normální filtr šumu</item>
         <item>Agresivní filtr šumu</item>
     </string-array>
+    <string name="clearing">Vyčištění prostoru</string>
+    <string name="clearing_summary">Tato funkce vymaže data ze scény, která byla viditelná pouze dočasně.</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Barvy</string>
@@ -98,6 +100,8 @@
     <string name="editor_transform_scale">Škálovat</string>
     <string name="editor_view_normals">Normály</string>
     <string name="editor_deselect">Zrušit výběr</string>
+    <string name="scan_discard">Tato akce smaže progress skenování.</string>
+    <string name="scan_finish">Uložením se skenování dokončí.</string>
 
     <!-- Service !-->
     <string name="action_cancel">Zrušit operaci</string>
