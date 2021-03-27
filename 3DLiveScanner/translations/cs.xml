@@ -20,6 +20,7 @@
     <string name="export">Exportovat data</string>
     <string name="folder_new">Nová složka</string>
     <string name="folder_up">(Nadřazená složka)</string>
+    <string name="data_saved">Data uložena jako</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Popis:</string>
@@ -100,8 +101,6 @@
     <string name="editor_transform_scale">Škálovat</string>
     <string name="editor_view_normals">Normály</string>
     <string name="editor_deselect">Zrušit výběr</string>
-    <string name="scan_discard">Tato akce smaže progress skenování.</string>
-    <string name="scan_finish">Uložením se skenování dokončí.</string>
 
     <!-- Service !-->
     <string name="action_cancel">Zrušit operaci</string>
@@ -128,6 +127,9 @@
     <string name="event_unwrap">Rozbaluji textury</string>
     <string name="event_correction">Vynutit pomalý pohyb</string>
     <string name="event_unsharp">Pohybujte zařízením pomalu</string>
+    <string name="event_align">Zarovnání pozice zařízení</string>
+    <string name="scan_discard">Tato akce smaže progres skenování.</string>
+    <string name="scan_finish">Uložením se skenování dokončí.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

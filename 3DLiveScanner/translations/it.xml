@@ -20,6 +20,7 @@
     <string name="export">Dati di esportazione</string>
     <string name="folder_new">Nuova cartella</string>
     <string name="folder_up">(Cartella principale)</string>
+    <string name="data_saved">Dati salvati come</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descrizione:</string>
@@ -126,6 +127,7 @@
     <string name="event_unwrap">Srotolamento delle texture</string>
     <string name="event_correction">Imponi movimenti lenti</string>
     <string name="event_unsharp">Sposta dispositivo</string>
+    <string name="event_align">Allineamento della posizione del dispositivo</string>
     <string name="scan_discard">Questa azione annullerà l\'avanzamento della scansione.</string>
     <string name="scan_finish">Il salvataggio terminerà la scansione.</string>
 

@@ -20,6 +20,7 @@
     <string name="export">Exportare date</string>
     <string name="folder_new">Dosar nou</string>
     <string name="folder_up">(Dosar părinte)</string>
+    <string name="data_saved">Date salvate ca</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descriere:</string>
@@ -126,6 +127,7 @@
     <string name="event_unwrap">Despachetare texturi</string>
     <string name="event_correction">Aplică mișcarea lentă</string>
     <string name="event_unsharp">Mutați dispozitivul lent</string>
+    <string name="event_align">Alinierea poziției dispozitivului</string>
     <string name="scan_discard">Această acțiune va elimina progresul scanării.</string>
     <string name="scan_finish">Salvarea va finaliza scanarea.</string>
 

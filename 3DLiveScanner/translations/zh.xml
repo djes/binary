@@ -20,6 +20,7 @@
     <string name="export">汇出资料</string>
     <string name="folder_new">新建文件夹</string>
     <string name="folder_up">(上层资料夹)</string>
+    <string name="data_saved">数据另存为</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">描述:</string>
@@ -126,6 +127,7 @@
     <string name="event_unwrap">非闭合特征</string>
     <string name="event_correction">强制缓慢运动</string>
     <string name="event_unsharp">缓慢移动设备</string>
+    <string name="event_align">对准装置的姿势</string>
     <string name="scan_discard">此操作將放棄掃描進度。</string>
     <string name="scan_finish">保存將完成掃描。</string>
 

@@ -20,6 +20,7 @@
     <string name="export">Daten exportieren</string>
     <string name="folder_new">Neuer Ordner</string>
     <string name="folder_up">(Übergeordneten Ordner)</string>
+    <string name="data_saved">Daten gespeichert als</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Beschreibung:</string>
@@ -126,6 +127,7 @@
     <string name="event_unwrap">Auspacken von Texturen</string>
     <string name="event_correction">Erzwingen langsame Bewegungen</string>
     <string name="event_unsharp">Bewegen Sie das Gerät langsam</string>
+    <string name="event_align">Gerätehaltung ausrichten</string>
     <string name="scan_discard">Diese Aktion verwirft den Scan-Fortschritt.</string>
     <string name="scan_finish">Durch Speichern wird der Scanvorgang beendet.</string>
 

@@ -20,6 +20,7 @@
     <string name="export">экспортные данные</string>
     <string name="folder_new">Новая папка</string>
     <string name="folder_up">(Родительская папка)</string>
+    <string name="data_saved">Данные сохранены как</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Описание:</string>
@@ -126,6 +127,7 @@
     <string name="event_unwrap">развертывание текстур</string>
     <string name="event_correction">Обеспечить медленное движение</string>
     <string name="event_unsharp">Двигайте устройство медленно</string>
+    <string name="event_align">Выравнивание позы устройства</string>
     <string name="scan_discard">Это действие отменит прогресс сканирования.</string>
     <string name="scan_finish">Сохранение завершит сканирование.</string>
 

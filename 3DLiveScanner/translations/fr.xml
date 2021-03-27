@@ -20,6 +20,7 @@
     <string name="export">Exporter les données</string>
     <string name="folder_new">Nouveau dossier</string>
     <string name="folder_up">(Dossier parent)</string>
+    <string name="data_saved">Données enregistrées sous</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">La description:</string>
@@ -126,6 +127,7 @@
     <string name="event_unwrap">Dépliage de textures</string>
     <string name="event_correction">Appliquer le mouvement lent</string>
     <string name="event_unsharp">Déplacer l\'appareil lentement</string>
+    <string name="event_align">Alignement de la pose de l\'appareil</string>
     <string name="scan_discard">Cette action annulera la progression de l\'analyse.</string>
     <string name="scan_finish">L\'enregistrement terminera la numérisation.</string>
 

@@ -20,6 +20,7 @@
     <string name="export">Adatok exportálása</string>
     <string name="folder_new">Új mappa</string>
     <string name="folder_up">(Szülő mappa)</string>
+    <string name="data_saved">Az adatok elmentve</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Leírás:</string>
@@ -126,6 +127,7 @@
     <string name="event_unwrap">Textúrák dolgozása</string>
     <string name="event_correction">Kényszerítse a lassú mozgást</string>
     <string name="event_unsharp">Lassan mozgassa az eszközt</string>
+    <string name="event_align">Igazító eszköz póz</string>
     <string name="scan_discard">Ez a művelet elveti a szkennelés folyamatát.</string>
     <string name="scan_finish">A mentés befejezi a szkennelést.</string>
 
