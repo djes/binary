@@ -45,7 +45,7 @@
     <string name="profile_name">Nom du profil</string>
     <string name="profile_new">Nouveau profil</string>
     <string name="mode_realtime">Scan en temps réel</string>
-    <string name="mode_dataset">Capturez un jeu de donnée</string>
+    <string name="mode_dataset">Capturer un jeu de donnée</string>
     <string name="mode_face">Scan de visage</string>
     <string name="scan_object">Scan d\'objet</string>
     <string name="scan_single_room">Scan d\'une seul pièce</string>
