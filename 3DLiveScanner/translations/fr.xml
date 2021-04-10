@@ -77,7 +77,7 @@
     <string name="depth_sensor_summary">L\'utilisation du capteur de profondeur permet un scan plus précis avec plus de détails.</string>
     <string name="gps">Utilisez le GPS pour marquer la position</string>
     <string name="gps_summary">L\'utilisation d\'une balise GPS permet de pouvoir afficher sur la carte où le modèle a été capturé.</string>
-    <string name="fullhd">Capturez des photos FullHD</string>
+    <string name="fullhd">Capturer des photos FullHD</string>
     <string name="fullhd_summary">La capture de photos en FullHD vous permet d\'utiliser les données dans un logiciel de photogrammétrie. Notez que cette option ralentit le processus de numérisation.</string>
     <string name="align_pose">Alignement de la pose de l\'appareil</string>
     <string name="align_pose_summary">Ajuste la pose de l\'appareil pour augmenter la qualité de la texture. Cette option rend la capture beaucoup plus lente.</string>
@@ -102,8 +102,8 @@
         <item>4 mètres - numérisation rapide</item>
         <item>Aucune limite de logiciel</item>
     </string-array>
-    <string name="noise">Filtre à bruit</string>
-    <string name="noise_summary">L\'utilisation du filtre de bruit réduit la quantité de géométrie erronée dans l\'analyse. Notez que cela diminue la vitesse de numérisation.</string>
+    <string name="noise">Filtre de bruit</string>
+    <string name="noise_summary">L\'utilisation du filtre de bruit réduit le nombre de géométries erronées dans l\'analyse. Notez que cela diminue la vitesse de numérisation.</string>
     <string-array name="noise_names">
         <item>Pas de filtre de bruit</item>
         <item>Filtre de bruit normal</item>
@@ -114,7 +114,7 @@
 
     <!-- Editor !-->
     <string name="editor_main_colors">Couleurs</string>
-    <string name="editor_main_select">Sélectionnez</string>
+    <string name="editor_main_select">Sélectionner</string>
     <string name="editor_main_transform">Transformer</string>
     <string name="editor_main_view">Afficher</string>
     <string name="editor_colors_contrast">Contraste</string>
@@ -126,7 +126,7 @@
     <string name="editor_select_object">Objet</string>
     <string name="editor_select_object_desc">Tapez sur l\'objet à sélectionner.</string>
     <string name="editor_select_rect">Rectangle</string>
-    <string name="editor_select_rect_desc">Créez un rectangle de sélection en faisant glisser un rectangle à l\'écran.</string>
+    <string name="editor_select_rect_desc">Créer un rectangle de sélection en faisant glisser un rectangle à l\'écran.</string>
     <string name="editor_select_less">Moins</string>
     <string name="editor_select_more">Plus</string>
     <string name="editor_transform_clone">Copier</string>
@@ -134,7 +134,7 @@
     <string name="editor_transform_move">Déplacer</string>
     <string name="editor_transform_rotate">Pivoter</string>
     <string name="editor_transform_scale">Échelle</string>
-    <string name="editor_view_normals">Normals</string>
+    <string name="editor_view_normals">Normales</string>
     <string name="editor_deselect">Désélectionner</string>
 
     <!-- Service !-->
@@ -145,7 +145,7 @@
     <string name="paused">Scannage en pause</string>
     <string name="postprocessing">Post-traitement du modèle…</string>
     <string name="saving">Sauvegarde du modèle…</string>
-    <string name="turn_off">Vous pouvez quitter l’applicaton sans perdre les données.</string>
+    <string name="turn_off">Vous pouvez quitter l’application sans perdre les données.</string>
     <string name="warning">Avertissement</string>
     <string name="working">L\'application traite les données, ne pas éteindre l\'appareil et ne pas démarrer une autre application utilisant l\'AR.</string>
 
