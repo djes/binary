@@ -14,7 +14,6 @@
     <string name="continue_question">Do you want to continue?</string>
     <string name="info">By using this app you agree with #BEGIN#privacy policy#END#.\n\nAll data are going to be saved in the \"Models\" folder in the internal storage.</string>
     <string name="share_via">Share via</string>
-    <string name="later">Postprocess later</string>
     <string name="postprocess">Postprocess</string>
     <string name="wait">Please wait</string>
     <string name="export">Export data</string>
@@ -35,8 +34,35 @@
 
     <!-- Settings !-->
     <string name="file_manager">File manager</string>
-    <string name="scan_enhancements">Scanning enhancements</string>
+    <string name="sensor_usage">Sensors usage</string>
+    <string name="scan_postprocess">Scanning postprocess</string>
     <string name="scan_visualisations">Scanning visualisations</string>
+    <string name="scan_parameters">Scanning parameters</string>
+    <string name="scan_profile">Scanning profile</string>
+    <string name="profile_add">Add profile</string>
+    <string name="profile_delete">Delete profile</string>
+    <string name="profile_mode">Scanning mode</string>
+    <string name="profile_name">Profile name</string>
+    <string name="profile_new">New profile</string>
+    <string name="mode_realtime">Realtime scanning</string>
+    <string name="mode_dataset">Capture a dataset</string>
+    <string name="mode_face">Face scanning</string>
+    <string name="scan_object">Objects scanning</string>
+    <string name="scan_single_room">Single room scanning</string>
+    <string name="scan_large_interior">Big interior scanning</string>
+    <string name="scan_exterior">Exterior scanning</string>
+    <string name="export_floorplan">Export as floorplan</string>
+    <string name="export_pointcloud">Export as pointcloud</string>
+    <string name="profile_resolution">Resolution</string>
+    <string name="poisson">Poisson reconstruction</string>
+    <string name="poisson_summary">Enable postprocessing algorithm to fix holes in model geometry, note that this algorithm does not work well with open spaces and it can make postprocessing longer.</string>
+    <string name="textures">Limit texture count</string>
+    <string name="textures_summary">Limits the amount of textures. More textures provides better visual quality.</string>
+    <string-array name="textures_names">
+        <item>Single texture</item>
+        <item>Max 4 textures</item>
+        <item>Do not limit</item>
+    </string-array>
     <string name="anchor">Show anchors during scanning</string>
     <string name="anchor_summary">Anchors are used to stabilize tracking of the device position.</string>
     <string name="folder">Show folders first</string>
@@ -47,10 +73,20 @@
     <string name="camera_summary">Showing camera produces additional information about the scanning process, however it could cause device overheating and lower scanning performance.</string>
     <string name="offset">Add offset to the geometry</string>
     <string name="offset_summary">Adding offset to the geometry enables to scan thin objects from both sides. This option makes the geometry less accurate.</string>
+    <string name="depth_sensor">Use depth sensor</string>
+    <string name="depth_sensor_summary">Active depth sensor is more accurate and scans more details.</string>
     <string name="gps">Use GPS to tag the position</string>
     <string name="gps_summary">Using a GPS tag is possible to show on the map where the model was captured.</string>
     <string name="fullhd">Capture fullHD photos</string>
     <string name="fullhd_summary">Capturing fullHD photos into dataset enables you to use the data in photogrammetry software. Note that this option slows down the scanning process.</string>
+    <string name="align_pose">Align device pose</string>
+    <string name="align_pose_summary">Adjusts device pose to increase the texture quality. This option makes capturing much slower.</string>
+    <string name="enforce_slow">Enforce slow movement</string>
+    <string name="enforce_slow_summary">Stops capturing when device moves too fast in order to prevent capturing inaccurate data.</string>
+    <string name="flash_light">Use flashlight</string>
+    <string name="flash_light_summary">Flashlight makes easier scanning in dark places.</string>
+    <string name="photo_mode">Manual photo mode</string>
+    <string name="photo_mode_summary">Captures data after pressing a button, data are immediately texturized.</string>
     <string name="decimation">Decrease polygon count</string>
     <string name="decimation_summary">As a part of postprocessing there is a process called decimation which decreases amount of polygons.</string>
     <string-array name="decimation_names">
@@ -61,7 +97,6 @@
     <string name="limit">Limit scanning distance</string>
     <string name="limit_summary">By limiting scanning distance it is easier to scan only part of the object and filter far depth data with lower accuracy.</string>
     <string-array name="limit_names">
-        <item>Resolution dependent</item>
         <item>1 meter - objects only</item>
         <item>2 meters - best precision</item>
         <item>4 meters - fast scanning</item>
@@ -121,13 +156,10 @@
     <string name="event_convert">Converting data</string>
     <string name="event_image">Processing photo</string>
     <string name="event_merge">Merging results</string>
-    <string name="event_poisson">Poisson reconstruction</string>
     <string name="event_process">Processing model</string>
     <string name="event_simplify">Simplifying geometry</string>
     <string name="event_unwrap">Unwrapping textures</string>
-    <string name="event_correction">Enforce slow movement</string>
     <string name="event_unsharp">Move the device slow</string>
-    <string name="event_align">Align device pose</string>
     <string name="scan_discard">This action will discard the scan progress.</string>
     <string name="scan_finish">Saving will finish the scanning.</string>
 
@@ -140,19 +172,12 @@
     <string name="upgrade3">You can follow the development progress on the following sites:</string>
 
     <!-- Scan dialog !-->
-    <string name="depth_sensor">Use depth sensor</string>
-    <string name="flash_light">Use flashlight</string>
-    <string name="photo_mode">Manual photo mode</string>
     <string name="scan_1_4cm">0.25 cm - Big objects</string>
     <string name="scan_1_2cm">0.5 cm - Composition</string>
     <string name="scan_1cm">1 cm - Small room</string>
     <string name="scan_2cm">2 cm - Interior</string>
     <string name="scan_4cm">4 cm - Exterior</string>
     <string name="scan_8cm">8 cm - Fast scan</string>
-    <string name="scan_face">Face scan</string>
-    <string name="export_floorplan">as floorplan</string>
-    <string name="export_model">as model</string>
-    <string name="export_pointcloud">as pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>

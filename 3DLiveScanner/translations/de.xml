@@ -14,7 +14,6 @@
     <string name="continue_question">Wollen Sie fortfahren?</string>
     <string name="info">Mit der Nutzung dieser App erklären Sie sich mit der #BEGIN#Datenschutzerklärung#END# einverstanden.\n\nAlle Daten werden im Ordner \"Models\" im internen Speicher gespeichert.</string>
     <string name="share_via">Teilen über</string>
-    <string name="later">Später nachbearbeiten</string>
     <string name="postprocess">Nachbearbeiten</string>
     <string name="wait">Bitte warten</string>
     <string name="export">Daten exportieren</string>
@@ -35,8 +34,35 @@
 
     <!-- Settings !-->
     <string name="file_manager">Dateimanager</string>
-    <string name="scan_enhancements">Scan-Verbesserungen</string>
+    <string name="sensor_usage">Verwendung von Sensoren</string>
+    <string name="scan_postprocess">Scan-Nachprozess</string>
     <string name="scan_visualisations">Scan-Visualisierungen</string>
+    <string name="scan_parameters">Scan-Parameter</string>
+    <string name="scan_profile">Scan-Profil</string>
+    <string name="profile_add">Profil hinzufügen</string>
+    <string name="profile_delete">Profil löschen</string>
+    <string name="profile_mode">Scanmodus</string>
+    <string name="profile_name">Profilname</string>
+    <string name="profile_new">Neues Profil</string>
+    <string name="mode_realtime">Echtzeit-Scannen</string>
+    <string name="mode_dataset">Dataset erfassen</string>
+    <string name="mode_face">Gesicht scannen</string>
+    <string name="scan_object">Objekte scannen</string>
+    <string name="scan_single_room">Einzelraum scannen</string>
+    <string name="scan_large_interior">Großer Interior scannen</string>
+    <string name="scan_exterior">Exterior scannen</string>
+    <string name="export_floorplan">Als Grundriss exportieren</string>
+    <string name="export_pointcloud">Als Punktwolke exportieren</string>
+    <string name="profile_resolution">Auflösung</string>
+    <string name="poisson">Poisson Rekonstruktion</string>
+    <string name="poisson_summary">Aktivieren Sie den Nachbearbeitungsalgorithmus, um Löcher in der Modellgeometrie zu reparieren. Beachten Sie, dass dieser Algorithmus bei offenen Räumen nicht gut funktioniert und die Nachbearbeitung verlängern kann.</string>
+    <string name="textures">Begrenzen die Anzahl der Texturen</string>
+    <string name="textures_summary">Beschränken die Anzahl der Texturen. Mehr Texturen sorgen für eine bessere visuelle Qualität.</string>
+    <string-array name="textures_names">
+        <item>Einzelne Textur</item>
+        <item>Max 4 texturen</item>
+        <item>Nicht einschränken</item>
+    </string-array>
     <string name="anchor">Anzeigen beim Scannen Anker</string>
     <string name="anchor_summary">Anker werden verwendet, um die Verfolgung der Geräteposition zu stabilisieren.</string>
     <string name="folder">Ordner zuerst anzeigen</string>
@@ -47,10 +73,20 @@
     <string name="camera_summary">Das Anzeigen der Kamera liefert zusätzliche Informationen zum Scanvorgang, kann jedoch zu einer Überhitzung des Geräts und einer geringeren Scanleistung führen.</string>
     <string name="offset">Versatz zur Geometrie hinzufügen</string>
     <string name="offset_summary">Durch Hinzufügen eines Versatzes zur Geometrie können dünne Objekte von beiden Seiten gescannt werden. Diese Option verringert die Genauigkeit der Geometrie.</string>
+    <string name="depth_sensor">Tiefensensor verwenden</string>
+    <string name="depth_sensor_summary">Der aktive Tiefensensor ist genauer und scannt mehr Details.</string>
     <string name="gps">Verwenden GPS, um die Position zu markieren</string>
     <string name="gps_summary">Mithilfe eines GPS-Tags kann auf der Karte angezeigt werden, wo das Modell erfasst wurde.</string>
     <string name="fullhd">Aufnehmen FullHD-Fotos</string>
     <string name="fullhd_summary">Durch die Aufnahme von FullHD-Fotos in einen Datensatz können Sie die Daten in einer Photogrammetrie-Software verwenden. Beachten Sie, dass diese Option den Scanvorgang verlangsamt.</string>
+    <string name="align_pose">Gerätehaltung ausrichten</string>
+    <string name="align_pose_summary">Passt die Pose des Geräts an, um die Texturqualität zu erhöhen. Diese Option verlangsamt die Erfassung erheblich.</string>
+    <string name="enforce_slow">Erzwingen langsame Bewegungen</string>
+    <string name="enforce_slow_summary">Stoppt die Erfassung, wenn sich das Gerät zu schnell bewegt, um zu verhindern, dass ungenaue Daten erfasst werden.</string>
+    <string name="flash_light">Taschenlampe verwenden</string>
+    <string name="flash_light_summary">Taschenlampe erleichtert das Scannen an dunklen Orten.</string>
+    <string name="photo_mode">Manueller Fotomodus</string>
+    <string name="photo_mode_summary">Erfasst Daten nach Knopfdruck, Daten werden sofort texturiert.</string>
     <string name="decimation">Verringern die Anzahl der Polygone</string>
     <string name="decimation_summary">Als Teil der Nachbearbeitung gibt es einen Prozess namens Dezimierung, der die Anzahl der Polygone verringert.</string>
     <string-array name="decimation_names">
@@ -61,7 +97,6 @@
     <string name="limit">Scandistanz begrenzen</string>
     <string name="limit_summary">Durch die Begrenzung der Scanentfernung ist es einfacher, nur einen Teil des Objekts zu scannen und Daten mit großer Tiefe mit geringerer Genauigkeit zu filtern.</string>
     <string-array name="limit_names">
-        <item>Auflösungsabhängig</item>
         <item>1 Meter - nur Objekte</item>
         <item>2 Meter - beste Präzision</item>
         <item>4 Meter - schnelles Scannen</item>
@@ -121,13 +156,10 @@
     <string name="event_convert">Konvertierung von Daten</string>
     <string name="event_image">Bearbeitung von Fotos</string>
     <string name="event_merge">Ergebnisse zusammenführen</string>
-    <string name="event_poisson">Poisson Rekonstruktion</string>
     <string name="event_process">Verarbeitungsmodell</string>
     <string name="event_simplify">Vereinfachung der Geometrie</string>
     <string name="event_unwrap">Auspacken von Texturen</string>
-    <string name="event_correction">Erzwingen langsame Bewegungen</string>
     <string name="event_unsharp">Bewegen Sie das Gerät langsam</string>
-    <string name="event_align">Gerätehaltung ausrichten</string>
     <string name="scan_discard">Diese Aktion verwirft den Scan-Fortschritt.</string>
     <string name="scan_finish">Durch Speichern wird der Scanvorgang beendet.</string>
 
@@ -140,19 +172,12 @@
     <string name="upgrade3">Auf den folgenden Seiten können Sie den Entwicklungsstand verfolgen:</string>
 
     <!-- Scan dialog !-->
-    <string name="depth_sensor">Tiefensensor verwenden</string>
-    <string name="flash_light">Taschenlampe verwenden</string>
-    <string name="photo_mode">Manueller Fotomodus</string>
     <string name="scan_1_4cm">0.25 cm - Große Objekte</string>
     <string name="scan_1_2cm">0.5 cm - Komposition</string>
     <string name="scan_1cm">1 cm - Kleines Zimmer</string>
     <string name="scan_2cm">2 cm - Drinnen</string>
     <string name="scan_4cm">4 cm - Draußen</string>
     <string name="scan_8cm">8 cm - Schnelles Scannen</string>
-    <string name="scan_face">Gesichtsscan</string>
-    <string name="export_floorplan">als Grundriss</string>
-    <string name="export_model">als Modell</string>
-    <string name="export_pointcloud">als Pointcloud</string>
 
     <string-array name="shares">
         <item>Android Dialog</item>

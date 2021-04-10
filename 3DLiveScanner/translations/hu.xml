@@ -14,7 +14,6 @@
     <string name="continue_question">Folytatni akarod?</string>
     <string name="info">Az app használatával elfogadod a #BEGIN#privacy policy#END#.\n\nAz összes adat el lesz mentve a \"Models\" mappába a tárhelyben.</string>
     <string name="share_via">Megosztás</string>
-    <string name="later">Átdolgozásal később</string>
     <string name="postprocess">Postprocess</string>
     <string name="wait">Kérlek várj!</string>
     <string name="export">Adatok exportálása</string>
@@ -35,8 +34,35 @@
 
     <!-- Settings !-->
     <string name="file_manager">Fájl kezelő</string>
-    <string name="scan_enhancements">Szkennelési fejlesztések</string>
+    <string name="sensor_usage">Az érzékelők használata</string>
+    <string name="scan_postprocess">Beolvasás utófeldolgozás</string>
     <string name="scan_visualisations">Vizualizációk beolvasása</string>
+    <string name="scan_parameters">Szkennelési paraméterek</string>
+    <string name="scan_profile">Szkennelési profil</string>
+    <string name="profile_add">Profil hozzáadása</string>
+    <string name="profile_delete">Profil törlése</string>
+    <string name="profile_mode">Szkennelési mód</string>
+    <string name="profile_name">Profil neve</string>
+    <string name="profile_new">Új profil</string>
+    <string name="mode_realtime">Realtime szkennelés</string>
+    <string name="mode_dataset">Dataset rögzítés</string>
+    <string name="mode_face">Arc szkennelés</string>
+    <string name="scan_object">Tárgyak szkennelése</string>
+    <string name="scan_single_room">Egyágyas szoba szkennelése</string>
+    <string name="scan_large_interior">Nagy belső szkennelés</string>
+    <string name="scan_exterior">Külső szkennelés</string>
+    <string name="export_floorplan">Exportálás alaprajzként</string>
+    <string name="export_pointcloud">Exportálás pointcloud</string>
+    <string name="profile_resolution">Felbontás</string>
+    <string name="poisson">Rekonstrukció elemzése</string>
+    <string name="poisson_summary">Engedélyezze az utófeldolgozási algoritmust a modellgeometriában lévő lyukak kijavításához, vegye figyelembe, hogy ez az algoritmus nem működik jól a nyitott tereknél, és meghosszabbíthatja az utófeldolgozást.</string>
+    <string name="textures">Korlátozza a textúrák számát</string>
+    <string name="textures_summary">Korlátozza a textúrák mennyiségét. A több textúra jobb vizuális minőséget biztosít.</string>
+    <string-array name="textures_names">
+        <item>Egyetlen textúra</item>
+        <item>Max 4 textúra</item>
+        <item>Ne korlátozza</item>
+    </string-array>
     <string name="anchor">Horgonyok megjelenítése szkennelés közben</string>
     <string name="anchor_summary">A horgonyokat a készülék helyzetének követésének stabilizálására használják.</string>
     <string name="folder">Először mutassa meg a mappákat</string>
@@ -47,10 +73,20 @@
     <string name="camera_summary">A kamera bemutatása további információkat szolgáltat a beolvasási folyamatról, azonban ez az eszköz túlmelegedését és alacsonyabb szkennelési teljesítményt okozhat.</string>
     <string name="offset">Eltolás hozzáadása a geometriához</string>
     <string name="offset_summary">Az eltolás hozzáadása a geometriához lehetővé teszi vékony objektumok beolvasását mindkét oldalról. Ezzel az opcióval a geometria kevésbé pontos.</string>
+    <string name="depth_sensor">Mélységérzékelő használata</string>
+    <string name="depth_sensor_summary">Az aktív mélységérzékelő pontosabb és további részleteket szkennel.</string>
     <string name="gps">A GPS segítségével jelölje be a pozíciót</string>
     <string name="gps_summary">GPS-címke segítségével meg lehet jeleníteni a térképen, ahol a modellt rögzítették.</string>
     <string name="fullhd">Készítsen fullHD fényképeket</string>
     <string name="fullhd_summary">A fullHD-fotók adatkészletbe történő rögzítése lehetővé teszi az adatok felhasználását a fotogrammetriai szoftverben. Vegye figyelembe, hogy ez az opció lelassítja a beolvasási folyamatot.</string>
+    <string name="align_pose">Igazító eszköz póz</string>
+    <string name="align_pose_summary">A textúra minőségének növelése érdekében beállítja az eszköz helyzetét. Ez az opció sokkal lassabbá teszi a rögzítést.</string>
+    <string name="enforce_slow">Kényszerítse a lassú mozgást</string>
+    <string name="enforce_slow_summary">Megállítja a rögzítést, ha az eszköz túl gyorsan mozog, hogy megakadályozza a pontatlan adatok rögzítését.</string>
+    <string name="flash_light">Használjon zseblámpát</string>
+    <string name="flash_light_summary">A zseblámpa megkönnyíti a szkennelést sötét helyeken.</string>
+    <string name="photo_mode">Manuális fénykép mód</string>
+    <string name="photo_mode_summary">Gombnyomás után rögzíti az adatokat, az adatok azonnal texturálódnak.</string>
     <string name="decimation">Csökkentse a sokszög számát</string>
     <string name="decimation_summary">Az utófeldolgozás részeként van egy decimációnak nevezett folyamat, amely csökkenti a sokszögek mennyiségét.</string>
     <string-array name="decimation_names">
@@ -61,7 +97,6 @@
     <string name="limit">Korlátozza a szkennelési távolságot</string>
     <string name="limit_summary">A szkennelési távolság korlátozásával könnyebb az objektumnak csak egy részét beolvasni, és a mély mélységű adatokat kisebb pontossággal szűrni.</string>
     <string-array name="limit_names">
-        <item>Felbontástól függ</item>
         <item>1 méter - csak tárgyak</item>
         <item>2 méter - a legjobb pontosság</item>
         <item>4 méter - gyors szkennelés</item>
@@ -121,13 +156,10 @@
     <string name="event_convert">Adat töltése</string>
     <string name="event_image">Fotó számítása</string>
     <string name="event_merge">Átszámítás</string>
-    <string name="event_poisson">Rekonstrukció ekemezése</string>új
     <string name="event_process">Modell elemezése</string>
     <string name="event_simplify">Geometria dolgozása</string>
     <string name="event_unwrap">Textúrák dolgozása</string>
-    <string name="event_correction">Kényszerítse a lassú mozgást</string>
     <string name="event_unsharp">Lassan mozgassa az eszközt</string>
-    <string name="event_align">Igazító eszköz póz</string>
     <string name="scan_discard">Ez a művelet elveti a szkennelés folyamatát.</string>
     <string name="scan_finish">A mentés befejezi a szkennelést.</string>
 
@@ -140,19 +172,12 @@
     <string name="upgrade3">A használati útmutatót folytathatod a következő oldalon:</string>
 
     <!-- Scan dialog !-->
-    <string name="depth_sensor">Mélységérzékelő használata</string>
-    <string name="flash_light">Használjon zseblámpát</string>
-    <string name="photo_mode">Manuális fénykép mód</string>
     <string name="scan_1_4cm">0.25 cm - Nagy objektek</string>
     <string name="scan_1_2cm">0.5 cm - Összeállítás</string>
     <string name="scan_1cm">1 cm - Kicsi szoba</string>
     <string name="scan_2cm">2 cm - Közepes</string>
     <string name="scan_4cm">4 cm - Nagy</string>
     <string name="scan_8cm">8 cm - Gyors szkennelés</string>
-    <string name="scan_face">Arc szkennelése</string>
-    <string name="export_floorplan">alaprajzként</string>
-    <string name="export_model">mint modell</string>
-    <string name="export_pointcloud">mint pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>

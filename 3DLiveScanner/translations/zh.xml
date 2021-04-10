@@ -14,7 +14,6 @@
     <string name="continue_question">您确认要删除吗?</string>
     <string name="info">使用这个APP您同意#BEGIN#隐私条例#END#.\n\n所有的数据将会被储存在 \"Models\" 手机内部文件夹.</string>
     <string name="share_via">分享</string>
-    <string name="later">推迟建模</string>
     <string name="postprocess">建立模型</string>
     <string name="wait">请等待</string>
     <string name="export">汇出资料</string>
@@ -35,8 +34,35 @@
 
     <!-- Settings !-->
     <string name="file_manager">文件管理器</string>
-    <string name="scan_enhancements">扫描增强</string>
+    <string name="sensor_usage">传感器使用</string>
+    <string name="scan_postprocess">扫描后处理</string>
     <string name="scan_visualisations">扫描可视化</string>
+    <string name="scan_parameters">扫描参数</string>
+    <string name="scan_profile">扫描轮廓</string>
+    <string name="profile_add">添加个人资料</string>
+    <string name="profile_delete">删除个人资料</string>
+    <string name="profile_mode">扫描模式</string>
+    <string name="profile_name">资料名称</string>
+    <string name="profile_new">新概况</string>
+    <string name="mode_realtime">实时扫描</string>
+    <string name="mode_dataset">采集数据集</string>
+    <string name="mode_face">脸部扫描</string>
+    <string name="scan_object">对象扫描</string>
+    <string name="scan_single_room">单间扫描</string>
+    <string name="scan_large_interior">大型内部扫描</string>
+    <string name="scan_exterior">外部扫描</string>
+    <string name="export_floorplan">输出为平面图</string>
+    <string name="export_pointcloud">导出为点云</string>
+    <string name="profile_resolution">决议</string>
+    <string name="poisson">泊松重建</string>
+    <string name="poisson_summary">启用后处理算法以修复模型几何中的孔，请注意，该算法不适用于开放空间，并且可以使后处理时间更长。</string>
+    <string name="textures">限制纹理数量</string>
+    <string name="textures_summary">限制纹理数量。 更多的纹理可提供更好的视觉质量。</string>
+    <string-array name="textures_names">
+        <item>单一纹理</item>
+        <item>最多4个纹理</item>
+        <item>不限</item>
+    </string-array>
     <string name="anchor">在扫描过程中显示锚点</string>
     <string name="anchor_summary">锚用于稳定跟踪设备位置。</string>
     <string name="folder">首先显示文件夹</string>
@@ -47,10 +73,20 @@
     <string name="camera_summary">显示相机会产生有关扫描过程的其他信息，但是可能会导致设备过热并降低扫描性能。</string>
     <string name="offset">为几何图形添加偏移量</string>
     <string name="offset_summary">向几何图形添加偏移量可以从两侧扫描薄对象。 此选项使几何形状精度降低。</string>
+    <string name="depth_sensor">使用距离传感器</string>
+    <string name="depth_sensor_summary">主动式深度传感器更加精确，并且可以扫描更多细节。</string>
     <string name="gps">使用GPS标记位置</string>
     <string name="gps_summary">使用GPS标签可以在地图上显示捕获模型的位置。</string>
     <string name="fullhd">捕获全高清照片</string>
     <string name="fullhd_summary">将全高清照片捕获到数据集中，可以使用摄影测量软件中的数据。 请注意，此选项会减慢扫描过程。</string>
+    <string name="align_pose">对准装置的姿势</string>
+    <string name="align_pose_summary">调整设备姿势以增加纹理质量。 此选项使捕获速度慢得多。</string>
+    <string name="enforce_slow">强制缓慢运动</string>
+    <string name="enforce_slow_summary">设备移动太快时停止捕获，以防止捕获不正确的数据。</string>
+    <string name="flash_light">使用手电筒</string>
+    <string name="flash_light_summary">手电筒使在暗处的扫描更加容易。</string>
+    <string name="photo_mode">手动拍照模式</string>
+    <string name="photo_mode_summary">按下按钮后捕获数据，数据立即被纹理化。</string>
     <string name="decimation">减少多边形数量</string>
     <string name="decimation_summary">作为后处理的一部分，存在一个称为抽取的过程，该过程可减少多边形的数量。</string>
     <string-array name="decimation_names">
@@ -61,7 +97,6 @@
     <string name="limit">极限扫描距离</string>
     <string name="limit_summary">通过限制扫描距离，可以更轻松地仅扫描部分对象并以较低的精度过滤远深度数据。</string>
     <string-array name="limit_names">
-        <item>取决于分辨率</item>
         <item>1米-仅限物体</item>
         <item>2米-最佳精度</item>
         <item>4米-快速扫描</item>
@@ -121,13 +156,10 @@
     <string name="event_convert">转换数据</string>
     <string name="event_image">处理相片</string>
     <string name="event_merge">融合结果</string>
-    <string name="event_poisson">泊松重建</string>
     <string name="event_process">处理模型</string>
     <string name="event_simplify">简化几何体</string>
     <string name="event_unwrap">非闭合特征</string>
-    <string name="event_correction">强制缓慢运动</string>
     <string name="event_unsharp">缓慢移动设备</string>
-    <string name="event_align">对准装置的姿势</string>
     <string name="scan_discard">此操作將放棄掃描進度。</string>
     <string name="scan_finish">保存將完成掃描。</string>
 
@@ -140,19 +172,12 @@
     <string name="upgrade3">你可以通过以下网站追踪开发的进程:</string>
 
     <!-- Scan dialog !-->
-    <string name="depth_sensor">使用距离传感器</string>
-    <string name="flash_light">使用手电筒</string>
-    <string name="photo_mode">手动拍照模式</string>
     <string name="scan_1_4cm">0.25 cm - 结果精细，模型较大</string>
     <string name="scan_1_2cm">0.5 cm - 适合扫描结构</string>
     <string name="scan_1cm">1 cm - 适合扫描小房间</string>
     <string name="scan_2cm">2 cm - 适合扫描模型内表面</string>
     <string name="scan_4cm">4 cm - 适合扫描模型外表面</string>
     <string name="scan_8cm">8 cm - 快速扫描</string>
-    <string name="scan_face">脸部扫描</string>
-    <string name="export_floorplan">作为平面图</string>
-    <string name="export_model">作为模特</string>
-    <string name="export_pointcloud">作为点云</string>
 
     <string-array name="shares">
         <item>手机内置</item>

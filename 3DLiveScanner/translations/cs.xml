@@ -14,7 +14,6 @@
     <string name="continue_question">Chcete pokračovat?</string>
     <string name="info">Používáním této aplikace souhlasíte s #BEGIN#podmínkami ochrany soukromí#END#.\n\nVeškerá data budou uložena ve složce \"Models\" v interním úložišti</string>
     <string name="share_via">Sdílet pomocí</string>
-    <string name="later">Zpracovat později</string>
     <string name="postprocess">Zpracovat</string>
     <string name="wait">Prosím čekejte</string>
     <string name="export">Exportovat data</string>
@@ -35,8 +34,35 @@
 
     <!-- Settings !-->
     <string name="file_manager">Správce souborů</string>
-    <string name="scan_enhancements">Vylepšeni skenování</string>
+    <string name="sensor_usage">Použití senzorů</string>
+    <string name="scan_postprocess">Postproces skenování</string>
     <string name="scan_visualisations">Vizualizace skenování</string>
+    <string name="scan_parameters">Parametry skenování</string>
+    <string name="scan_profile">Profil skenování</string>
+    <string name="profile_add">Přidat profil</string>
+    <string name="profile_delete">Smazat profil</string>
+    <string name="profile_mode">Režim skenování</string>
+    <string name="profile_name">Jméno profilu</string>
+    <string name="profile_new">Nový profil</string>
+    <string name="mode_realtime">Realtime skenování</string>
+    <string name="mode_dataset">Zaznamenat dataset</string>
+    <string name="mode_face">Skenování obličeje</string>
+    <string name="scan_object">Skenování objektů</string>
+    <string name="scan_single_room">Skenování jedné místnosti</string>
+    <string name="scan_large_interior">Skenování velkého interiéru</string>
+    <string name="scan_exterior">Skenování exterioru</string>
+    <string name="export_floorplan">Exportovat jako půdorys</string>
+    <string name="export_pointcloud">Exportovat jako pointcloud</string>
+    <string name="profile_resolution">Rozlišení</string>
+    <string name="poisson">Poissonova rekonstrukce</string>
+    <string name="poisson_summary">Povolte postprocesní algoritmus k opravě děr v geometrii modelu. Pamatujte, že tento algoritmus nefunguje dobře s otevřenými prostory a může postprocesing prodloužit.</string>
+    <string name="textures">Omezit počet textur</string>
+    <string name="textures_summary">Omezuje množství textur. Více textur poskytuje lepší vizuální kvalitu.</string>
+    <string-array name="textures_names">
+        <item>Jedna textura</item>
+        <item>Max 4 textury</item>
+        <item>Neomezovat</item>
+    </string-array>
     <string name="anchor">Zobrazit anchory během skenování</string>
     <string name="anchor_summary">Anchory se používají ke stabilizaci sledování polohy zařízení.</string>
     <string name="folder">Zobrazit složky první</string>
@@ -45,23 +71,32 @@
     <string name="sort_summary">Zobrazit nejnovější skenování v horní části hlavní obrazovky.</string>
     <string name="camera">Zobrazit data fotoaparátu během skenování</string>
     <string name="camera_summary">Zobrazená kamera produkuje další informace o procesu skenování, může však způsobit přehřátí zařízení a nižší výkon skenování.</string>
-    <string name="offset">Přidejte k geometrii odsazení</string>
+    <string name="offset">Přidat k geometrii odsazení</string>
     <string name="offset_summary">Přidání offsetu ke geometrii umožňuje skenovat tenké objekty z obou stran. Tato možnost snižuje přesnost geometrie.</string>
+    <string name="depth_sensor">Použít depth senzor</string>
+    <string name="depth_sensor_summary">Aktivní depth senzor je přesnější a skenuje více podrobností.</string>
     <string name="gps">Pomocí GPS označit polohu</string>
     <string name="gps_summary">Pomocí značky GPS je možné zobrazit na mapě, kde byl model zachycen.</string>
     <string name="fullhd">Pořizovat fotografie v rozlišení FullHD</string>
     <string name="fullhd_summary">Pořizování fotografií v rozlišení FullHD do datové sady umožňuje používat data v softwaru pro fotogrammetrii. Tato možnost zpomaluje proces skenování.</string>
-    <string name="decimation">Snižit počet polygonů</string>
+    <string name="align_pose">Zarovnání pozice zařízení</string>
+    <string name="align_pose_summary">Upravuje polohu zařízení pro zvýšení kvality textury. Díky této možnosti je snímání mnohem pomalejší.</string>
+    <string name="enforce_slow">Vynutit pomalý pohyb</string>
+    <string name="enforce_slow_summary">Zastaví snímání, když se zařízení pohybuje příliš rychle, aby se zabránilo zachycení nepřesných dat.</string>
+    <string name="flash_light">Použít svítilnu</string>
+    <string name="flash_light_summary">Svítilna usnadňuje skenování na tmavých místech.</string>
+    <string name="photo_mode">Manuální foto režim</string>
+    <string name="photo_mode_summary">Zachycuje data po stisknutí tlačítka, data jsou okamžitě texturována.</string>
+    <string name="decimation">Snížit počet polygonů</string>
     <string name="decimation_summary">Součástí postprocesingu je proces zvaný decimace, který snižuje množství polygonů.</string>
     <string-array name="decimation_names">
         <item>Maximální detail</item>
         <item>Optimální pro VR</item>
         <item>Nízký počet polygonů</item>
     </string-array>
-    <string name="limit">Omezení skenovací vzdálenost</string>
-    <string name="limit_summary">Omezením vzdálenosti skenování je snazší skenovat pouze část objektu a filtrovat data vzdálené hloubky s nižší přesností.</string>
+    <string name="limit">Omezit skenovací vzdálenost</string>
+    <string name="limit_summary">Omezením vzdálenosti skenování je snazší skenovat pouze část objektu a filtrovat vzdálené data s nižší přesností.</string>
     <string-array name="limit_names">
-        <item>Závisí na rozlišení</item>
         <item>1 metr - pouze objekty</item>
         <item>2 metry - nejlepší přesnost</item>
         <item>4 metry - rychlé skenování</item>
@@ -121,13 +156,10 @@
     <string name="event_convert">Konvertuji data</string>
     <string name="event_image">Zpracovávám fotku</string>
     <string name="event_merge">Merguji výsledky</string>
-    <string name="event_poisson">Poissonova rekonstrukce</string>
     <string name="event_process">Zpracovávám model</string>
     <string name="event_simplify">Zjednodušuji geometrii</string>
     <string name="event_unwrap">Rozbaluji textury</string>
-    <string name="event_correction">Vynutit pomalý pohyb</string>
     <string name="event_unsharp">Pohybujte zařízením pomalu</string>
-    <string name="event_align">Zarovnání pozice zařízení</string>
     <string name="scan_discard">Tato akce smaže progres skenování.</string>
     <string name="scan_finish">Uložením se skenování dokončí.</string>
 
@@ -140,19 +172,12 @@
     <string name="upgrade3">Progres vývoje můžete sledovat na těchto portálech:</string>
 
     <!-- Scan dialog !-->
-    <string name="depth_sensor">Použít depth senzor</string>
-    <string name="flash_light">Použít svítilnu</string>
-    <string name="photo_mode">Manuální foto režim</string>
     <string name="scan_1_4cm">0.25 cm - Velké objekty</string>
     <string name="scan_1_2cm">0.5 cm - Kompozice</string>
     <string name="scan_1cm">1 cm - Malá místnost</string>
     <string name="scan_2cm">2 cm - Interior</string>
     <string name="scan_4cm">4 cm - Exterior</string>
     <string name="scan_8cm">8 cm - Rychlý sken</string>
-    <string name="scan_face">Skenování obličeje</string>
-    <string name="export_floorplan">jako půdorys</string>
-    <string name="export_model">jako model</string>
-    <string name="export_pointcloud">jako pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>

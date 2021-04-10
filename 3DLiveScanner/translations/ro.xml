@@ -14,7 +14,6 @@
     <string name="continue_question">Dorești să continui?</string>
     <string name="info">Utilizând această aplicație ești de acord cu #BEGIN#politica de confidențialitate#END#.\n\n Toate datele vor fi salvate în folder-ul \"Models\" din memoria internă.</string>
     <string name="share_via">Distribuiți prin intermediul</string>
-    <string name="later">Postprocesează mai târziu</string>
     <string name="postprocess">Postprocesează</string>
     <string name="wait">Așteaptă te rog</string>
     <string name="export">Exportare date</string>
@@ -35,8 +34,35 @@
 
     <!-- Settings !-->
     <string name="file_manager">Manager de fișiere</string>
-    <string name="scan_enhancements">Îmbunătățiri de scanare</string>
+    <string name="sensor_usage">Utilizarea senzorilor</string>
+    <string name="scan_postprocess">Scanare postproces</string>
     <string name="scan_visualisations">Vizualizări de scanare</string>
+    <string name="scan_parameters">Parametrii de scanare</string>
+    <string name="scan_profile">Profil de scanare</string>
+    <string name="profile_add">Adăugați profilul</string>
+    <string name="profile_delete">Ștergeți profilul</string>
+    <string name="profile_mode">Modul de scanare</string>
+    <string name="profile_name">Numele profilului</string>
+    <string name="profile_new">Profil nou</string>
+    <string name="mode_realtime">Realtime scanare</string>
+    <string name="mode_dataset">Capturarea dataset</string>
+    <string name="mode_face">Scanarea feței</string>
+    <string name="scan_object">Scanarea obiectelor</string>
+    <string name="scan_single_room">Scanare cameră single</string>
+    <string name="scan_large_interior">Scanare interioară mare</string>
+    <string name="scan_exterior">Scanare exterioară</string>
+    <string name="export_floorplan">Exportați ca plan de etaj</string>
+    <string name="export_pointcloud">Exportați ca pointcloud</string>
+    <string name="profile_resolution">Rezoluție</string>
+    <string name="poisson">Reconstrucție Poisson</string>
+    <string name="poisson_summary">Activați algoritmul de postprocesare pentru a remedia găurile în geometria modelului, rețineți că acest algoritm nu funcționează bine cu spațiile deschise și poate face postprocesarea mai lungă.</string>
+    <string name="textures">Limitați numărul de texturi</string>
+    <string name="textures_summary">Limită cantitatea de texturi. Mai multe texturi oferă o calitate vizuală mai bună.</string>
+    <string-array name="textures_names">
+        <item>Textură unică</item>
+        <item>Max 4 texturi</item>
+        <item>Nu limitați</item>
+    </string-array>
     <string name="anchor">Afișați ancorele în timpul scanării</string>
     <string name="anchor_summary">Ancorele sunt utilizate pentru a stabiliza urmărirea poziției dispozitivului.</string>
     <string name="folder">Arată mai întâi folderele</string>
@@ -47,10 +73,20 @@
     <string name="camera_summary">Afișarea camerei produce informații suplimentare despre procesul de scanare, însă ar putea provoca supraîncălzirea dispozitivului și performanțe de scanare mai scăzute.</string>
     <string name="offset">Adăugați offset la geometrie</string>
     <string name="offset_summary">Adăugarea de offset la geometrie permite scanarea obiectelor subțiri din ambele părți. Această opțiune face geometria mai puțin precisă.</string>
+    <string name="depth_sensor">Utilizare senzor de profunzime</string>
+    <string name="depth_sensor_summary">Senzorul de adâncime activ este mai precis și scanează mai multe detalii.</string>
     <string name="gps">Folosiți GPS pentru a marca poziția</string>
     <string name="gps_summary">Folosind o etichetă GPS este posibil să se afișeze pe hartă unde a fost capturat modelul.</string>
     <string name="fullhd">Capturați fotografii fullHD</string>
     <string name="fullhd_summary">Capturarea fotografiilor fullHD în setul de date vă permite să utilizați datele din software-ul de fotogrametrie. Rețineți că această opțiune încetinește procesul de scanare.</string>
+    <string name="align_pose">Alinierea poziției dispozitivului</string>
+    <string name="align_pose_summary">Captează date după apăsarea unui buton, datele sunt texturate imediat.</string>
+    <string name="enforce_slow">Aplică mișcarea lentă</string>
+    <string name="enforce_slow_summary">Oprește capturarea atunci când dispozitivul se mișcă prea repede pentru a preveni capturarea datelor inexacte.</string>
+    <string name="flash_light">Folosiți lanterna</string>
+    <string name="flash_light_summary">Lanterna facilitează scanarea în locuri întunecate.</string>
+    <string name="photo_mode">Mod foto manual</string>
+    <string name="photo_mode_summary">Captează date după apăsarea unui buton, datele sunt texturate imediat.</string>
     <string name="decimation">Reduceți numărul poligonului</string>
     <string name="decimation_summary">Ca parte a postprocesării există un proces numit decimare care scade cantitatea de poligoane.</string>
     <string-array name="decimation_names">
@@ -61,7 +97,6 @@
     <string name="limit">Limitați distanța de scanare</string>
     <string name="limit_summary">Limitând distanța de scanare, este mai ușor să scanați doar o parte a obiectului și să filtrați datele de adâncime cu o precizie mai mică.</string>
     <string-array name="limit_names">
-        <item>Depinde de rezoluție</item>
         <item>1 metru - numai obiecte</item>
         <item>2 metri - cea mai bună precizie</item>
         <item>4 metri - scanare rapidă</item>
@@ -121,13 +156,10 @@
     <string name="event_convert">Conversie date</string>
     <string name="event_image">Procesare foto</string>
     <string name="event_merge">Îmbinare rezultate</string>
-    <string name="event_poisson">Reconstrucție Poisson</string>
     <string name="event_process">Procesare model</string>
     <string name="event_simplify">Simplificare geometrie</string>
     <string name="event_unwrap">Despachetare texturi</string>
-    <string name="event_correction">Aplică mișcarea lentă</string>
     <string name="event_unsharp">Mutați dispozitivul lent</string>
-    <string name="event_align">Alinierea poziției dispozitivului</string>
     <string name="scan_discard">Această acțiune va elimina progresul scanării.</string>
     <string name="scan_finish">Salvarea va finaliza scanarea.</string>
 
@@ -140,19 +172,12 @@
     <string name="upgrade3">Poți urmări progresul dezvoltării pe următoarele site-uri web:</string>
 
     <!-- Scan dialog !-->
-    <string name="depth_sensor">Utilizare senzor de profunzime</string>
-    <string name="flash_light">Folosiți lanterna</string>
-    <string name="photo_mode">Mod foto manual</string>
     <string name="scan_1_4cm">0.25 cm – Obiecte mari</string>
     <string name="scan_1_2cm">0.5 cm - Compoziție</string>
     <string name="scan_1cm">1 cm – Încăpere mică</string>
     <string name="scan_2cm">2 cm - Interior</string>
     <string name="scan_4cm">4 cm - Exterior</string>
     <string name="scan_8cm">8 cm – Scanare rapidă</string>
-    <string name="scan_face">Scanarea unei fețe</string>
-    <string name="export_floorplan">ca plan de nivel</string>
-    <string name="export_model">ca model</string>
-    <string name="export_pointcloud">ca nor de puncte</string>
 
     <string-array name="shares">
         <item>Android dialog</item>

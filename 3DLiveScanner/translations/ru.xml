@@ -14,7 +14,6 @@
     <string name="continue_question">вы хотите продолжить?</string>
     <string name="info">прежде чем вы начнете использовать приложение #BEGIN#соглашение о конфиденциальности#END#.\n\n все файлы должны быть сохранены в \"Models\" папка в корневом диске.</string>
     <string name="share_via">отправить через</string>
-    <string name="later">Постпроцесс позже</string>
     <string name="postprocess">постпроцесс</string>
     <string name="wait">Пожалуйста, подождите</string>
     <string name="export">экспортные данные</string>
@@ -35,8 +34,35 @@
 
     <!-- Settings !-->
     <string name="file_manager">Файловый менеджер</string>
-    <string name="scan_enhancements">Улучшения сканирования</string>
+    <string name="sensor_usage">Использование датчиков</string>
+    <string name="scan_postprocess">Постпроцесс сканирования</string>
     <string name="scan_visualisations">Сканирующие визуализации</string>
+    <string name="scan_parameters">Параметры сканирования</string>
+    <string name="scan_profile">Профиль сканирования</string>
+    <string name="profile_add">Добавить профиль</string>
+    <string name="profile_delete">Удалить профиль</string>
+    <string name="profile_mode">Режим сканирования</string>
+    <string name="profile_name">Название профиля</string>
+    <string name="profile_new">Новый профиль</string>
+    <string name="mode_realtime">Сканирование в реальном времени</string>
+    <string name="mode_dataset">Захват набора данных</string>
+    <string name="mode_face">сканирование лиц</string>
+    <string name="scan_object">Сканирование объектов</string>
+    <string name="scan_single_room">Однокомнатное сканирование</string>
+    <string name="scan_large_interior">Большое внутреннее сканирование</string>
+    <string name="scan_exterior">Внешнее сканирование</string>
+    <string name="export_floorplan">Экспорт как план этажа</string>
+    <string name="export_pointcloud">Экспорт как облако точек</string>
+    <string name="profile_resolution">Резолюция</string>
+    <string name="poisson">Восстановление Пуассона</string>
+    <string name="poisson_summary">Включите алгоритм постобработки, чтобы исправить дыры в геометрии модели, обратите внимание, что этот алгоритм плохо работает с открытыми пространствами и может увеличить продолжительность постобработки.</string>
+    <string name="textures">Ограничить количество текстур</string>
+    <string name="textures_summary">Ограничивает количество текстур. Больше текстур обеспечивает лучшее визуальное качество.</string>
+    <string-array name="textures_names">
+        <item>Одиночная текстура</item>
+        <item>Max 4 текстуры</item>
+        <item>Не ограничивать</item>
+    </string-array>
     <string name="anchor">Показывать якоря во время сканирования</string>
     <string name="anchor_summary">Якоря используются для стабилизации отслеживания положения устройства.</string>
     <string name="folder">Сначала показывать папки</string>
@@ -47,10 +73,20 @@
     <string name="camera_summary">Отображение камеры дает дополнительную информацию о процессе сканирования, однако это может привести к перегреву устройства и снижению производительности сканирования.</string>
     <string name="offset">Добавить смещение к геометрии</string>
     <string name="offset_summary">Добавление смещения к геометрии позволяет сканировать тонкие объекты с обеих сторон. Эта опция делает геометрию менее точной.</string>
+    <string name="depth_sensor">использовать датчик глубины</string>
+    <string name="depth_sensor_summary">Активный датчик глубины более точен и сканирует больше деталей.</string>
     <string name="gps">Используйте GPS, чтобы отметить позицию</string>
     <string name="gps_summary">Использование тега GPS можно показать на карте, где была снята модель.</string>
     <string name="fullhd">Захват фотографий fullHD</string>
     <string name="fullhd_summary">Захват фотографий fullHD в набор данных позволяет использовать данные в программном обеспечении для фотограмметрии. Обратите внимание, что эта опция замедляет процесс сканирования.</string>
+    <string name="align_pose">Выравнивание позы устройства</string>
+    <string name="align_pose_summary">Регулирует позу устройства для повышения качества текстуры. Эта опция значительно замедляет захват.</string>
+    <string name="enforce_slow">Обеспечить медленное движение</string>
+    <string name="enforce_slow_summary">Останавливает захват, когда устройство движется слишком быстро, чтобы предотвратить захват неточных данных.</string>
+    <string name="flash_light">Использовать фонарик</string>
+    <string name="flash_light_summary">Фонарик упрощает сканирование в темных местах.</string>
+    <string name="photo_mode">Ручной режим фото</string>
+    <string name="photo_mode_summary">Захватывает данные после нажатия кнопки, данные сразу текстурируются.</string>
     <string name="decimation">Уменьшить количество полигонов</string>
     <string name="decimation_summary">В рамках постобработки существует процесс, называемый прореживанием, который уменьшает количество полигонов.</string>
     <string-array name="decimation_names">
@@ -61,7 +97,6 @@
     <string name="limit">Ограничить расстояние сканирования</string>
     <string name="limit_summary">Ограничивая расстояние сканирования, легче сканировать только часть объекта и фильтровать данные с большой глубины с меньшей точностью.</string>
     <string-array name="limit_names">
-        <item>Зависит от разрешения</item>
         <item>1 метр - только объекты</item>
         <item>2 метра - лучшая точность</item>
         <item>4 метра - быстрое сканирование</item>
@@ -121,13 +156,10 @@
     <string name="event_convert">преобразование данных</string>
     <string name="event_image">обработка фото</string>
     <string name="event_merge">влияние результатов</string>
-    <string name="event_poisson">Восстановление Пуассона</string>
     <string name="event_process">обработка модели</string>
     <string name="event_simplify">упрощение геометрии</string>
     <string name="event_unwrap">развертывание текстур</string>
-    <string name="event_correction">Обеспечить медленное движение</string>
     <string name="event_unsharp">Двигайте устройство медленно</string>
-    <string name="event_align">Выравнивание позы устройства</string>
     <string name="scan_discard">Это действие отменит прогресс сканирования.</string>
     <string name="scan_finish">Сохранение завершит сканирование.</string>
 
@@ -140,19 +172,12 @@
     <string name="upgrade3">Вы можете следить за ходом разработки на следующих сайтах:</string>
 
     <!-- Scan dialog !-->
-    <string name="depth_sensor">использовать датчик глубины</string>
-    <string name="flash_light">Использовать фонарик</string>
-    <string name="photo_mode">Ручной режим фото</string>
     <string name="scan_1_4cm">0.25 cm - Большие объекты</string>
     <string name="scan_1_2cm">0.5 cm - состав</string>
     <string name="scan_1cm">1 cm - маленькая комната</string>
     <string name="scan_2cm">2 cm - интерьер</string>
     <string name="scan_4cm">4 cm - экстерьер</string>
     <string name="scan_8cm">8 cm - Быстрое сканирование</string>
-    <string name="scan_face">сканировать лицо</string>
-    <string name="export_floorplan">в виде плана этажа</string>
-    <string name="export_model">в качестве модели</string>
-    <string name="export_pointcloud">как pointcloud</string>
 
     <string-array name="shares">
         <item>Android dialog</item>
