@@ -162,6 +162,7 @@
     <string name="event_unsharp">Mutați dispozitivul lent</string>
     <string name="scan_discard">Această acțiune va elimina progresul scanării.</string>
     <string name="scan_finish">Salvarea va finaliza scanarea.</string>
+    <string name="scan_rewind">Reîntoarceți procesul de scanare la o stare din care doriți să continuați.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

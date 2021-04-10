@@ -162,6 +162,7 @@
     <string name="event_unsharp">Mover dispositivo lento</string>
     <string name="scan_discard">Esta acción descartará el progreso del análisis.</string>
     <string name="scan_finish">Guardar finalizará el escaneo.</string>
+    <string name="scan_rewind">Rebobine el proceso de escaneo hasta un estado desde el que desee continuar.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

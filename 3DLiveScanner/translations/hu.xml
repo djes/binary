@@ -162,6 +162,7 @@
     <string name="event_unsharp">Lassan mozgassa az eszközt</string>
     <string name="scan_discard">Ez a művelet elveti a szkennelés folyamatát.</string>
     <string name="scan_finish">A mentés befejezi a szkennelést.</string>
+    <string name="scan_rewind">Tekerje vissza a beolvasási folyamatot abba az állapotba, ahonnan folytatni kívánja.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

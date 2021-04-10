@@ -162,6 +162,7 @@
     <string name="event_unsharp">Pohybujte zařízením pomalu</string>
     <string name="scan_discard">Tato akce smaže progres skenování.</string>
     <string name="scan_finish">Uložením se skenování dokončí.</string>
+    <string name="scan_rewind">Přetočte proces skenování do stavu, ze kterého chcete pokračovat.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

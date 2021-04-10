@@ -162,6 +162,7 @@
     <string name="event_unsharp">Двигайте устройство медленно</string>
     <string name="scan_discard">Это действие отменит прогресс сканирования.</string>
     <string name="scan_finish">Сохранение завершит сканирование.</string>
+    <string name="scan_rewind">Перемотайте процесс сканирования в состояние, из которого вы хотите продолжить.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

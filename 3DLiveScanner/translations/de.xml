@@ -162,6 +162,7 @@
     <string name="event_unsharp">Bewegen Sie das Gerät langsam</string>
     <string name="scan_discard">Diese Aktion verwirft den Scan-Fortschritt.</string>
     <string name="scan_finish">Durch Speichern wird der Scanvorgang beendet.</string>
+    <string name="scan_rewind">Spulen den Scanvorgang bis zu einem Zustand zurück, von dem aus Sie fortfahren möchten.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

@@ -37,31 +37,31 @@
     <string name="sensor_usage">Utilisation des capteurs</string>
     <string name="scan_postprocess">Analyse du post-traitement</string>
     <string name="scan_visualisations">Visualisation du scan</string>
-    <string name="scan_parameters">Paramètres de balayage</string>
-    <string name="scan_profile">Profil de balayage</string>
+    <string name="scan_parameters">Paramètres du scan</string>
+    <string name="scan_profile">Profil de scans</string>
     <string name="profile_add">Ajouter un profil</string>
     <string name="profile_delete">Supprimer le profil</string>
-    <string name="profile_mode">Mode de numérisation</string>
+    <string name="profile_mode">Mode de scan</string>
     <string name="profile_name">Nom du profil</string>
     <string name="profile_new">Nouveau profil</string>
-    <string name="mode_realtime">Balayage realtime</string>
-    <string name="mode_dataset">Capturez un dataset</string>
-    <string name="mode_face">Balayage du visage</string>
-    <string name="scan_object">Balayage des objets</string>
-    <string name="scan_single_room">Balayage en chambre simple</string>
-    <string name="scan_large_interior">Balayage grand intérieur</string>
-    <string name="scan_exterior">Balayage extérieur</string>
-    <string name="export_floorplan">Exporter comme plan d\'étage</string>
-    <string name="export_pointcloud">Exporter comme pointcloud</string>
+    <string name="mode_realtime">Scan en temps réel</string>
+    <string name="mode_dataset">Capturez un jeu de donnée</string>
+    <string name="mode_face">Scan de visage</string>
+    <string name="scan_object">Scan d\'objet</string>
+    <string name="scan_single_room">Scan d\'une seul pièce</string>
+    <string name="scan_large_interior">Scan à d\'intérieur</string>
+    <string name="scan_exterior">Scan à d\'extérieur</string>
+    <string name="export_floorplan">Exporter comme plan</string>
+    <string name="export_pointcloud">Exporter comme nuage de points</string>
     <string name="profile_resolution">Résolution</string>
     <string name="poisson">Reconstruction avec l\'algorithme Poisson</string>
-    <string name="poisson_summary">Activez l\'algorithme de post-traitement pour corriger les trous dans la géométrie du modèle, notez que cet algorithme ne fonctionne pas bien avec les espaces ouverts et qu\'il peut allonger le post-traitement.</string>
+    <string name="poisson_summary">Activez l\'algorithme de post-traitement pour boucher les trous dans la géométrie du modèle, notez que cet algorithme ne fonctionne pas bien avec les espaces ouverts et qu\'il peut allonger le post-traitement.</string>
     <string name="textures">Limiter le nombre de textures</string>
     <string name="textures_summary">Limite la quantité de textures. Plus de textures offre une meilleure qualité visuelle.</string>
     <string-array name="textures_names">
         <item>Texture unique</item>
         <item>Max 4 textures</item>
-        <item>Ne limite pas</item>
+        <item>Pas de limitation</item>
     </string-array>
     <string name="anchor">Afficher les ancres lors du scan</string>
     <string name="anchor_summary">Les ancres sont utilisées pour stabiliser le suivi de la position de l\'appareil.</string>
@@ -74,14 +74,14 @@
     <string name="offset">Ajouter un décalage à la géométrie</string>
     <string name="offset_summary">L\'ajout d\'un décalage à la géométrie permet de scanner des objets fins des deux côtés. Cette option rend la géométrie moins précise.</string>
     <string name="depth_sensor">Utiliser le capteur de profondeur</string>
-    <string name="depth_sensor_summary">Le capteur de profondeur actif est plus précis et scanne plus de détails.</string>
+    <string name="depth_sensor_summary">L\'utilisation du capteur de profondeur permet un scan plus précis avec plus de détails.</string>
     <string name="gps">Utilisez le GPS pour marquer la position</string>
     <string name="gps_summary">L\'utilisation d\'une balise GPS permet de pouvoir afficher sur la carte où le modèle a été capturé.</string>
     <string name="fullhd">Capturez des photos FullHD</string>
     <string name="fullhd_summary">La capture de photos en FullHD vous permet d\'utiliser les données dans un logiciel de photogrammétrie. Notez que cette option ralentit le processus de numérisation.</string>
     <string name="align_pose">Alignement de la pose de l\'appareil</string>
     <string name="align_pose_summary">Ajuste la pose de l\'appareil pour augmenter la qualité de la texture. Cette option rend la capture beaucoup plus lente.</string>
-    <string name="enforce_slow">Appliquer le mouvement lent</string>
+    <string name="enforce_slow">Forcer un mouvement lent</string>
     <string name="enforce_slow_summary">Arrête la capture lorsque l\'appareil se déplace trop rapidement afin d\'éviter de capturer des données inexactes.</string>
     <string name="flash_light">Utiliser le flash</string>
     <string name="flash_light_summary">La lampe de poche facilite la numérisation dans les endroits sombres.</string>
@@ -109,7 +109,7 @@
         <item>Filtre de bruit normal</item>
         <item>Filtre de bruit agressif</item>
     </string-array>
-    <string name="clearing">Dégagement d\'espace</string>
+    <string name="clearing">Nettoyage de l\'espace</string>
     <string name="clearing_summary">Cette fonction efface les données de la scène qui n\'étaient que temporairement visibles.</string>
 
     <!-- Editor !-->
@@ -162,6 +162,7 @@
     <string name="event_unsharp">Déplacer l\'appareil lentement</string>
     <string name="scan_discard">Cette action annulera la progression de l\'analyse.</string>
     <string name="scan_finish">L\'enregistrement terminera la numérisation.</string>
+    <string name="scan_rewind">Revenir en arrière dans le processus de numérisation jusqu\'à un état à partir duquel vous voulez continuer.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

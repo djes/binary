@@ -162,6 +162,7 @@
     <string name="event_unsharp">Sposta dispositivo</string>
     <string name="scan_discard">Questa azione annullerà l\'avanzamento della scansione.</string>
     <string name="scan_finish">Il salvataggio terminerà la scansione.</string>
+    <string name="scan_rewind">Riavvolgere il processo di scansione ad uno stato da cui si vuole continuare.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

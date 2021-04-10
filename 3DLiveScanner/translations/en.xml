@@ -162,6 +162,7 @@
     <string name="event_unsharp">Move the device slow</string>
     <string name="scan_discard">This action will discard the scan progress.</string>
     <string name="scan_finish">Saving will finish the scanning.</string>
+    <string name="scan_rewind">Rewind the scan process to a state from which you want to continue.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
