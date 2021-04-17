@@ -125,6 +125,8 @@
     <string name="editor_select_all">全选/取消</string>
     <string name="editor_select_object">对象</string>
     <string name="editor_select_object_desc">点击您想选择的对象.</string>
+    <string name="editor_select_circle">圈子</string>
+    <string name="editor_select_circle_desc">在屏幕上拖动一个圆圈来创建选择圈。</string>
     <string name="editor_select_rect">矩形</string>
     <string name="editor_select_rect_desc">通过拖拽在屏幕上创建矩形.</string>
     <string name="editor_select_less">缩小</string>

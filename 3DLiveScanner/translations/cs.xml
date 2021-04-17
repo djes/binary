@@ -125,8 +125,10 @@
     <string name="editor_select_all">Vše/Nic</string>
     <string name="editor_select_object">Objekt</string>
     <string name="editor_select_object_desc">Klikněte na objekt pro výběr.</string>
+    <string name="editor_select_circle">Kruh</string>
+    <string name="editor_select_circle_desc">Tažení po displeji kruhový proveďte výběr.</string>
     <string name="editor_select_rect">Obdelník</string>
-    <string name="editor_select_rect_desc">Tažení po displeji proveďte výběr.</string>
+    <string name="editor_select_rect_desc">Tažení po displeji obdélníkový proveďte výběr.</string>
     <string name="editor_select_less">Méně</string>
     <string name="editor_select_more">Více</string>
     <string name="editor_transform_clone">Kopírovat</string>

@@ -125,6 +125,8 @@
     <string name="editor_select_all">Alle/Keine</string>
     <string name="editor_select_object">Objekt</string>
     <string name="editor_select_object_desc">Tippen Sie auf das Objekt, das Sie auswählen möchten.</string>
+    <string name="editor_select_circle">Kreis</string>
+    <string name="editor_select_circle_desc">Durch Ziehen eines Kreises auf dem Bildschirm erstellen.</string>
     <string name="editor_select_rect">Rechteck</string>
     <string name="editor_select_rect_desc">Durch Ziehen eine rechteckige Selektion erstellen.</string>
     <string name="editor_select_less">Weniger</string>

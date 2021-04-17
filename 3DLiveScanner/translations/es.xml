@@ -125,6 +125,8 @@
     <string name="editor_select_all">Todos/Ninguno</string>
     <string name="editor_select_object">Objeto</string>
     <string name="editor_select_object_desc">Pulse sobre el objeto que quiere seleccionar.</string>
+    <string name="editor_select_circle">Círculo</string>
+    <string name="editor_select_circle_desc">Cree un círculo de selección arrastrando un círculo en la pantalla.</string>
     <string name="editor_select_rect">Rectanglo</string>
     <string name="editor_select_rect_desc">Cree un rectángulo de selección arrastrando un rectángulo en la pantalla.</string>
     <string name="editor_select_less">Menos</string>

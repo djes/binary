@@ -125,6 +125,8 @@
     <string name="editor_select_all">Minden/Semmi</string>
     <string name="editor_select_object">Objekt</string>
     <string name="editor_select_object_desc">Éritsd meg az objektot a kijelöléshez.</string>
+    <string name="editor_select_circle">Kör</string>
+    <string name="editor_select_circle_desc">Kijelölési kör létrehozása egy kör képernyőn történő húzásával.</string>
     <string name="editor_select_rect">Téglalap</string>
     <string name="editor_select_rect_desc">Téglalapos kijelölés a képernyön a képernyő érintéséből.</string>
     <string name="editor_select_less">Kevesebb</string>

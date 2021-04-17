@@ -125,6 +125,8 @@
     <string name="editor_select_all">All/None</string>
     <string name="editor_select_object">Object</string>
     <string name="editor_select_object_desc">Tap on the object you want to select.</string>
+    <string name="editor_select_circle">Circle</string>
+    <string name="editor_select_circle_desc">Create selection circle by dragging a circle on screen.</string>
     <string name="editor_select_rect">Rectangle</string>
     <string name="editor_select_rect_desc">Create selection rectangle by dragging a rectangle on screen.</string>
     <string name="editor_select_less">Less</string>

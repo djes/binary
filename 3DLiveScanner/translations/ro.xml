@@ -125,6 +125,8 @@
     <string name="editor_select_all">Toate/Niciuna</string>
     <string name="editor_select_object">Obiect</string>
     <string name="editor_select_object_desc">Apasă pe obiectul pe care dorești să-l selectezi.</string>
+    <string name="editor_select_circle">Cerc</string>
+    <string name="editor_select_circle_desc">Creați un cerc de selecție prin tragerea unui cerc pe ecran.</string>
     <string name="editor_select_rect">Dreptunghi</string>
     <string name="editor_select_rect_desc">Creează un dreptunghi de selectare trăgând un dreptunghi pe ecran.</string>
     <string name="editor_select_less">Mai puțin</string>

@@ -125,6 +125,8 @@
     <string name="editor_select_all">Tous/Aucun</string>
     <string name="editor_select_object">Objet</string>
     <string name="editor_select_object_desc">Tapez sur l\'objet à sélectionner.</string>
+    <string name="editor_select_circle">Cercle</string>
+    <string name="editor_select_circle_desc">Créez un cercle de sélection en faisant glisser un cercle sur l\'écran.</string>
     <string name="editor_select_rect">Rectangle</string>
     <string name="editor_select_rect_desc">Créez un rectangle de sélection en faisant glisser un rectangle à l\'écran.</string>
     <string name="editor_select_less">Moins</string>

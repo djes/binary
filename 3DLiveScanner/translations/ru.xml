@@ -125,6 +125,8 @@
     <string name="editor_select_all">Все/Отменить</string>
     <string name="editor_select_object">объект</string>
     <string name="editor_select_object_desc">нажмите по объекту для выбора.</string>
+    <string name="editor_select_circle">Круг</string>
+    <string name="editor_select_circle_desc">Создайте окружность выделения, перетаскивая ее на экран.</string>
     <string name="editor_select_rect">прямоугольник</string>
     <string name="editor_select_rect_desc">Создайте выделенный прямоугольник, перетаскивая прямоугольник на экране.</string>
     <string name="editor_select_less">меньше</string>

@@ -125,6 +125,8 @@
     <string name="editor_select_all">Tutti/Nessuno</string>
     <string name="editor_select_object">Oggetto</string>
     <string name="editor_select_object_desc">Toccare l\'oggetto che si desidera selezionare.</string>
+    <string name="editor_select_circle">Cerchio</string>
+    <string name="editor_select_circle_desc">Crea un cerchio di selezione trascinando un cerchio sullo schermo.</string>
     <string name="editor_select_rect">Rettangolo</string>
     <string name="editor_select_rect_desc">Creare un rettangolo di selezione trascinando un rettangolo sullo schermo.</string>
     <string name="editor_select_less">Meno</string>
