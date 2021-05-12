@@ -20,6 +20,7 @@
     <string name="folder_new">New folder</string>
     <string name="folder_up">(Parent folder)</string>
     <string name="data_saved">Data saved as</string>
+    <string name="lowend_device">Your device is not certificated with Google Depth API. The app performance might be limited.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Description:</string>
@@ -65,6 +66,8 @@
     </string-array>
     <string name="anchor">Show anchors during scanning</string>
     <string name="anchor_summary">Anchors are used to stabilize tracking of the device position.</string>
+    <string name="grid">Show floor grid</string>
+    <string name="grid_summary">Grid makes it easier to understand the 3D space.</string>
     <string name="folder">Show folders first</string>
     <string name="folder_summary">Show folders on the top of the main screen.</string>
     <string name="sort">Show new scans first</string>

@@ -20,6 +20,7 @@
     <string name="folder_new">Новая папка</string>
     <string name="folder_up">(Родительская папка)</string>
     <string name="data_saved">Данные сохранены как</string>
+    <string name="lowend_device">Ваше устройство не имеет сертификата Google Depth API. Производительность приложения может быть ограничена.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Описание:</string>
@@ -65,6 +66,8 @@
     </string-array>
     <string name="anchor">Показывать якоря во время сканирования</string>
     <string name="anchor_summary">Якоря используются для стабилизации отслеживания положения устройства.</string>
+    <string name="grid">Показать сетку пола</string>
+    <string name="grid_summary">Сетка упрощает понимание трехмерного пространства.</string>
     <string name="folder">Сначала показывать папки</string>
     <string name="folder_summary">Показывать папки в верхней части главного экрана.</string>
     <string name="sort">Показывать сначала новые отсканированные изображения</string>

@@ -20,6 +20,7 @@
     <string name="folder_new">Új mappa</string>
     <string name="folder_up">(Szülő mappa)</string>
     <string name="data_saved">Az adatok elmentve</string>
+    <string name="lowend_device">Az Ön készüléke nem rendelkezik a Google Depth API tanúsítványával. Az alkalmazás teljesítménye korlátozott lehet.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Leírás:</string>
@@ -65,6 +66,8 @@
     </string-array>
     <string name="anchor">Horgonyok megjelenítése szkennelés közben</string>
     <string name="anchor_summary">A horgonyokat a készülék helyzetének követésének stabilizálására használják.</string>
+    <string name="grid">Mutasd a rácsot</string>
+    <string name="grid_summary">A rács megkönnyíti a 3D tér megértését.</string>
     <string name="folder">Először mutassa meg a mappákat</string>
     <string name="folder_summary">Mappák megjelenítése a főképernyő tetején.</string>
     <string name="sort">Először mutasson új kereséseket</string>

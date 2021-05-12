@@ -20,6 +20,7 @@
     <string name="folder_new">Nouveau dossier</string>
     <string name="folder_up">(Dossier parent)</string>
     <string name="data_saved">Données enregistrées sous</string>
+    <string name="lowend_device">Votre appareil n\'est pas certifié avec Google Depth API. Les performances de l\'application peuvent être limitées.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">La description:</string>
@@ -65,6 +66,8 @@
     </string-array>
     <string name="anchor">Afficher les ancres lors du scan</string>
     <string name="anchor_summary">Les ancres sont utilisées pour stabiliser le suivi de la position de l\'appareil.</string>
+    <string name="grid">Afficher la grille de plancher</string>
+    <string name="grid_summary">Grid facilite la compréhension de l\'espace 3D.</string>
     <string name="folder">Afficher d\'abord les dossiers</string>
     <string name="folder_summary">Afficher les dossiers en haut de l\'écran principal.</string>
     <string name="sort">Afficher d\'abord les nouvelles analyses</string>

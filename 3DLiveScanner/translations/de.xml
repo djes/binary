@@ -20,6 +20,7 @@
     <string name="folder_new">Neuer Ordner</string>
     <string name="folder_up">(Übergeordneten Ordner)</string>
     <string name="data_saved">Daten gespeichert als</string>
+    <string name="lowend_device">Ihr Gerät ist nicht mit Google Depth API zertifiziert. Die Leistung der App kann eingeschränkt sein.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Beschreibung:</string>
@@ -65,6 +66,8 @@
     </string-array>
     <string name="anchor">Anzeigen beim Scannen Anker</string>
     <string name="anchor_summary">Anker werden verwendet, um die Verfolgung der Geräteposition zu stabilisieren.</string>
+    <string name="grid">Bodengitter anzeigen</string>
+    <string name="grid_summary">Das Raster erleichtert das Verständnis des 3D-Raums.</string>
     <string name="folder">Ordner zuerst anzeigen</string>
     <string name="folder_summary">Ordner am oberen Rand des Hauptbildschirms anzeigen.</string>
     <string name="sort">Neue Scans zuerst anzeigen</string>

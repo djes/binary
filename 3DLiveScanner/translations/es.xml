@@ -20,6 +20,7 @@
     <string name="folder_new">Nueva carpeta</string>
     <string name="folder_up">(Carpeta principal)</string>
     <string name="data_saved">Datos guardados como</string>
+    <string name="lowend_device">Tu dispositivo no está certificado con Google Depth API. El rendimiento de la aplicación puede ser limitado.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descripción:</string>
@@ -65,6 +66,8 @@
     </string-array>
     <string name="anchor">Mostrar anclas durante el escaneo</string>
     <string name="anchor_summary">Los anclajes se utilizan para estabilizar el seguimiento de la posición del dispositivo.</string>
+    <string name="grid">Mostrar rejilla de piso</string>
+    <string name="grid_summary">Grid facilita la comprensión del espacio 3D.</string>
     <string name="folder">Mostrar carpetas primero</string>
     <string name="folder_summary">Muestra carpetas en la parte superior de la pantalla principal.</string>
     <string name="sort">Mostrar nuevos escaneos primero</string>

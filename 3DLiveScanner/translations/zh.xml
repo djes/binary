@@ -20,6 +20,7 @@
     <string name="folder_new">新建文件夹</string>
     <string name="folder_up">(上层资料夹)</string>
     <string name="data_saved">数据另存为</string>
+    <string name="lowend_device">你的设备没有通过谷歌深度API的认证。该应用程序的性能可能受到限制。</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">描述:</string>
@@ -65,6 +66,8 @@
     </string-array>
     <string name="anchor">在扫描过程中显示锚点</string>
     <string name="anchor_summary">锚用于稳定跟踪设备位置。</string>
+    <string name="grid">展示地板网格</string>
+    <string name="grid_summary">网格使您更容易理解3D空间。</string>
     <string name="folder">首先显示文件夹</string>
     <string name="folder_summary">在主屏幕顶部显示文件夹。</string>
     <string name="sort">首先显示新扫描内容</string>

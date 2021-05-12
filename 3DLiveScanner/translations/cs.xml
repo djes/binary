@@ -20,6 +20,7 @@
     <string name="folder_new">Nová složka</string>
     <string name="folder_up">(Nadřazená složka)</string>
     <string name="data_saved">Data uložena jako</string>
+    <string name="lowend_device">Vaše zařízení není certifikováno pomocí rozhraní Google Depth API. Výkon aplikace může být omezený.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Popis:</string>
@@ -65,6 +66,8 @@
     </string-array>
     <string name="anchor">Zobrazit anchory během skenování</string>
     <string name="anchor_summary">Anchory se používají ke stabilizaci sledování polohy zařízení.</string>
+    <string name="grid">Zobrazit podlahovou mřížku</string>
+    <string name="grid_summary">Mřížka usnadňuje pochopení 3D prostoru.</string>
     <string name="folder">Zobrazit složky první</string>
     <string name="folder_summary">Zobrazit složky v horní části hlavní obrazovky.</string>
     <string name="sort">Zobrazit nové skeny první</string>
