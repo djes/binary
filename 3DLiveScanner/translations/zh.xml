@@ -68,10 +68,6 @@
     <string name="anchor_summary">锚用于稳定跟踪设备位置。</string>
     <string name="grid">展示地板网格</string>
     <string name="grid_summary">网格使您更容易理解3D空间。</string>
-    <string name="folder">首先显示文件夹</string>
-    <string name="folder_summary">在主屏幕顶部显示文件夹。</string>
-    <string name="sort">首先显示新扫描内容</string>
-    <string name="sort_summary">在主屏幕顶部显示最新扫描。</string>
     <string name="camera">在扫描过程中显示相机数据</string>
     <string name="camera_summary">显示相机会产生有关扫描过程的其他信息，但是可能会导致设备过热并降低扫描性能。</string>
     <string name="offset">为几何图形添加偏移量</string>

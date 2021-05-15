@@ -68,10 +68,6 @@
     <string name="anchor_summary">Los anclajes se utilizan para estabilizar el seguimiento de la posición del dispositivo.</string>
     <string name="grid">Mostrar rejilla de piso</string>
     <string name="grid_summary">Grid facilita la comprensión del espacio 3D.</string>
-    <string name="folder">Mostrar carpetas primero</string>
-    <string name="folder_summary">Muestra carpetas en la parte superior de la pantalla principal.</string>
-    <string name="sort">Mostrar nuevos escaneos primero</string>
-    <string name="sort_summary">Muestra los escaneos más recientes en la parte superior de la pantalla principal.</string>
     <string name="camera">Mostrar datos de la cámara durante el escaneo</string>
     <string name="camera_summary">Mostrar la cámara produce información adicional sobre el proceso de escaneo; sin embargo, podría provocar un sobrecalentamiento del dispositivo y un menor rendimiento de escaneo.</string>
     <string name="offset">Agregar compensación a la geometría</string>

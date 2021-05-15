@@ -68,10 +68,6 @@
     <string name="anchor_summary">Ancorele sunt utilizate pentru a stabiliza urmărirea poziției dispozitivului.</string>
     <string name="grid">Afișați grila podelei</string>
     <string name="grid_summary">Grila facilitează înțelegerea spațiului 3D.</string>
-    <string name="folder">Arată mai întâi folderele</string>
-    <string name="folder_summary">Afișați folderele în partea de sus a ecranului principal.</string>
-    <string name="sort">Arată mai întâi scanările noi</string>
-    <string name="sort_summary">Afișează cele mai recente scanări în partea de sus a ecranului principal.</string>
     <string name="camera">Afișați datele camerei în timpul scanării</string>
     <string name="camera_summary">Afișarea camerei produce informații suplimentare despre procesul de scanare, însă ar putea provoca supraîncălzirea dispozitivului și performanțe de scanare mai scăzute.</string>
     <string name="offset">Adăugați offset la geometrie</string>

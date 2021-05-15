@@ -18,9 +18,9 @@
     <string name="wait">Bitte warten</string>
     <string name="export">Daten exportieren</string>
     <string name="folder_new">Neuer Ordner</string>
-    <string name="folder_up">(Übergeordneten Ordner)</string>
+    <string name="folder_up">(Übergeordneter Ordner)</string>
     <string name="data_saved">Daten gespeichert als</string>
-    <string name="lowend_device">Ihr Gerät ist nicht mit Google Depth API zertifiziert. Die Leistung der App kann eingeschränkt sein.</string>
+    <string name="lowend_device">Ihr Gerät ist nicht als Google Depth API Gerät zertifiziert. Die Leistung der App kann eingeschränkt sein.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Beschreibung:</string>
@@ -50,8 +50,8 @@
     <string name="mode_face">Gesicht scannen</string>
     <string name="scan_object">Objekte scannen</string>
     <string name="scan_single_room">Einzelraum scannen</string>
-    <string name="scan_large_interior">Großer Interior scannen</string>
-    <string name="scan_exterior">Exterior scannen</string>
+    <string name="scan_large_interior">Großen Innenbereich scannen</string>
+    <string name="scan_exterior">Außenbereich scannen</string>
     <string name="export_floorplan">Als Grundriss exportieren</string>
     <string name="export_pointcloud">Als Punktwolke exportieren</string>
     <string name="profile_resolution">Auflösung</string>
@@ -61,39 +61,35 @@
     <string name="textures_summary">Beschränken die Anzahl der Texturen. Mehr Texturen sorgen für eine bessere visuelle Qualität.</string>
     <string-array name="textures_names">
         <item>Einzelne Textur</item>
-        <item>Max 4 texturen</item>
+        <item>Max. 4 Texturen</item>
         <item>Nicht einschränken</item>
     </string-array>
-    <string name="anchor">Anzeigen beim Scannen Anker</string>
+    <string name="anchor">Beim Scannen Anker anzeigen</string>
     <string name="anchor_summary">Anker werden verwendet, um die Verfolgung der Geräteposition zu stabilisieren.</string>
     <string name="grid">Bodengitter anzeigen</string>
     <string name="grid_summary">Das Raster erleichtert das Verständnis des 3D-Raums.</string>
-    <string name="folder">Ordner zuerst anzeigen</string>
-    <string name="folder_summary">Ordner am oberen Rand des Hauptbildschirms anzeigen.</string>
-    <string name="sort">Neue Scans zuerst anzeigen</string>
-    <string name="sort_summary">Zeigt die neuesten Scans oben im Hauptbildschirm an.</string>
     <string name="camera">Kameradaten während des Scannens anzeigen</string>
     <string name="camera_summary">Das Anzeigen der Kamera liefert zusätzliche Informationen zum Scanvorgang, kann jedoch zu einer Überhitzung des Geräts und einer geringeren Scanleistung führen.</string>
     <string name="offset">Versatz zur Geometrie hinzufügen</string>
-    <string name="offset_summary">Durch Hinzufügen eines Versatzes zur Geometrie können dünne Objekte von beiden Seiten gescannt werden. Diese Option verringert die Genauigkeit der Geometrie.</string>
+    <string name="offset_summary">Durch Hinzufügen eines Versatzes zur Geometrie können schmale Objekte von beiden Seiten gescannt werden. Diese Option verringert die Genauigkeit der Geometrie.</string>
     <string name="depth_sensor">Tiefensensor verwenden</string>
     <string name="depth_sensor_summary">Der aktive Tiefensensor ist genauer und scannt mehr Details.</string>
-    <string name="gps">Verwenden GPS, um die Position zu markieren</string>
+    <string name="gps">GPS verwenden, um die Position zu markieren</string>
     <string name="gps_summary">Mithilfe eines GPS-Tags kann auf der Karte angezeigt werden, wo das Modell erfasst wurde.</string>
-    <string name="fullhd">Aufnehmen FullHD-Fotos</string>
-    <string name="fullhd_summary">Durch die Aufnahme von FullHD-Fotos in einen Datensatz können Sie die Daten in einer Photogrammetrie-Software verwenden. Beachten Sie, dass diese Option den Scanvorgang verlangsamt.</string>
-    <string name="align_pose">Gerätehaltung ausrichten</string>
-    <string name="align_pose_summary">Passt die Pose des Geräts an, um die Texturqualität zu erhöhen. Diese Option verlangsamt die Erfassung erheblich.</string>
-    <string name="enforce_slow">Erzwingen langsame Bewegungen</string>
+    <string name="fullhd">Full-HD-Fotos aufnehmen</string>
+    <string name="fullhd_summary">Durch die Aufnahme von Full-HD-Fotos in einen Datensatz können Sie die Daten in einer Photogrammetrie-Software verwenden. Beachten Sie, dass diese Option den Scanvorgang verlangsamt.</string>
+    <string name="align_pose">Geräteausrichtung einstellen</string>
+    <string name="align_pose_summary">Passt die Ausrichtung des Geräts an, um die Texturqualität zu erhöhen. Diese Option verlangsamt die Erfassung erheblich.</string>
+    <string name="enforce_slow">Langsame Bewegungen erzwingen</string>
     <string name="enforce_slow_summary">Stoppt die Erfassung, wenn sich das Gerät zu schnell bewegt, um zu verhindern, dass ungenaue Daten erfasst werden.</string>
     <string name="flash_light">Taschenlampe verwenden</string>
     <string name="flash_light_summary">Taschenlampe erleichtert das Scannen an dunklen Orten.</string>
     <string name="photo_mode">Manueller Fotomodus</string>
     <string name="photo_mode_summary">Erfasst Daten nach Knopfdruck, Daten werden sofort texturiert.</string>
-    <string name="decimation">Verringern die Anzahl der Polygone</string>
-    <string name="decimation_summary">Als Teil der Nachbearbeitung gibt es einen Prozess namens Dezimierung, der die Anzahl der Polygone verringert.</string>
+    <string name="decimation">Anzahl der Polygone verringern</string>
+    <string name="decimation_summary">Verringert während der Nachbearbeitung die Anzahl der Polygone.</string>
     <string-array name="decimation_names">
-        <item>Maximales Detail</item>
+        <item>Max. Detailgrad</item>
         <item>Optimal für VR</item>
         <item>Geringe Polygonzahl</item>
     </string-array>
@@ -112,7 +108,7 @@
         <item>Normaler Rauschfilter</item>
         <item>Aggressiver Rauschfilter</item>
     </string-array>
-    <string name="clearing">Raumräumung</string>
+    <string name="clearing">Space Clearing</string>
     <string name="clearing_summary">Diese Funktion löscht Daten aus Szenen, die nur vorübergehend sichtbar waren.</string>
 
     <!-- Editor !-->
@@ -139,7 +135,7 @@
     <string name="editor_transform_move">Verschieben</string>
     <string name="editor_transform_rotate">Drehen</string>
     <string name="editor_transform_scale">Skalieren</string>
-    <string name="editor_view_normals">Normalen</string>
+    <string name="editor_view_normals">Normalvektoren</string>
     <string name="editor_deselect">Abwählen</string>
 
     <!-- Service !-->
@@ -152,7 +148,7 @@
     <string name="saving">Speichern des Modells …</string>
     <string name="turn_off">Sie können die Anwendung beenden, ohne Daten zu verlieren.</string>
     <string name="warning">Warnung</string>
-    <string name="working">Die App arbeitet, bitte schalten Sie das Gerät nicht aus und starten Sie keine andere AR-Applikation.</string>
+    <string name="working">Die App arbeitet. Bitte schalten Sie das Gerät nicht aus und starten Sie keine andere AR-Applikation.</string>
 
     <!-- Event !-->
     <string name="event_bright">Zu hell zum Scannen</string>
@@ -167,19 +163,19 @@
     <string name="event_unsharp">Bewegen Sie das Gerät langsam</string>
     <string name="scan_discard">Diese Aktion verwirft den Scan-Fortschritt.</string>
     <string name="scan_finish">Durch Speichern wird der Scanvorgang beendet.</string>
-    <string name="scan_rewind">Spulen den Scanvorgang bis zu einem Zustand zurück, von dem aus Sie fortfahren möchten.</string>
+    <string name="scan_rewind">Spulen Sie den Scanvorgang bis zu einem Zustand zurück, von dem aus Sie fortfahren möchten.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
     <string name="buy_huawei">Huawei AppGallery</string>
     <string name="upgrade">Upgrade</string>
-    <string name="upgrade1">Haben Sie ein Gerät mit einem unterstützten ToF-Sensor? Wenn ja, dann überlegen Sie, die Pro-Version dieser App zu kaufen.</string>
+    <string name="upgrade1">Haben Sie ein Gerät mit einem unterstützten ToF-Sensor? Wenn ja, dann erwägen Sie, die Pro-Version dieser App zu kaufen.</string>
     <string name="upgrade2">Die Pro-Version enthält keine Werbung, unterstützt höhere Auflösungen und bietet mehr Funktionen.</string>
     <string name="upgrade3">Auf den folgenden Seiten können Sie den Entwicklungsstand verfolgen:</string>
 
     <!-- Scan dialog !-->
-    <string name="scan_1_4cm">0.25 cm - Große Objekte</string>
-    <string name="scan_1_2cm">0.5 cm - Komposition</string>
+    <string name="scan_1_4cm">0,25 cm - Große Objekte</string>
+    <string name="scan_1_2cm">0,5 cm - Komposition</string>
     <string name="scan_1cm">1 cm - Kleines Zimmer</string>
     <string name="scan_2cm">2 cm - Drinnen</string>
     <string name="scan_4cm">4 cm - Draußen</string>
@@ -198,8 +194,8 @@
     <string name="fd_write_scan_desc">Beschreiben Sie den Scan</string>
     <string name="fd_select_scan_type">Wählen Sie den Scan-Typ</string>
     <string-array name="fd_scan_types">
-        <item>Stamm</item>
-        <item>Stoß</item>
+        <item>Baumstamm</item>
+        <item>Stapel</item>
         <item>Transport</item>
         <item>Baum</item>
         <item>Andere</item>

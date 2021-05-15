@@ -68,10 +68,6 @@
     <string name="anchor_summary">Anchory se používají ke stabilizaci sledování polohy zařízení.</string>
     <string name="grid">Zobrazit podlahovou mřížku</string>
     <string name="grid_summary">Mřížka usnadňuje pochopení 3D prostoru.</string>
-    <string name="folder">Zobrazit složky první</string>
-    <string name="folder_summary">Zobrazit složky v horní části hlavní obrazovky.</string>
-    <string name="sort">Zobrazit nové skeny první</string>
-    <string name="sort_summary">Zobrazit nejnovější skenování v horní části hlavní obrazovky.</string>
     <string name="camera">Zobrazit data fotoaparátu během skenování</string>
     <string name="camera_summary">Zobrazená kamera produkuje další informace o procesu skenování, může však způsobit přehřátí zařízení a nižší výkon skenování.</string>
     <string name="offset">Přidat k geometrii odsazení</string>

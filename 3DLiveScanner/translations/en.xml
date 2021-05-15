@@ -68,10 +68,6 @@
     <string name="anchor_summary">Anchors are used to stabilize tracking of the device position.</string>
     <string name="grid">Show floor grid</string>
     <string name="grid_summary">Grid makes it easier to understand the 3D space.</string>
-    <string name="folder">Show folders first</string>
-    <string name="folder_summary">Show folders on the top of the main screen.</string>
-    <string name="sort">Show new scans first</string>
-    <string name="sort_summary">Show the most recent scans on the top of the main screen.</string>
     <string name="camera">Show camera data during scanning</string>
     <string name="camera_summary">Showing camera produces additional information about the scanning process, however it could cause device overheating and lower scanning performance.</string>
     <string name="offset">Add offset to the geometry</string>

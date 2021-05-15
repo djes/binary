@@ -68,10 +68,6 @@
     <string name="anchor_summary">Gli ancoraggi vengono utilizzati per stabilizzare il tracciamento della posizione del dispositivo.</string>
     <string name="grid">Mostra griglia del pavimento</string>
     <string name="grid_summary">La griglia semplifica la comprensione dello spazio 3D.</string>
-    <string name="folder">Mostra prima le cartelle</string>
-    <string name="folder_summary">Mostra le cartelle nella parte superiore della schermata principale.</string>
-    <string name="sort">Mostra prima le nuove scansioni</string>
-    <string name="sort_summary">Mostra le scansioni più recenti nella parte superiore della schermata principale.</string>
     <string name="camera">Mostra i dati della fotocamera durante la scansione</string>
     <string name="camera_summary">La visualizzazione della fotocamera produce informazioni aggiuntive sul processo di scansione, tuttavia potrebbe causare il surriscaldamento del dispositivo e ridurre le prestazioni di scansione.</string>
     <string name="offset">Aggiungi offset alla geometria</string>

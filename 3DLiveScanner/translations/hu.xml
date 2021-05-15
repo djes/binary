@@ -68,10 +68,6 @@
     <string name="anchor_summary">A horgonyokat a készülék helyzetének követésének stabilizálására használják.</string>
     <string name="grid">Mutasd a rácsot</string>
     <string name="grid_summary">A rács megkönnyíti a 3D tér megértését.</string>
-    <string name="folder">Először mutassa meg a mappákat</string>
-    <string name="folder_summary">Mappák megjelenítése a főképernyő tetején.</string>
-    <string name="sort">Először mutasson új kereséseket</string>
-    <string name="sort_summary">A legfrissebb beolvasások megjelenítése a főképernyő tetején.</string>
     <string name="camera">A kamera adatainak megjelenítése szkennelés közben</string>
     <string name="camera_summary">A kamera bemutatása további információkat szolgáltat a beolvasási folyamatról, azonban ez az eszköz túlmelegedését és alacsonyabb szkennelési teljesítményt okozhat.</string>
     <string name="offset">Eltolás hozzáadása a geometriához</string>

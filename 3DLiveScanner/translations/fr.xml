@@ -68,10 +68,6 @@
     <string name="anchor_summary">Les ancres sont utilisées pour stabiliser le suivi de la position de l\'appareil.</string>
     <string name="grid">Afficher la grille de plancher</string>
     <string name="grid_summary">Grid facilite la compréhension de l\'espace 3D.</string>
-    <string name="folder">Afficher d\'abord les dossiers</string>
-    <string name="folder_summary">Afficher les dossiers en haut de l\'écran principal.</string>
-    <string name="sort">Afficher d\'abord les nouvelles analyses</string>
-    <string name="sort_summary">Afficher les scans les plus récents en haut de l\'écran principal.</string>
     <string name="camera">Afficher les données de la caméra pendant le scan</string>
     <string name="camera_summary">L\'affichage de la caméra ajoute des informations supplémentaires sur le processus de numérisation, mais cela peut entraîner une surchauffe de l\'appareil et une baisse des performances de numérisation.</string>
     <string name="offset">Ajouter un décalage à la géométrie</string>
