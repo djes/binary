@@ -20,6 +20,8 @@
     <string name="folder_new">Nouveau dossier</string>
     <string name="folder_up">(Dossier parent)</string>
     <string name="data_saved">Données enregistrées sous</string>
+    <string name="online_limited">Cette fonctionnalité est disponible pour une période limitée. Pour conserver cette fonctionnalité, passez à la version Pro.</string>
+    <string name="online_not_available">Le service n\'est pas disponible. Vérifiez votre connexion Internet et mettez à jour l\'application avec la dernière version.</string>
     <string name="lowend_device">Votre appareil n\'est pas certifié avec Google Depth API. Les performances de l\'application peuvent être limitées.</string>
 
     <!-- Sketchfab uploader !-->
@@ -48,6 +50,7 @@
     <string name="mode_realtime">Scan en temps réel</string>
     <string name="mode_dataset">Capturez un jeu de donnée</string>
     <string name="mode_face">Scan de visage</string>
+    <string name="mode_online">Photogrammétrie en ligne (objets uniquement)</string>
     <string name="scan_object">Scan d\'objet</string>
     <string name="scan_single_room">Scan d\'une seul pièce</string>
     <string name="scan_large_interior">Scan à d\'intérieur</string>
@@ -164,6 +167,13 @@
     <string name="scan_discard">Cette action annulera la progression de l\'analyse.</string>
     <string name="scan_finish">L\'enregistrement terminera la numérisation.</string>
     <string name="scan_rewind">Revenir en arrière dans le processus de numérisation jusqu\'à un état à partir duquel vous voulez continuer.</string>
+    <string name="online_download">Téléchargement des données</string>
+    <string name="online_generating">Générer un modèle</string>
+    <string name="online_upload">Téléchargement des données</string>
+    <string name="online_waiting">Attendre le service</string>
+    <string name="online_tip">Une fois que vous avez commencé à tirer, tournez autour d\'un objet. Assurez-vous que l\'environnement autour de l\'objet est aussi simple que possible.</string>
+    <string name="online_coverage">Complétude du scan:</string>
+    <string name="online_limit">Il semble que vous ayez effectué un trop grand nombre de scans récemment. Essayez à nouveau plus tard.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

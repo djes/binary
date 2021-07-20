@@ -20,6 +20,8 @@
     <string name="folder_new">Nueva carpeta</string>
     <string name="folder_up">(Carpeta principal)</string>
     <string name="data_saved">Datos guardados como</string>
+    <string name="online_limited">Esta función está disponible por un periodo de tiempo limitado. Para mantener esta funcionalidad actualice a la versión Pro.</string>
+    <string name="online_not_available">El servicio no está disponible. Verifique su conexión a Internet y actualice la aplicación a la última versión.</string>
     <string name="lowend_device">Tu dispositivo no está certificado con Google Depth API. El rendimiento de la aplicación puede ser limitado.</string>
 
     <!-- Sketchfab uploader !-->
@@ -48,6 +50,7 @@
     <string name="mode_realtime">Escaneo en realtime</string>
     <string name="mode_dataset">Captura de datasets</string>
     <string name="mode_face">Escaneo facial</string>
+    <string name="mode_online">Fotogrametría en línea (solo objetos)</string>
     <string name="scan_object">Escaneo de objetos</string>
     <string name="scan_single_room">Escaneo de una habitación</string>
     <string name="scan_large_interior">Escaneo interior grande</string>
@@ -164,6 +167,13 @@
     <string name="scan_discard">Esta acción descartará el progreso del análisis.</string>
     <string name="scan_finish">Guardar finalizará el escaneo.</string>
     <string name="scan_rewind">Rebobine el proceso de escaneo hasta un estado desde el que desee continuar.</string>
+    <string name="online_download">Descarga de datos</string>
+    <string name="online_generating">Generar un modelo</string>
+    <string name="online_upload">Carga de datos</string>
+    <string name="online_waiting">A la espera del servicio</string>
+    <string name="online_tip">Cuando empieces a disparar, rodea un objeto. Asegúrate de que el entorno que rodea al objeto sea lo más sencillo posible.</string>
+    <string name="online_coverage">Escaneado completo:</string>
+    <string name="online_limit">Parece que has hecho una cantidad demasiado grande de escaneos recientemente. Inténtalo de nuevo más tarde.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

@@ -20,6 +20,8 @@
     <string name="folder_new">Dosar nou</string>
     <string name="folder_up">(Dosar părinte)</string>
     <string name="data_saved">Date salvate ca</string>
+    <string name="online_limited">Această funcție este disponibilă pentru o perioadă limitată de timp. Pentru a păstra această funcționalitate, actualizați la versiunea Pro.</string>
+    <string name="online_not_available">Serviciul nu este disponibil. Verificați conexiunea la internet și actualizați aplicația la cea mai recentă versiune.</string>
     <string name="lowend_device">Dispozitivul dvs. nu este certificat cu Google Depth API. Este posibil ca performanța aplicației să fie limitată.</string>
 
     <!-- Sketchfab uploader !-->
@@ -48,6 +50,7 @@
     <string name="mode_realtime">Realtime scanare</string>
     <string name="mode_dataset">Capturarea dataset</string>
     <string name="mode_face">Scanarea feței</string>
+    <string name="mode_online">Fotogrametrie online (numai obiecte)</string>
     <string name="scan_object">Scanarea obiectelor</string>
     <string name="scan_single_room">Scanare cameră single</string>
     <string name="scan_large_interior">Scanare interioară mare</string>
@@ -164,6 +167,13 @@
     <string name="scan_discard">Această acțiune va elimina progresul scanării.</string>
     <string name="scan_finish">Salvarea va finaliza scanarea.</string>
     <string name="scan_rewind">Reîntoarceți procesul de scanare la o stare din care doriți să continuați.</string>
+    <string name="online_download">Descărcarea datelor</string>
+    <string name="online_generating">Generarea unui model</string>
+    <string name="online_upload">Încărcarea datelor</string>
+    <string name="online_waiting">În așteptare la serviciu</string>
+    <string name="online_tip">După ce începeți să trageți, înconjurați un obiect. Asigurați-vă că mediul din jurul obiectului este cât se poate de simplu.</string>
+    <string name="online_coverage">Completitudinea scanării:</string>
+    <string name="online_limit">Se pare că ați făcut o cantitate prea mare de scanări în ultima vreme. Încercați din nou mai târziu.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

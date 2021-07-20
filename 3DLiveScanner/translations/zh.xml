@@ -20,6 +20,8 @@
     <string name="folder_new">新建文件夹</string>
     <string name="folder_up">(上层资料夹)</string>
     <string name="data_saved">数据另存为</string>
+    <string name="online_limited">这项功能在有限的时间内可用。要保持这一功能，请更新到专业版。</string>
+    <string name="online_not_available">该服务不可用。 检查您的互联网连接并将应用程序更新到最新版本。</string>
     <string name="lowend_device">你的设备没有通过谷歌深度API的认证。该应用程序的性能可能受到限制。</string>
 
     <!-- Sketchfab uploader !-->
@@ -48,6 +50,7 @@
     <string name="mode_realtime">实时扫描</string>
     <string name="mode_dataset">采集数据集</string>
     <string name="mode_face">脸部扫描</string>
+    <string name="mode_online">在线摄影测量（仅限对象）</string>
     <string name="scan_object">对象扫描</string>
     <string name="scan_single_room">单间扫描</string>
     <string name="scan_large_interior">大型内部扫描</string>
@@ -164,6 +167,13 @@
     <string name="scan_discard">此操作將放棄掃描進度。</string>
     <string name="scan_finish">保存將完成掃描。</string>
     <string name="scan_rewind">将扫描过程倒退到您要继续的状态。</string>
+    <string name="online_download">下载数据</string>
+    <string name="online_generating">生成一个模型</string>
+    <string name="online_upload">上传数据</string>
+    <string name="online_waiting">等待服务</string>
+    <string name="online_tip">一旦你开始拍摄，就围绕一个物体转圈。确保物体周围的环境尽可能的简单。</string>
+    <string name="online_coverage">扫描的完整性。</string>
+    <string name="online_limit">看来你最近做了太多的扫描。稍后再试试。</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

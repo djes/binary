@@ -20,6 +20,8 @@
     <string name="folder_new">Новая папка</string>
     <string name="folder_up">(Родительская папка)</string>
     <string name="data_saved">Данные сохранены как</string>
+    <string name="online_limited">Эта функция доступна в течение ограниченного периода времени. Чтобы сохранить эту функцию, обновите версию Pro.</string>
+    <string name="online_not_available">Услуга недоступна. Проверьте подключение к Интернету и обновите приложение до последней версии.</string>
     <string name="lowend_device">Ваше устройство не имеет сертификата Google Depth API. Производительность приложения может быть ограничена.</string>
 
     <!-- Sketchfab uploader !-->
@@ -48,6 +50,7 @@
     <string name="mode_realtime">Сканирование в реальном времени</string>
     <string name="mode_dataset">Захват набора данных</string>
     <string name="mode_face">сканирование лиц</string>
+    <string name="mode_online">Фотограмметрия онлайн (только объекты)</string>
     <string name="scan_object">Сканирование объектов</string>
     <string name="scan_single_room">Однокомнатное сканирование</string>
     <string name="scan_large_interior">Большое внутреннее сканирование</string>
@@ -164,6 +167,13 @@
     <string name="scan_discard">Это действие отменит прогресс сканирования.</string>
     <string name="scan_finish">Сохранение завершит сканирование.</string>
     <string name="scan_rewind">Перемотайте процесс сканирования в состояние, из которого вы хотите продолжить.</string>
+    <string name="online_download">Загрузка данных</string>
+    <string name="online_generating">Создание модели</string>
+    <string name="online_upload">Загрузка данных</string>
+    <string name="online_waiting">Ожидание обслуживания</string>
+    <string name="online_tip">Как только вы начнете съемку, обведите вокруг объекта. Следите за тем, чтобы окружение вокруг объекта было как можно более простым.</string>
+    <string name="online_coverage">Полнота сканирования:</string>
+    <string name="online_limit">Похоже, что вы недавно выполнили слишком большое количество сканирований. Попробуйте повторить сканирование позже.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

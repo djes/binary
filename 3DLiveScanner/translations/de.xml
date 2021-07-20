@@ -20,6 +20,8 @@
     <string name="folder_new">Neuer Ordner</string>
     <string name="folder_up">(Übergeordneter Ordner)</string>
     <string name="data_saved">Daten gespeichert als</string>
+    <string name="online_limited">Diese Funktion ist nur für einen begrenzten Zeitraum verfügbar. Um diese Funktion zu erhalten, aktualisieren Sie auf die Pro-Version.</string>
+    <string name="online_not_available">Der Dienst ist nicht verfügbar. Überprüfen Sie Ihre Internetverbindung und aktualisieren Sie die App auf die neueste Version.</string>
     <string name="lowend_device">Ihr Gerät ist nicht als Google Depth API Gerät zertifiziert. Die Leistung der App kann eingeschränkt sein.</string>
 
     <!-- Sketchfab uploader !-->
@@ -48,6 +50,7 @@
     <string name="mode_realtime">Echtzeit-Scannen</string>
     <string name="mode_dataset">Dataset erfassen</string>
     <string name="mode_face">Gesicht scannen</string>
+    <string name="mode_online">Online-Photogrammetrie (nur Objekte)</string>
     <string name="scan_object">Objekte scannen</string>
     <string name="scan_single_room">Einzelraum scannen</string>
     <string name="scan_large_interior">Großen Innenbereich scannen</string>
@@ -164,6 +167,13 @@
     <string name="scan_discard">Diese Aktion verwirft den Scan-Fortschritt.</string>
     <string name="scan_finish">Durch Speichern wird der Scanvorgang beendet.</string>
     <string name="scan_rewind">Spulen Sie den Scanvorgang bis zu einem Zustand zurück, von dem aus Sie fortfahren möchten.</string>
+    <string name="online_download">Herunterladen von Daten</string>
+    <string name="online_generating">Erzeugen eines Modells</string>
+    <string name="online_upload">Daten hochladen</string>
+    <string name="online_waiting">Warten auf den Service</string>
+    <string name="online_tip">Sobald Sie mit der Aufnahme beginnen, kreisen Sie um ein Objekt. Achten Sie darauf, dass die Umgebung um das Objekt so einfach wie möglich ist.</string>
+    <string name="online_coverage">Vollständigkeit des Scanns:</string>
+    <string name="online_limit">Es scheint, dass Sie in letzter Zeit eine zu große Anzahl von Scans durchgeführt haben. Versuchen Sie es später noch einmal.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

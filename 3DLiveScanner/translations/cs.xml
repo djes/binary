@@ -20,6 +20,8 @@
     <string name="folder_new">Nová složka</string>
     <string name="folder_up">(Nadřazená složka)</string>
     <string name="data_saved">Data uložena jako</string>
+    <string name="online_limited">Tato funkce je k dispozici po omezenou dobu. Aby byla tato funkce zachována, aktualizujte na verzi Pro.</string>
+    <string name="online_not_available">Služba není k dispozici. Zkontrolujte své připojení k internetu a aktualizujte aplikaci na nejnovější verzi.</string>
     <string name="lowend_device">Vaše zařízení není certifikováno pomocí rozhraní Google Depth API. Výkon aplikace může být omezený.</string>
 
     <!-- Sketchfab uploader !-->
@@ -48,6 +50,7 @@
     <string name="mode_realtime">Realtime skenování</string>
     <string name="mode_dataset">Zaznamenat dataset</string>
     <string name="mode_face">Skenování obličeje</string>
+    <string name="mode_online">Online fotogrammetrie (pouze objekty)</string>
     <string name="scan_object">Skenování objektů</string>
     <string name="scan_single_room">Skenování jedné místnosti</string>
     <string name="scan_large_interior">Skenování velkého interiéru</string>
@@ -164,6 +167,13 @@
     <string name="scan_discard">Tato akce smaže progres skenování.</string>
     <string name="scan_finish">Uložením se skenování dokončí.</string>
     <string name="scan_rewind">Přetočte proces skenování do stavu, ze kterého chcete pokračovat.</string>
+    <string name="online_download">Stahování dat</string>
+    <string name="online_generating">Generování modelu</string>
+    <string name="online_upload">Nahrávání dat</string>
+    <string name="online_waiting">Čekání na službu</string>
+    <string name="online_tip">Jakmile začnete skenovat, obkroužte objekt. Ujistěte se, že prostředí kolem objektu je co nejjednodušší.</string>
+    <string name="online_coverage">Úplnost skenování:</string>
+    <string name="online_limit">Zdá se, že jste v poslední době provedli příliš velké množství skenů. Zkuste to znovu později.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>

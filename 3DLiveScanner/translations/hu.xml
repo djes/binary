@@ -20,6 +20,8 @@
     <string name="folder_new">Új mappa</string>
     <string name="folder_up">(Szülő mappa)</string>
     <string name="data_saved">Az adatok elmentve</string>
+    <string name="online_limited">Ez a funkció korlátozott ideig érhető el. Ha szeretné megtartani ezt a funkciót, frissítsen a Pro verzióra.</string>
+    <string name="online_not_available">A szolgáltatás nem áll rendelkezésre. Ellenőrizze internetkapcsolatát, és frissítse az alkalmazást a legújabb verzióra.</string>
     <string name="lowend_device">Az Ön készüléke nem rendelkezik a Google Depth API tanúsítványával. Az alkalmazás teljesítménye korlátozott lehet.</string>
 
     <!-- Sketchfab uploader !-->
@@ -48,6 +50,7 @@
     <string name="mode_realtime">Realtime szkennelés</string>
     <string name="mode_dataset">Dataset rögzítés</string>
     <string name="mode_face">Arc szkennelés</string>
+    <string name="mode_online">Online fotogrammetria (csak objektumok)</string>
     <string name="scan_object">Tárgyak szkennelése</string>
     <string name="scan_single_room">Egyágyas szoba szkennelése</string>
     <string name="scan_large_interior">Nagy belső szkennelés</string>
@@ -164,6 +167,13 @@
     <string name="scan_discard">Ez a művelet elveti a szkennelés folyamatát.</string>
     <string name="scan_finish">A mentés befejezi a szkennelést.</string>
     <string name="scan_rewind">Tekerje vissza a beolvasási folyamatot abba az állapotba, ahonnan folytatni kívánja.</string>
+    <string name="online_download">Adatok letöltése</string>
+    <string name="online_generating">Modell generálása</string>
+    <string name="online_upload">Adatok feltöltése</string>
+    <string name="online_waiting">Várakozás a szolgáltatásra</string>
+    <string name="online_tip">Amint elkezdesz lőni, körözz egy tárgy körül. Győződjön meg róla, hogy a tárgy körüli környezet a lehető legegyszerűbb.</string>
+    <string name="online_coverage">Szkennelés teljessége:</string>
+    <string name="online_limit">Úgy tűnik, túl sok vizsgálatot végeztél mostanában. Próbálja meg később újra.</string>
 
     <!-- Pro dialog !-->
     <string name="buy_google">Google Play</string>
