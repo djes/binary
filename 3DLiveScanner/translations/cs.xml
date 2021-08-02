@@ -23,6 +23,7 @@
     <string name="online_limited">Tato funkce je k dispozici po omezenou dobu. Aby byla tato funkce zachována, aktualizujte na verzi Pro.</string>
     <string name="online_not_available">Služba není k dispozici. Zkontrolujte své připojení k internetu a aktualizujte aplikaci na nejnovější verzi.</string>
     <string name="lowend_device">Vaše zařízení není certifikováno pomocí rozhraní Google Depth API. Výkon aplikace může být omezený.</string>
+    <string name="permissions_required">Pro funkci 3D skenování jsou vyžadována oprávnění pro kameru a úložiště.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Popis:</string>
@@ -203,11 +204,10 @@
     <string name="fd_volume">Objem</string>
     <string name="fd_write_scan_desc">Popište sken</string>
     <string name="fd_select_scan_type">Vyberte typ skenu</string>
-    <string-array name="fd_scan_types">
-        <item>Kmen</item>
-        <item>Hromada</item>
-        <item>Převoz</item>
-        <item>Strom</item>
-        <item>Ostatní</item>
-    </string-array>
+    <string name="fd_scan_type_trunk">Kmen</string>
+    <string name="fd_scan_type_stack">Hromada</string>
+    <string name="fd_scan_type_transport">Převoz</string>
+    <string name="fd_scan_type_tree">Strom</string>
+    <string name="fd_scan_type_other">Ostatní</string>
+    <string name="fd_scan_limit">Maximální počet dosažených skenů. Chcete-li pokračovat, smažte některá skenování nebo se obraťte na office@forestdesign.ro a získejte další informace.</string>
 </resources>

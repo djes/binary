@@ -23,6 +23,7 @@
     <string name="online_limited">Diese Funktion ist nur für einen begrenzten Zeitraum verfügbar. Um diese Funktion zu erhalten, aktualisieren Sie auf die Pro-Version.</string>
     <string name="online_not_available">Der Dienst ist nicht verfügbar. Überprüfen Sie Ihre Internetverbindung und aktualisieren Sie die App auf die neueste Version.</string>
     <string name="lowend_device">Ihr Gerät ist nicht als Google Depth API Gerät zertifiziert. Die Leistung der App kann eingeschränkt sein.</string>
+    <string name="permissions_required">Für die 3D-Scanfunktion werden die Kamera- und Speicherberechtigungen angefordert.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Beschreibung:</string>
@@ -203,11 +204,10 @@
     <string name="fd_volume">Volumen</string>
     <string name="fd_write_scan_desc">Beschreiben Sie den Scan</string>
     <string name="fd_select_scan_type">Wählen Sie den Scan-Typ</string>
-    <string-array name="fd_scan_types">
-        <item>Baumstamm</item>
-        <item>Stapel</item>
-        <item>Transport</item>
-        <item>Baum</item>
-        <item>Andere</item>
-    </string-array>
+    <string name="fd_scan_type_trunk">Baumstamm</string>
+    <string name="fd_scan_type_stack">Stapel</string>
+    <string name="fd_scan_type_transport">Transport</string>
+    <string name="fd_scan_type_tree">Baum</string>
+    <string name="fd_scan_type_other">Andere</string>
+    <string name="fd_scan_limit">Maximale Anzahl von Scans erreicht. Löschen Sie einige Scans, um fortzufahren, oder wenden Sie sich für weitere Informationen an office@forestdesign.ro.</string>
 </resources>

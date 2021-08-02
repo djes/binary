@@ -23,6 +23,7 @@
     <string name="online_limited">Эта функция доступна в течение ограниченного периода времени. Чтобы сохранить эту функцию, обновите версию Pro.</string>
     <string name="online_not_available">Услуга недоступна. Проверьте подключение к Интернету и обновите приложение до последней версии.</string>
     <string name="lowend_device">Ваше устройство не имеет сертификата Google Depth API. Производительность приложения может быть ограничена.</string>
+    <string name="permissions_required">Для функции 3D-сканирования необходимо разрешение на использование камеры и хранилища.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Описание:</string>
@@ -203,11 +204,10 @@
     <string name="fd_volume">Oбъем</string>
     <string name="fd_write_scan_desc">Опишите скан</string>
     <string name="fd_select_scan_type">Выберите тип сканирования</string>
-    <string-array name="fd_scan_types">
-        <item>Напряжение</item>
-        <item>свая</item>
-        <item>Транспорт</item>
-        <item>дерево</item>
-        <item>Другой</item>
-    </string-array>
+    <string name="fd_scan_type_trunk">Напряжение</string>
+    <string name="fd_scan_type_stack">свая</string>
+    <string name="fd_scan_type_transport">Транспорт</string>
+    <string name="fd_scan_type_tree">дерево</string>
+    <string name="fd_scan_type_other">Другой</string>
+    <string name="fd_scan_limit">Достигнуто максимальное количество сканирований. Удалите несколько сканирований для продолжения или обратитесь по адресу office@forestdesign.ro для получения дополнительной информации.</string>
 </resources>

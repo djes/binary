@@ -23,6 +23,7 @@
     <string name="online_limited">Ez a funkció korlátozott ideig érhető el. Ha szeretné megtartani ezt a funkciót, frissítsen a Pro verzióra.</string>
     <string name="online_not_available">A szolgáltatás nem áll rendelkezésre. Ellenőrizze internetkapcsolatát, és frissítse az alkalmazást a legújabb verzióra.</string>
     <string name="lowend_device">Az Ön készüléke nem rendelkezik a Google Depth API tanúsítványával. Az alkalmazás teljesítménye korlátozott lehet.</string>
+    <string name="permissions_required">A 3D szkennelési funkcióhoz a kamera és a tárolási engedélyek szükségesek.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Leírás:</string>
@@ -203,11 +204,10 @@
     <string name="fd_volume">Hangerő</string>
     <string name="fd_write_scan_desc">Mutassa be a letapogatást</string>
     <string name="fd_select_scan_type">Válassza ki a szkennelés típusát</string>
-    <string-array name="fd_scan_types">
-        <item>Törzs</item>
-        <item>Sokk</item>
-        <item>Szállítás</item>
-        <item>Fa</item>
-        <item>Egyéb</item>
-    </string-array>
+    <string name="fd_scan_type_trunk">Törzs</string>
+    <string name="fd_scan_type_stack">Sokk</string>
+    <string name="fd_scan_type_transport">Szállítás</string>
+    <string name="fd_scan_type_tree">Fa</string>
+    <string name="fd_scan_type_other">Egyéb</string>
+    <string name="fd_scan_limit">Maximális mennyiségű letapogatás elérése. A folytatáshoz töröljön néhány vizsgálatot, vagy további információkért forduljon a office@forestdesign.ro címre.</string>
 </resources>

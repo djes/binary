@@ -23,6 +23,7 @@
     <string name="online_limited">Această funcție este disponibilă pentru o perioadă limitată de timp. Pentru a păstra această funcționalitate, actualizați la versiunea Pro.</string>
     <string name="online_not_available">Serviciul nu este disponibil. Verificați conexiunea la internet și actualizați aplicația la cea mai recentă versiune.</string>
     <string name="lowend_device">Dispozitivul dvs. nu este certificat cu Google Depth API. Este posibil ca performanța aplicației să fie limitată.</string>
+    <string name="permissions_required">Pentru funcționalitatea de scanare 3D sunt necesare permisiuni pentru cameră și stocare.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descriere:</string>
@@ -203,11 +204,10 @@
     <string name="fd_volume">Volum</string>
     <string name="fd_write_scan_desc">Descriere scanare</string>
     <string name="fd_select_scan_type">Selectează tip de scanare</string>
-    <string-array name="fd_scan_types">
-        <item>Buștean</item>
-        <item>Stivă</item>
-        <item>Transport</item>
-        <item>Arbore</item>
-        <item>Altele</item>
-    </string-array>
+    <string name="fd_scan_type_trunk">Buștean</string>
+    <string name="fd_scan_type_stack">Stivă</string>
+    <string name="fd_scan_type_transport">Transport</string>
+    <string name="fd_scan_type_tree">Arbore</string>
+    <string name="fd_scan_type_other">Altele</string>
+    <string name="fd_scan_limit">Numărul maxim de scanări atins. Ștergeți unele scanări pentru a continua sau contactați office@forestdesign.ro pentru mai multe informații.</string>
 </resources>

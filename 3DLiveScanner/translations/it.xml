@@ -23,6 +23,7 @@
     <string name="online_limited">Questa funzione è disponibile per un periodo di tempo limitato. Per mantenere questa funzionalità aggiorna alla versione Pro.</string>
     <string name="online_not_available">Il servizio non è disponibile. Controlla la tua connessione Internet e aggiorna l\'app all\'ultima versione.</string>
     <string name="lowend_device">Il tuo dispositivo non è certificato con Google Depth API. Le prestazioni dell\'app potrebbero essere limitate.</string>
+    <string name="permissions_required">Per la funzionalità di scansione 3D sono richieste le autorizzazioni per la fotocamera e l\'archiviazione.</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descrizione:</string>
@@ -203,11 +204,10 @@
     <string name="fd_volume">Volume</string>
     <string name="fd_write_scan_desc">Descrivi la scansione</string>
     <string name="fd_select_scan_type">Seleziona il tipo di scansione</string>
-    <string-array name="fd_scan_types">
-        <item>Tribù</item>
-        <item>Shock</item>
-        <item>Trasporto</item>
-        <item>Albero</item>
-        <item>Altro</item>
-    </string-array>
+    <string name="fd_scan_type_trunk">Tribù</string>
+    <string name="fd_scan_type_stack">Shock</string>
+    <string name="fd_scan_type_transport">Trasporto</string>
+    <string name="fd_scan_type_tree">Albero</string>
+    <string name="fd_scan_type_other">Altro</string>
+    <string name="fd_scan_limit">Raggiunto il numero massimo di scansioni. Cancella alcune scansioni per continuare o contatta office@forestdesign.ro per ulteriori informazioni.</string>
 </resources>

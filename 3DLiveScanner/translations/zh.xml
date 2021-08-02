@@ -23,6 +23,7 @@
     <string name="online_limited">这项功能在有限的时间内可用。要保持这一功能，请更新到专业版。</string>
     <string name="online_not_available">该服务不可用。 检查您的互联网连接并将应用程序更新到最新版本。</string>
     <string name="lowend_device">你的设备没有通过谷歌深度API的认证。该应用程序的性能可能受到限制。</string>
+    <string name="permissions_required">对于3D扫描功能，需要摄像头和存储权限。</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">描述:</string>
@@ -203,11 +204,10 @@
     <string name="fd_volume">卷</string>
     <string name="fd_write_scan_desc">写扫描</string>
     <string name="fd_select_scan_type">选择扫描类型</string>
-    <string-array name="fd_scan_types">
-        <item>斯塔姆</item>
-        <item>斯托斯</item>
-        <item>运输</item>
-        <item>树</item>
-        <item>其他</item>
-    </string-array>
+    <string name="fd_scan_type_trunk">斯塔姆</string>
+    <string name="fd_scan_type_stack">斯托斯</string>
+    <string name="fd_scan_type_transport">运输</string>
+    <string name="fd_scan_type_tree">树</string>
+    <string name="fd_scan_type_other">其他</string>
+    <string name="fd_scan_limit">已达到最大的扫描量。删除一些扫描来继续，或联系office@forestdesign.ro，以获得更多信息。</string>
 </resources>
