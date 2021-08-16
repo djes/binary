@@ -84,8 +84,6 @@
     <string name="fullhd_summary">A fullHD-fotók adatkészletbe történő rögzítése lehetővé teszi az adatok felhasználását a fotogrammetriai szoftverben. Vegye figyelembe, hogy ez az opció lelassítja a beolvasási folyamatot.</string>
     <string name="align_pose">Igazító eszköz póz</string>
     <string name="align_pose_summary">A textúra minőségének növelése érdekében beállítja az eszköz helyzetét. Ez az opció sokkal lassabbá teszi a rögzítést.</string>
-    <string name="enforce_slow">Kényszerítse a lassú mozgást</string>
-    <string name="enforce_slow_summary">Megállítja a rögzítést, ha az eszköz túl gyorsan mozog, hogy megakadályozza a pontatlan adatok rögzítését.</string>
     <string name="flash_light">Használjon zseblámpát</string>
     <string name="flash_light_summary">A zseblámpa megkönnyíti a szkennelést sötét helyeken.</string>
     <string name="photo_mode">Manuális fénykép mód</string>
@@ -155,8 +153,6 @@
     <string name="working">Az app dolgozik ne kapcsold ki a telefont és ne indíts el új AR appot.</string>
 
     <!-- Event !-->
-    <string name="event_bright">Túl nagy a szkenneléshez! </string>
-    <string name="event_dark">Túl sötét szkenneléshez!</string>
     <string name="event_features">Problémák a meghatározással!</string>
     <string name="event_convert">Adat töltése</string>
     <string name="event_image">Fotó számítása</string>
@@ -164,7 +160,6 @@
     <string name="event_process">Modell elemezése</string>
     <string name="event_simplify">Geometria dolgozása</string>
     <string name="event_unwrap">Textúrák dolgozása</string>
-    <string name="event_unsharp">Lassan mozgassa az eszközt</string>
     <string name="scan_discard">Ez a művelet elveti a szkennelés folyamatát.</string>
     <string name="scan_finish">A mentés befejezi a szkennelést.</string>
     <string name="scan_rewind">Tekerje vissza a beolvasási folyamatot abba az állapotba, ahonnan folytatni kívánja.</string>

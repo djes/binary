@@ -84,8 +84,6 @@
     <string name="fullhd_summary">La capture de photos en FullHD vous permet d\'utiliser les données dans un logiciel de photogrammétrie. Notez que cette option ralentit le processus de numérisation.</string>
     <string name="align_pose">Alignement de la pose de l\'appareil</string>
     <string name="align_pose_summary">Ajuste la pose de l\'appareil pour augmenter la qualité de la texture. Cette option rend la capture beaucoup plus lente.</string>
-    <string name="enforce_slow">Forcer un mouvement lent</string>
-    <string name="enforce_slow_summary">Arrête la capture lorsque l\'appareil se déplace trop rapidement afin d\'éviter de capturer des données inexactes.</string>
     <string name="flash_light">Utiliser le flash</string>
     <string name="flash_light_summary">La lampe de poche facilite la numérisation dans les endroits sombres.</string>
     <string name="photo_mode">Mode photo manuel</string>
@@ -155,8 +153,6 @@
     <string name="working">L\'application traite les données, ne pas éteindre l\'appareil et ne pas démarrer une autre application utilisant l\'AR.</string>
 
     <!-- Event !-->
-    <string name="event_bright">La luminosité est trop importante pour scanner</string>
-    <string name="event_dark">La luminosité est trop faible pour scanner</string>
     <string name="event_features">Le suivi de mouvement a rencontré un problème</string>
     <string name="event_convert">Conversion des données</string>
     <string name="event_image">Traitement des photos</string>
@@ -164,7 +160,6 @@
     <string name="event_process">Traitement du modèle</string>
     <string name="event_simplify">Simplification de la géometrie</string>
     <string name="event_unwrap">Dépliage de textures</string>
-    <string name="event_unsharp">Déplacer l\'appareil lentement</string>
     <string name="scan_discard">Cette action annulera la progression de l\'analyse.</string>
     <string name="scan_finish">L\'enregistrement terminera la numérisation.</string>
     <string name="scan_rewind">Revenir en arrière dans le processus de numérisation jusqu\'à un état à partir duquel vous voulez continuer.</string>

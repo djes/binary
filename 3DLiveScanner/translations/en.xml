@@ -84,8 +84,6 @@
     <string name="fullhd_summary">Capturing fullHD photos into dataset enables you to use the data in photogrammetry software. Note that this option slows down the scanning process.</string>
     <string name="align_pose">Align device pose</string>
     <string name="align_pose_summary">Adjusts device pose to increase the texture quality. This option makes capturing much slower.</string>
-    <string name="enforce_slow">Enforce slow movement</string>
-    <string name="enforce_slow_summary">Stops capturing when device moves too fast in order to prevent capturing inaccurate data.</string>
     <string name="flash_light">Use flashlight</string>
     <string name="flash_light_summary">Flashlight makes easier scanning in dark places.</string>
     <string name="photo_mode">Manual photo mode</string>
@@ -155,8 +153,6 @@
     <string name="working">The app is working, please do not turn off the device and do not start another AR app.</string>
 
     <!-- Event !-->
-    <string name="event_bright">Too bright for scanning</string>
-    <string name="event_dark">Too dark for scanning</string>
     <string name="event_features">Motion tracking detected issues</string>
     <string name="event_convert">Converting data</string>
     <string name="event_image">Processing photo</string>
@@ -164,7 +160,6 @@
     <string name="event_process">Processing model</string>
     <string name="event_simplify">Simplifying geometry</string>
     <string name="event_unwrap">Unwrapping textures</string>
-    <string name="event_unsharp">Move the device slow</string>
     <string name="scan_discard">This action will discard the scan progress.</string>
     <string name="scan_finish">Saving will finish the scanning.</string>
     <string name="scan_rewind">Rewind the scan process to a state from which you want to continue.</string>

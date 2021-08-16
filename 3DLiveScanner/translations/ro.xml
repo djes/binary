@@ -84,8 +84,6 @@
     <string name="fullhd_summary">Capturarea fotografiilor fullHD în setul de date vă permite să utilizați datele din software-ul de fotogrametrie. Rețineți că această opțiune încetinește procesul de scanare.</string>
     <string name="align_pose">Alinierea poziției dispozitivului</string>
     <string name="align_pose_summary">Captează date după apăsarea unui buton, datele sunt texturate imediat.</string>
-    <string name="enforce_slow">Aplică mișcarea lentă</string>
-    <string name="enforce_slow_summary">Oprește capturarea atunci când dispozitivul se mișcă prea repede pentru a preveni capturarea datelor inexacte.</string>
     <string name="flash_light">Folosiți lanterna</string>
     <string name="flash_light_summary">Lanterna facilitează scanarea în locuri întunecate.</string>
     <string name="photo_mode">Mod foto manual</string>
@@ -155,8 +153,6 @@
     <string name="working">Aplicația funcționează. Te rugăm nu stinge dispozitivul și nu inția altă aplicație de tip AR.</string>
 
     <!-- Event !-->
-    <string name="event_bright">Prea luminos pentru scanare</string>
-    <string name="event_dark">Prea întunecat pentru scanare</string>
     <string name="event_features">Senzorul de mișcare a detectat probleme</string>
     <string name="event_convert">Conversie date</string>
     <string name="event_image">Procesare foto</string>
@@ -164,7 +160,6 @@
     <string name="event_process">Procesare model</string>
     <string name="event_simplify">Simplificare geometrie</string>
     <string name="event_unwrap">Despachetare texturi</string>
-    <string name="event_unsharp">Mutați dispozitivul lent</string>
     <string name="scan_discard">Această acțiune va elimina progresul scanării.</string>
     <string name="scan_finish">Salvarea va finaliza scanarea.</string>
     <string name="scan_rewind">Reîntoarceți procesul de scanare la o stare din care doriți să continuați.</string>

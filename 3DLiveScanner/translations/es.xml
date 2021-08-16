@@ -84,8 +84,6 @@
     <string name="fullhd_summary">La captura de fotos FullHD en un conjunto de datos le permite utilizar los datos en el software de fotogrametría. Tenga en cuenta que esta opción ralentiza el proceso de escaneo.</string>
     <string name="align_pose">Postura del dispositivo de alineación</string>
     <string name="align_pose_summary">Captura datos después de presionar un botón, los datos se texturizan inmediatamente.</string>
-    <string name="enforce_slow">Hacer cumplir el movimiento lento</string>
-    <string name="enforce_slow_summary">Detiene la captura cuando el dispositivo se mueve demasiado rápido para evitar la captura de datos inexactos.</string>
     <string name="flash_light">Usar linterna</string>
     <string name="flash_light_summary">La linterna facilita el escaneo en lugares oscuros.</string>
     <string name="photo_mode">Modo de foto manual</string>
@@ -155,8 +153,6 @@
     <string name="working">La aplicación está funcionando, por favor no apague el dispositivo y no inicie otra aplicación AR.</string>
 
     <!-- Event !-->
-    <string name="event_bright">Demasiado brillante para escanear</string>
-    <string name="event_dark">Demasiado oscuro para escanear</string>
     <string name="event_features">El control de movimiento detecto problemas</string>
     <string name="event_convert">Conversión de datos</string>
     <string name="event_image">Procesamiento de fotos</string>
@@ -164,7 +160,6 @@
     <string name="event_process">Modelo de procesamiento</string>
     <string name="event_simplify">Simplificación de la geometría</string>
     <string name="event_unwrap">Desenvoltura de texturas</string>
-    <string name="event_unsharp">Mover dispositivo lento</string>
     <string name="scan_discard">Esta acción descartará el progreso del análisis.</string>
     <string name="scan_finish">Guardar finalizará el escaneo.</string>
     <string name="scan_rewind">Rebobine el proceso de escaneo hasta un estado desde el que desee continuar.</string>

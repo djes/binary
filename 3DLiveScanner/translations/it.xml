@@ -84,8 +84,6 @@
     <string name="fullhd_summary">L\'acquisizione di foto fullHD nel set di dati consente di utilizzare i dati nel software di fotogrammetria. Notare che questa opzione rallenta il processo di scansione.</string>
     <string name="align_pose">Allineamento della posizione del dispositivo</string>
     <string name="align_pose_summary">Regola la posa del dispositivo per aumentare la qualità della trama. Questa opzione rende l\'acquisizione molto più lenta.</string>
-    <string name="enforce_slow">Imponi movimenti lenti</string>
-    <string name="enforce_slow_summary">Interrompe l\'acquisizione quando il dispositivo si muove troppo velocemente per evitare l\'acquisizione di dati imprecisi.</string>
     <string name="flash_light">Usa la torcia</string>
     <string name="flash_light_summary">La torcia rende più facile la scansione in luoghi bui.</string>
     <string name="photo_mode">Modalità foto manuale</string>
@@ -155,8 +153,6 @@
     <string name="working">L\'applicazione funziona, per favore non spegnere il dispositivo e non avviare un\'altra applicazione AR.</string>
 
     <!-- Event !-->
-    <string name="event_bright">Troppo luminoso per la scansione</string>
-    <string name="event_dark">Troppo scuro per la scansione</string>
     <string name="event_features">Problemi di rilevamento del movimento rilevati</string>
     <string name="event_convert">Conversione dei dati</string>
     <string name="event_image">Conversione dei dati</string>
@@ -164,7 +160,6 @@
     <string name="event_process">Modello di elaborazione</string>
     <string name="event_simplify">Semplificazione della geometria</string>
     <string name="event_unwrap">Srotolamento delle texture</string>
-    <string name="event_unsharp">Sposta dispositivo</string>
     <string name="scan_discard">Questa azione annullerà l\'avanzamento della scansione.</string>
     <string name="scan_finish">Il salvataggio terminerà la scansione.</string>
     <string name="scan_rewind">Riavvolgere il processo di scansione ad uno stato da cui si vuole continuare.</string>

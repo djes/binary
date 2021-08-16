@@ -84,8 +84,6 @@
     <string name="fullhd_summary">Pořizování fotografií v rozlišení FullHD do datové sady umožňuje používat data v softwaru pro fotogrammetrii. Tato možnost zpomaluje proces skenování.</string>
     <string name="align_pose">Zarovnání pozice zařízení</string>
     <string name="align_pose_summary">Upravuje polohu zařízení pro zvýšení kvality textury. Díky této možnosti je snímání mnohem pomalejší.</string>
-    <string name="enforce_slow">Vynutit pomalý pohyb</string>
-    <string name="enforce_slow_summary">Zastaví snímání, když se zařízení pohybuje příliš rychle, aby se zabránilo zachycení nepřesných dat.</string>
     <string name="flash_light">Použít svítilnu</string>
     <string name="flash_light_summary">Svítilna usnadňuje skenování na tmavých místech.</string>
     <string name="photo_mode">Manuální foto režim</string>
@@ -155,8 +153,6 @@
     <string name="working">Aplikace pracuje, prosím nevypínejte zařízení a nespouštějte jinou AR aplikaci.</string>
 
     <!-- Event !-->
-    <string name="event_bright">Příliš mnoho světla pro skenování</string>
-    <string name="event_dark">Příliš tmavo pro skenování</string>
     <string name="event_features">Sledování pohybu detekovalo problém</string>
     <string name="event_convert">Konvertuji data</string>
     <string name="event_image">Zpracovávám fotku</string>
@@ -164,7 +160,6 @@
     <string name="event_process">Zpracovávám model</string>
     <string name="event_simplify">Zjednodušuji geometrii</string>
     <string name="event_unwrap">Rozbaluji textury</string>
-    <string name="event_unsharp">Pohybujte zařízením pomalu</string>
     <string name="scan_discard">Tato akce smaže progres skenování.</string>
     <string name="scan_finish">Uložením se skenování dokončí.</string>
     <string name="scan_rewind">Přetočte proces skenování do stavu, ze kterého chcete pokračovat.</string>

@@ -84,8 +84,6 @@
     <string name="fullhd_summary">Захват фотографий fullHD в набор данных позволяет использовать данные в программном обеспечении для фотограмметрии. Обратите внимание, что эта опция замедляет процесс сканирования.</string>
     <string name="align_pose">Выравнивание позы устройства</string>
     <string name="align_pose_summary">Регулирует позу устройства для повышения качества текстуры. Эта опция значительно замедляет захват.</string>
-    <string name="enforce_slow">Обеспечить медленное движение</string>
-    <string name="enforce_slow_summary">Останавливает захват, когда устройство движется слишком быстро, чтобы предотвратить захват неточных данных.</string>
     <string name="flash_light">Использовать фонарик</string>
     <string name="flash_light_summary">Фонарик упрощает сканирование в темных местах.</string>
     <string name="photo_mode">Ручной режим фото</string>
@@ -155,8 +153,6 @@
     <string name="working">Приложение находится в работе, пожалуйста не отключайте устройства и не запускайте другое AR приложение.</string>
 
     <!-- Event !-->
-    <string name="event_bright">слишком ярко для сканирования</string>
-    <string name="event_dark">слишком темно для сканирования</string>
     <string name="event_features">отслеживатель движений обнаружил проблему</string>
     <string name="event_convert">преобразование данных</string>
     <string name="event_image">обработка фото</string>
@@ -164,7 +160,6 @@
     <string name="event_process">обработка модели</string>
     <string name="event_simplify">упрощение геометрии</string>
     <string name="event_unwrap">развертывание текстур</string>
-    <string name="event_unsharp">Двигайте устройство медленно</string>
     <string name="scan_discard">Это действие отменит прогресс сканирования.</string>
     <string name="scan_finish">Сохранение завершит сканирование.</string>
     <string name="scan_rewind">Перемотайте процесс сканирования в состояние, из которого вы хотите продолжить.</string>

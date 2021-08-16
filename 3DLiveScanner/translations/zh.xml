@@ -84,8 +84,6 @@
     <string name="fullhd_summary">将全高清照片捕获到数据集中，可以使用摄影测量软件中的数据。 请注意，此选项会减慢扫描过程。</string>
     <string name="align_pose">对准装置的姿势</string>
     <string name="align_pose_summary">调整设备姿势以增加纹理质量。 此选项使捕获速度慢得多。</string>
-    <string name="enforce_slow">强制缓慢运动</string>
-    <string name="enforce_slow_summary">设备移动太快时停止捕获，以防止捕获不正确的数据。</string>
     <string name="flash_light">使用手电筒</string>
     <string name="flash_light_summary">手电筒使在暗处的扫描更加容易。</string>
     <string name="photo_mode">手动拍照模式</string>
@@ -155,8 +153,6 @@
     <string name="working">这个APP正在运行，请不要关机或运行其他的AR软件.</string>
 
     <!-- Event !-->
-    <string name="event_bright">太亮了</string>
-    <string name="event_dark">太暗了</string>
     <string name="event_features">动作追踪发现异常</string>
     <string name="event_convert">转换数据</string>
     <string name="event_image">处理相片</string>
@@ -164,7 +160,6 @@
     <string name="event_process">处理模型</string>
     <string name="event_simplify">简化几何体</string>
     <string name="event_unwrap">非闭合特征</string>
-    <string name="event_unsharp">缓慢移动设备</string>
     <string name="scan_discard">此操作將放棄掃描進度。</string>
     <string name="scan_finish">保存將完成掃描。</string>
     <string name="scan_rewind">将扫描过程倒退到您要继续的状态。</string>

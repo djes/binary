@@ -84,8 +84,6 @@
     <string name="fullhd_summary">Durch die Aufnahme von Full-HD-Fotos in einen Datensatz können Sie die Daten in einer Photogrammetrie-Software verwenden. Beachten Sie, dass diese Option den Scanvorgang verlangsamt.</string>
     <string name="align_pose">Geräteausrichtung einstellen</string>
     <string name="align_pose_summary">Passt die Ausrichtung des Geräts an, um die Texturqualität zu erhöhen. Diese Option verlangsamt die Erfassung erheblich.</string>
-    <string name="enforce_slow">Langsame Bewegungen erzwingen</string>
-    <string name="enforce_slow_summary">Stoppt die Erfassung, wenn sich das Gerät zu schnell bewegt, um zu verhindern, dass ungenaue Daten erfasst werden.</string>
     <string name="flash_light">Taschenlampe verwenden</string>
     <string name="flash_light_summary">Taschenlampe erleichtert das Scannen an dunklen Orten.</string>
     <string name="photo_mode">Manueller Fotomodus</string>
@@ -155,8 +153,6 @@
     <string name="working">Die App arbeitet. Bitte schalten Sie das Gerät nicht aus und starten Sie keine andere AR-Applikation.</string>
 
     <!-- Event !-->
-    <string name="event_bright">Zu hell zum Scannen</string>
-    <string name="event_dark">Zu dunkel zum Scannen</string>
     <string name="event_features">Motion Tracking erkannte Probleme</string>
     <string name="event_convert">Konvertierung von Daten</string>
     <string name="event_image">Bearbeitung von Fotos</string>
@@ -164,7 +160,6 @@
     <string name="event_process">Verarbeitungsmodell</string>
     <string name="event_simplify">Vereinfachung der Geometrie</string>
     <string name="event_unwrap">Auspacken von Texturen</string>
-    <string name="event_unsharp">Bewegen Sie das Gerät langsam</string>
     <string name="scan_discard">Diese Aktion verwirft den Scan-Fortschritt.</string>
     <string name="scan_finish">Durch Speichern wird der Scanvorgang beendet.</string>
     <string name="scan_rewind">Spulen Sie den Scanvorgang bis zu einem Zustand zurück, von dem aus Sie fortfahren möchten.</string>
