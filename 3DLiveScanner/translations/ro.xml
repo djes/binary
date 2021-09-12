@@ -117,7 +117,7 @@
     <string name="editor_main_colors">Culori</string>
     <string name="editor_main_select">Selectează</string>
     <string name="editor_main_transform">Transformă</string>
-    <string name="editor_main_view">Vizualizează</string>
+    <string name="editor_main_edit">Editați</string>
     <string name="editor_colors_contrast">Contrast</string>
     <string name="editor_colors_gamma">Gamma</string>
     <string name="editor_colors_saturation">Saturație</string>
@@ -137,7 +137,8 @@
     <string name="editor_transform_move">Mută</string>
     <string name="editor_transform_rotate">Rotește</string>
     <string name="editor_transform_scale">Scară</string>
-    <string name="editor_view_normals">Normal</string>
+    <string name="editor_edit_undo">Desfaceți</string>
+    <string name="editor_edit_visualisation">Vizualizare</string>
     <string name="editor_deselect">Deselectați</string>
 
     <!-- Service !-->

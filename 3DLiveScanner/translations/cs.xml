@@ -117,7 +117,7 @@
     <string name="editor_main_colors">Barvy</string>
     <string name="editor_main_select">Vybrat</string>
     <string name="editor_main_transform">Transformovat</string>
-    <string name="editor_main_view">Zobrazit</string>
+    <string name="editor_main_edit">Upravit</string>
     <string name="editor_colors_contrast">Kontrast</string>
     <string name="editor_colors_gamma">Světlost</string>
     <string name="editor_colors_saturation">Sytost</string>
@@ -137,7 +137,8 @@
     <string name="editor_transform_move">Posunout</string>
     <string name="editor_transform_rotate">Otočit</string>
     <string name="editor_transform_scale">Škálovat</string>
-    <string name="editor_view_normals">Normály</string>
+    <string name="editor_edit_undo">Zpět</string>
+    <string name="editor_edit_visualisation">Vizualizace</string>
     <string name="editor_deselect">Zrušit výběr</string>
 
     <!-- Service !-->

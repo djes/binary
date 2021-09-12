@@ -117,7 +117,7 @@
     <string name="editor_main_colors">颜色</string>
     <string name="editor_main_select">选择</string>
     <string name="editor_main_transform">转换视角</string>
-    <string name="editor_main_view">观察</string>
+    <string name="editor_main_edit">编辑</string>
     <string name="editor_colors_contrast">对比度</string>
     <string name="editor_colors_gamma">伽马</string>
     <string name="editor_colors_saturation">饱和度</string>
@@ -137,7 +137,8 @@
     <string name="editor_transform_move">移动</string>
     <string name="editor_transform_rotate">旋转</string>
     <string name="editor_transform_scale">缩放</string>
-    <string name="editor_view_normals">平面信息</string>
+    <string name="editor_edit_undo">撤销</string>
+    <string name="editor_edit_visualisation">视觉化</string>
     <string name="editor_deselect">取消选择</string>
 
     <!-- Service !-->

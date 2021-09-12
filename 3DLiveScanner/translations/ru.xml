@@ -117,7 +117,7 @@
     <string name="editor_main_colors">цвета</string>
     <string name="editor_main_select">выбрать</string>
     <string name="editor_main_transform">преобразовать</string>
-    <string name="editor_main_view">просмотр</string>
+    <string name="editor_main_edit">Редактировать</string>
     <string name="editor_colors_contrast">контраст</string>
     <string name="editor_colors_gamma">гамма</string>
     <string name="editor_colors_saturation">насыщенность</string>
@@ -137,7 +137,8 @@
     <string name="editor_transform_move">переместить</string>
     <string name="editor_transform_rotate">повернуть</string>
     <string name="editor_transform_scale">масштаб</string>
-    <string name="editor_view_normals">нормаль</string>
+    <string name="editor_edit_undo">Отменить</string>
+    <string name="editor_edit_visualisation">Визуализация</string>
     <string name="editor_deselect">Отменить выбор</string>
 
     <!-- Service !-->

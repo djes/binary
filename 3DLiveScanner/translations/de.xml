@@ -117,7 +117,7 @@
     <string name="editor_main_colors">Farben</string>
     <string name="editor_main_select">Auswahl</string>
     <string name="editor_main_transform">Verwandeln</string>
-    <string name="editor_main_view">Ansicht</string>
+    <string name="editor_main_edit">Bearbeiten</string>
     <string name="editor_colors_contrast">Kontrast</string>
     <string name="editor_colors_gamma">Gamma</string>
     <string name="editor_colors_saturation">Sättigung</string>
@@ -137,7 +137,8 @@
     <string name="editor_transform_move">Verschieben</string>
     <string name="editor_transform_rotate">Drehen</string>
     <string name="editor_transform_scale">Skalieren</string>
-    <string name="editor_view_normals">Normalvektoren</string>
+    <string name="editor_edit_undo">Aufheben</string>
+    <string name="editor_edit_visualisation">Visualisierung</string>
     <string name="editor_deselect">Abwählen</string>
 
     <!-- Service !-->
