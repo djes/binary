@@ -20,8 +20,8 @@
     <string name="folder_new">Dosar nou</string>
     <string name="folder_up">(Dosar părinte)</string>
     <string name="data_saved">Date salvate ca</string>
-    <string name="online_limited">Această funcție este disponibilă pentru o perioadă limitată de timp. Pentru a păstra această funcționalitate, actualizați la versiunea Pro.</string>
-    <string name="online_not_available">Serviciul nu este disponibil. Verificați conexiunea la internet și actualizați aplicația la cea mai recentă versiune.</string>
+    <string name="online_limited">Această funcție utilizează un server cloud online. Pentru a utiliza serviciul gratuit, trebuie să urmăriți o reclamă video. Doriți să continuați?</string>
+    <string name="online_not_available">Anunțul nu a fost afișat până la capăt. Dacă problemele persistă, atunci verificați conexiunea la internet sau actualizați aplicația la cea mai recentă versiune.</string>
     <string name="lowend_device">Dispozitivul dvs. nu este certificat cu Google Depth API. Este posibil ca performanța aplicației să fie limitată.</string>
     <string name="permissions_required">Pentru funcționalitatea de scanare 3D sunt necesare permisiuni pentru cameră și stocare.</string>
 

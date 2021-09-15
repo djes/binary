@@ -20,8 +20,8 @@
     <string name="folder_new">Nueva carpeta</string>
     <string name="folder_up">(Carpeta principal)</string>
     <string name="data_saved">Datos guardados como</string>
-    <string name="online_limited">Esta función está disponible por un periodo de tiempo limitado. Para mantener esta funcionalidad actualice a la versión Pro.</string>
-    <string name="online_not_available">El servicio no está disponible. Verifique su conexión a Internet y actualice la aplicación a la última versión.</string>
+    <string name="online_limited">Esta función utiliza un servidor en la nube en línea. Para utilizar el servicio de forma gratuita tienes que ver un anuncio en vídeo. ¿Quieres continuar?</string>
+    <string name="online_not_available">El anuncio no se mostró hasta el final. Si los problemas persisten, comprueba la conexión a Internet o actualiza la aplicación a la última versión.</string>
     <string name="lowend_device">Tu dispositivo no está certificado con Google Depth API. El rendimiento de la aplicación puede ser limitado.</string>
     <string name="permissions_required">Para la funcionalidad de escaneo 3D se solicitan los permisos de la cámara y del almacenamiento.</string>
 

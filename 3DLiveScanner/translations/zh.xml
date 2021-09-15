@@ -20,8 +20,8 @@
     <string name="folder_new">新建文件夹</string>
     <string name="folder_up">(上层资料夹)</string>
     <string name="data_saved">数据另存为</string>
-    <string name="online_limited">这项功能在有限的时间内可用。要保持这一功能，请更新到专业版。</string>
-    <string name="online_not_available">该服务不可用。 检查您的互联网连接并将应用程序更新到最新版本。</string>
+    <string name="online_limited">该功能使用在线云服务器。要免费使用该服务，你必须观看一个视频广告。你想继续吗？</string>
+    <string name="online_not_available">广告没有显示到最后。如果问题一直存在，那么检查网络连接或将应用程序更新到最新版本。</string>
     <string name="lowend_device">你的设备没有通过谷歌深度API的认证。该应用程序的性能可能受到限制。</string>
     <string name="permissions_required">对于3D扫描功能，需要摄像头和存储权限。</string>
 

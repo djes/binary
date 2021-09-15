@@ -20,8 +20,8 @@
     <string name="folder_new">Nová složka</string>
     <string name="folder_up">(Nadřazená složka)</string>
     <string name="data_saved">Data uložena jako</string>
-    <string name="online_limited">Tato funkce je k dispozici po omezenou dobu. Aby byla tato funkce zachována, aktualizujte na verzi Pro.</string>
-    <string name="online_not_available">Služba není k dispozici. Zkontrolujte své připojení k internetu a aktualizujte aplikaci na nejnovější verzi.</string>
+    <string name="online_limited">Tato funkce využívá online cloudový server. Chcete-li službu použít zdarma, musíte zobrazit videoreklamu. Chcete pokračovat?</string>
+    <string name="online_not_available">Reklama nebyla zobrazena do konce. Pokud problémy přetrvávají, zkontrolujte připojení k internetu nebo aktualizujte aplikaci na nejnovější verzi.</string>
     <string name="lowend_device">Vaše zařízení není certifikováno pomocí rozhraní Google Depth API. Výkon aplikace může být omezený.</string>
     <string name="permissions_required">Pro funkci 3D skenování jsou vyžadována oprávnění pro kameru a úložiště.</string>
 

@@ -20,8 +20,8 @@
     <string name="folder_new">Új mappa</string>
     <string name="folder_up">(Szülő mappa)</string>
     <string name="data_saved">Az adatok elmentve</string>
-    <string name="online_limited">Ez a funkció korlátozott ideig érhető el. Ha szeretné megtartani ezt a funkciót, frissítsen a Pro verzióra.</string>
-    <string name="online_not_available">A szolgáltatás nem áll rendelkezésre. Ellenőrizze internetkapcsolatát, és frissítse az alkalmazást a legújabb verzióra.</string>
+    <string name="online_limited">Ez a funkció online felhőszervereket használ. A szolgáltatás ingyenes használatához meg kell néznie egy videóreklámot. Szeretné folytatni?</string>
+    <string name="online_not_available">A reklámot nem mutatták be a végéig. Ha a problémák továbbra is fennállnak, akkor ellenőrizze az internetkapcsolatot, vagy frissítse az alkalmazást a legújabb verzióra.</string>
     <string name="lowend_device">Az Ön készüléke nem rendelkezik a Google Depth API tanúsítványával. Az alkalmazás teljesítménye korlátozott lehet.</string>
     <string name="permissions_required">A 3D szkennelési funkcióhoz a kamera és a tárolási engedélyek szükségesek.</string>
 
