@@ -24,6 +24,7 @@
     <string name="online_not_available">A reklámot nem mutatták be a végéig. Ha a problémák továbbra is fennállnak, akkor ellenőrizze az internetkapcsolatot, vagy frissítse az alkalmazást a legújabb verzióra.</string>
     <string name="lowend_device">Az Ön készüléke nem rendelkezik a Google Depth API tanúsítványával. Az alkalmazás teljesítménye korlátozott lehet.</string>
     <string name="permissions_required">A 3D szkennelési funkcióhoz a kamera és a tárolási engedélyek szükségesek.</string>
+    <string name="policy_accepted">Elolvastam és elfogadom az adatvédelmi szabályzatot</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Leírás:</string>
@@ -187,6 +188,8 @@
     <string name="scan_2cm">2 cm - Közepes</string>
     <string name="scan_4cm">4 cm - Nagy</string>
     <string name="scan_8cm">8 cm - Gyors szkennelés</string>
+    <string name="screenshot">Pillanatkép</string>
+    <string name="videoshot">Forgó videó</string>
 
     <string-array name="shares">
         <item>Android dialog</item>

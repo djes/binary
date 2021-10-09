@@ -24,6 +24,7 @@
     <string name="online_not_available">Reklama nebyla zobrazena do konce. Pokud problémy přetrvávají, zkontrolujte připojení k internetu nebo aktualizujte aplikaci na nejnovější verzi.</string>
     <string name="lowend_device">Vaše zařízení není certifikováno pomocí rozhraní Google Depth API. Výkon aplikace může být omezený.</string>
     <string name="permissions_required">Pro funkci 3D skenování jsou vyžadována oprávnění pro kameru a úložiště.</string>
+    <string name="policy_accepted">Přečetl/a jsem si zásady ochrany osobních údajů a souhlasím s nimi</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Popis:</string>
@@ -187,6 +188,8 @@
     <string name="scan_2cm">2 cm - Interior</string>
     <string name="scan_4cm">4 cm - Exterior</string>
     <string name="scan_8cm">8 cm - Rychlý sken</string>
+    <string name="screenshot">Snímek obrazovky</string>
+    <string name="videoshot">Rotující video</string>
 
     <string-array name="shares">
         <item>Android dialog</item>

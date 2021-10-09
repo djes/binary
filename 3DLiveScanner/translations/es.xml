@@ -24,6 +24,7 @@
     <string name="online_not_available">El anuncio no se mostró hasta el final. Si los problemas persisten, comprueba la conexión a Internet o actualiza la aplicación a la última versión.</string>
     <string name="lowend_device">Tu dispositivo no está certificado con Google Depth API. El rendimiento de la aplicación puede ser limitado.</string>
     <string name="permissions_required">Para la funcionalidad de escaneo 3D se solicitan los permisos de la cámara y del almacenamiento.</string>
+    <string name="policy_accepted">He leído y acepto la política de privacidad</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descripción:</string>
@@ -187,6 +188,8 @@
     <string name="scan_2cm">2 cm - Interior</string>
     <string name="scan_4cm">4 cm - Exterior</string>
     <string name="scan_8cm">8 cm - Análisis rápido</string>
+    <string name="screenshot">Captura de pantalla</string>
+    <string name="videoshot">Vídeo rotativo</string>
 
     <string-array name="shares">
         <item>Diálogo con Android</item>

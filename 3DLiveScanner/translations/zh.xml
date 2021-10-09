@@ -24,6 +24,7 @@
     <string name="online_not_available">广告没有显示到最后。如果问题一直存在，那么检查网络连接或将应用程序更新到最新版本。</string>
     <string name="lowend_device">你的设备没有通过谷歌深度API的认证。该应用程序的性能可能受到限制。</string>
     <string name="permissions_required">对于3D扫描功能，需要摄像头和存储权限。</string>
+    <string name="policy_accepted">我阅读并接受隐私政策</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">描述:</string>
@@ -187,6 +188,8 @@
     <string name="scan_2cm">2 cm - 适合扫描模型内表面</string>
     <string name="scan_4cm">4 cm - 适合扫描模型外表面</string>
     <string name="scan_8cm">8 cm - 快速扫描</string>
+    <string name="screenshot">屏幕截图</string>
+    <string name="videoshot">旋转的视频</string>
 
     <string-array name="shares">
         <item>手机内置</item>

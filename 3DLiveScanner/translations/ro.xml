@@ -24,6 +24,7 @@
     <string name="online_not_available">Anunțul nu a fost afișat până la capăt. Dacă problemele persistă, atunci verificați conexiunea la internet sau actualizați aplicația la cea mai recentă versiune.</string>
     <string name="lowend_device">Dispozitivul dvs. nu este certificat cu Google Depth API. Este posibil ca performanța aplicației să fie limitată.</string>
     <string name="permissions_required">Pentru funcționalitatea de scanare 3D sunt necesare permisiuni pentru cameră și stocare.</string>
+    <string name="policy_accepted">Am citit și accept politica de confidențialitate</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descriere:</string>
@@ -187,6 +188,8 @@
     <string name="scan_2cm">2 cm - Interior</string>
     <string name="scan_4cm">4 cm - Exterior</string>
     <string name="scan_8cm">8 cm – Scanare rapidă</string>
+    <string name="screenshot">Captură de ecran</string>
+    <string name="videoshot">Rotire video</string>
 
     <string-array name="shares">
         <item>Android dialog</item>
