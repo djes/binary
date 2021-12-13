@@ -9,9 +9,13 @@ include_directories(
 
 add_executable(
     dataset_extractor
+    common/data/dataset.cc
     common/data/file3d.cc
     common/data/image.cc
     common/data/mesh.cc
+    common/exporter/exporter.cc
+    common/exporter/floorpln.cc
+    common/exporter/ply.cc
     app.cpp
 )
 

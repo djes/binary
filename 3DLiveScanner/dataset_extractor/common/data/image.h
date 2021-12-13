@@ -16,10 +16,8 @@ namespace oc {
         void AddInstance() { instances++; }
         bool CanBeDeleted() { return instances <= 0; }
         void DelInstance() { instances--; }
+        void Clear();
         unsigned char* ExtractYUV(unsigned int s);
-
-        Image* Blur(int size, bool grayscale = false);
-        Image* Edges();
 
         void SetName(std::string value) { name = value; }
         void SetTexture(long value) { texture = value; }

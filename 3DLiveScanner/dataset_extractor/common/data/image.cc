@@ -79,6 +79,12 @@ namespace oc {
         graySrcPlanes[2] = 0;
     }
 
+    void Image::Clear() {
+        for (int i = 0; i < width * height * 4; i++) {
+            data[i] = 0;
+        }
+    }
+
     unsigned char* Image::ExtractYUV(unsigned int s) {
         int yIndex = 0;
         unsigned int uvIndex = width * s * height * s;
@@ -110,80 +116,6 @@ namespace oc {
                 }
             }
         }
-        return output;
-    }
-
-    Image* Image::Blur(int size, bool grayscale) {
-        int index, value;
-        glm::ivec4 color;
-        Image* output = new Image(width, height);
-        unsigned char* array = output->GetData();
-        for (int x = 0; x < width; x++) {
-            for (int y = 0; y < height; y++) {
-                color = GetColorRGBA(x, y, size);
-                index = (y * width + x) * 4;
-                if (grayscale) {
-                    value = (color.r + color.g + color.b) / 3;
-                    array[index + 0] = (unsigned char)value;
-                    array[index + 1] = (unsigned char)value;
-                    array[index + 2] = (unsigned char)value;
-                } else {
-                    array[index + 0] = (unsigned char)color.r;
-                    array[index + 1] = (unsigned char)color.g;
-                    array[index + 2] = (unsigned char)color.b;
-                }
-                array[index + 3] = (unsigned char)color.a;
-            }
-        }
-        return output;
-    }
-
-
-    Image *Image::Edges() {
-        //manage input&output
-        int index, indexM, indexP;
-        Image* blur = Blur(1, true);
-        unsigned char* input = blur->GetData();
-
-        //edge detection
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
-                index = (y * width + x) * 4;
-                indexM = (y * width + glm::max(0, x - 1)) * 4;
-                indexP = (y * width + glm::min(width - 1, x + 1)) * 4;
-                input[index + 1] = glm::min(abs(input[indexM] - input[index]) + abs(input[indexP] - input[index]), 255);
-                indexM = (glm::max(0, y - 1) * width + x) * 4;
-                indexP = (glm::min(height - 1, y + 1) * width + x) * 4;
-                input[index + 2] = glm::min(abs(input[indexM] - input[index]) + abs(input[indexP] - input[index]), 255);
-            }
-        }
-
-        //mixed edge detection
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
-                index = (y * width + x) * 4;
-                input[index + 0] = glm::min(input[index + 1] + input[index + 2], 255);
-                input[index + 1] = input[index];
-                input[index + 2] = input[index];
-                input[index + 3] = 255;
-            }
-        }
-
-        //noise filter
-        Image* output = blur->Blur(1, true);
-        input = output->GetData();
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
-                index = (y * width + x) * 4;
-                if (input[index] < 8) {
-                    input[index + 0] = 0;
-                    input[index + 1] = 0;
-                    input[index + 2] = 0;
-                }
-            }
-        }
-        delete blur;
-
         return output;
     }
 
